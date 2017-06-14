@@ -1,0 +1,19 @@
+﻿<Window x:Class="CsAssignment.NewMapWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CsAssignment"
+        mc:Ignorable="d"
+        Title="Create New Map" Height="200" Width="300">
+    <Grid Background="DarkGray">
+        <Border BorderBrush="Black" BorderThickness="3" Background="LightGray" HorizontalAlignment="Left" Height="77" Margin="0,14,0,0" VerticalAlignment="Top" Width="292"/>
+        <TextBox x:Name="Columns" HorizontalAlignment="Left" Height="23" Margin="162,27,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" TextChanged="Columns_TextChanged" />
+        <TextBox x:Name="Rows" HorizontalAlignment="Left" Height="23" Margin="162,55,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" TextChanged="Rows_TextChanged"/>
+        <Label x:Name="HeightLable" Content="Columns" HorizontalAlignment="Left" Margin="10,24,0,0" VerticalAlignment="Top" Width="80"/>
+        <Label x:Name="WidthLabel" Content="Rows" HorizontalAlignment="Left" Margin="10,50,0,0" VerticalAlignment="Top" Width="80"/>
+        <Button x:Name="Create" Content="Create" HorizontalAlignment="Left" Margin="207,96,0,0" VerticalAlignment="Top" Width="75" Click="CreateMap"/>
+        <Button x:Name="Cancel" Content="Cancel" HorizontalAlignment="Left" Margin="207,123,0,0" VerticalAlignment="Top" Width="75" Click="CloseWindow"/>
+
+    </Grid>
+</Window>

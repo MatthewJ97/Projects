@@ -1,0 +1,11 @@
+﻿<UserControl x:Class="CsAssignment.Tile"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CsAssignment"
+        mc:Ignorable="d" MouseLeftButtonUp="TileClick" MouseRightButtonUp="TileOptions" Height="20.54" Width="20.405">
+    <Border Background="Transparent" BorderBrush="Gray" BorderThickness="0.5">
+        <Image x:Name="tileImage" Source="D:\Dropbox\Dropbox\AIE PROJECTS\5.Cs Assessment\CsAssignment8.12\CsAssignment\Resources\TileSelect.PNG" Margin="0.2,0.2,0.8,0.8"/>
+    </Border>
+</UserControl>
