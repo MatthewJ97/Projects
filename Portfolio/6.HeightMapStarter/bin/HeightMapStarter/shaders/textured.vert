@@ -1,17 +1,17 @@
-#version 400
-
-in vec4 vPosition;
-in vec4 vColor;
-in vec2 vuv;
-
+#version 410
+in vec4 position;
+in vec4 normal;
+in vec2 uv; 
+out vec3 fPos;
 out vec2 fuv;
-out vec4 fColor;
+out vec4 fNormal;
+uniform mat4 projection; 
+uniform mat4 view; 
+uniform mat4 model; 
 
-uniform mat4 projectionView;
-
-void main ()
-{
-	fColor = vColor;
-	fuv = vuv;
-	gl_Position = projectionView * vPosition;
-}
+void main() {
+fPos = position;
+fNormal = normal;
+fuv = uv; 
+gl_Position = projection*view*model*position; 
+};

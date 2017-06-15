@@ -1,13 +1,13 @@
 #version 400
 
 in vec4 vPosition;
-in vec4 vColor;
+in vec4 vNormal;
 in vec2 vuv;
-in vec3 vNormal;
+in vec4 vColor;
 
 out vec3 fPos;
 out vec2 fuv;
-out vec3 fNormal;
+out vec4 fNormal;
 out vec4 fColor;
 
 

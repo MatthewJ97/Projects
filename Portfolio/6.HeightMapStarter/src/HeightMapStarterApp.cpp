@@ -1,59 +1,197 @@
 #define GLM_SWIZZLE
 #include "gl_core_4_4.h"
-
+#include "LoadFromFile.h"
 #include "HeightMapStarterApp.h"
 #include "Gizmos.h"
 #include "Input.h"
 #include "Texture.h"
+#include "LightObj.h"
+#include "CameraObj.h"
+#include "GLMeshObj.h"
 #include <glm/glm.hpp>
 #include <glm/ext.hpp>
 #include <iostream>
-#include <fstream>
-#include <streambuf>
-
-
+#include <imgui.h>
 using glm::vec3;
 using glm::vec4;
 using glm::mat4;
 using aie::Gizmos;
 
-HeightMapStarterApp::HeightMapStarterApp() {
 
-}
+
+HeightMapStarterApp::HeightMapStarterApp() { }
 
 HeightMapStarterApp::~HeightMapStarterApp() {
 
 }
 
 bool HeightMapStarterApp::startup() {
+
+	//CAMERA AND BASIC SETUP
+	//======================================================================================//
+	m_camera = new Camera(glm::vec3(0, 3, 3), glm::vec3(0, 0, 1), glm::vec3(0, 1, 0),0,0,0);
 	
+	srand((unsigned int)time(NULL));
 	setBackgroundColour(0.25f, 0.25f, 0.25f);
 
 	// initialise gizmo primitive counts
 	Gizmos::create(10000, 10000, 10000, 10000);
-
 	// create simple camera transforms
-	m_viewMatrix = glm::lookAt(vec3(10), vec3(0), vec3(0, 1, 0));
-	m_projectionMatrix = glm::perspective(glm::pi<float>() * 0.25f, 16.0f / 9.0f, 0.1f, 1000.0f);
+	m_camera->m_viewMatrix = glm::lookAt(vec3(10), vec3(0), vec3(0, 1, 0));
+	m_camera->m_projectionMatrix = glm::perspective(glm::pi<float>() * 0.25f, 16.0f / 9.0f, 0.1f, 1000.0f);
+	//================================================//
 
+	//LIGHT CREATION//
+	//========================================================//
+	for (int i = 0; i < numOfLights; i++)
+	{
+		float specC1 = (float)(rand() % 128 + 64);
+		float specC2 = (float)(rand() % 100) / 100;
+		float specC3 = (float)(rand() % 100) / 100;
+		int x = rand() % 20;
+		int y = rand() % 5 + 5;
+		int z = rand() % 20;
+
+		m_light.push_back(MakeLight(glm::vec3(x, y, z), glm::vec3(1.0f, 1.0f, 1.0f), 0.05f, glm::vec3(0.5f, 0.0f, 0.5f), specC1));
+		std::cout << "Lights " << i + 1 << " :Loaded" << std::endl;
+	}
+
+	//===========================================================================//
+
+	//TEXTURE LOADING//
+	//============================//
 	m_heightmap = new aie::Texture("./HeightMapStarter/images/heightmap0.bmp");
+	std::cout << "heightMap :Loaded" << std::endl;
 	m_tileTexture = new aie::Texture("./HeightMapStarter/images/tile.png");
+	std::cout << "tileTexture :Loaded" << std::endl;
 	m_otherTexture = new aie::Texture("./HeightMapStarter/images/snow.png");
+	std::cout << "othertexture :Loaded" << std::endl;
 	m_heightmapMesh.MakePlane(m_heightmap);
-	m_cubeMesh.MakeCube();
-	
+	std::cout << "HeightmapMesh :Loaded" << std::endl;
+	//======================================================//
+
+
+	//MODEL CREATION AND LOADING
+	//======================================================//
+	int x0, y0 , z0;
+	int x1, y1 ,z1;
+	glm::mat4 fbxMScale;
+	float s = 0.001f;
+	for (int x = 0; x < 10; x++)
+	{
+		int randn = rand() % 2 + 2;
+		int xp = rand() % 10 - 5;
+		int zp = rand() % 10 - 5;
+
+		m_cubeMesh[x].MakeCube(xp, randn, -zp);
+		if (x == 5) {
+			y0 = randn; x0 = xp; z0 = -zp;
+		}
+		if (x == 4) {
+			y1 = randn; x1 = xp; z1 = -zp;
+		}
+		std::cout << "Cube "<< x+1 << " :Loaded" << std::endl;
+	}
+	fbxMScale = {
+		s	,0		,0		,0,
+		0		,s	,0		,0,
+		0		,0		,s	,0,
+		x1		,y1 + 0.5f		,z1		,1.0f
+
+	};
+	m_FBXM.push_back(new FBXModel("./models/characters/Demolition/demolition.fbx", fbxMScale, true));
+	m_FBXM[0]->SetAniStartEnd(200, 206);
+	std::cout << "demolitonModel :Loaded" << std::endl;
+	m_emitters.push_back(new Emitter(1000,
+		glm::vec3(
+			m_FBXM[0]->m_modelM[3][0],
+			m_FBXM[0]->m_modelM[3][1] + 1.0f,
+			m_FBXM[0]->m_modelM[3][2] + 0.8F),
+		6.0f, false, false, 0));
+	fbxMScale = {
+		s	,0		,0		,0,
+		0		,s	,0		,0,
+		0		,0		,s	,0,
+		x0		,y0 + 0.5f		,z0		,1.0f
+
+	};
+	m_FBXM.push_back(new FBXModel("./models/characters/Marksman/Marksman.fbx", fbxMScale, true));
+	m_FBXM[1]->SetAniStartEnd(420, 432);
+	std::cout << "MarksmanModel :Loaded" << std::endl;
+	m_emitters.push_back(new Emitter(1000,
+		glm::vec3(
+			m_FBXM[1]->m_modelM[3][0],
+			m_FBXM[1]->m_modelM[3][1] + 1.1f,
+			m_FBXM[1]->m_modelM[3][2] + 0.8F),
+		12.0f, false, false,0));
+	s = 0.01f;
+	fbxMScale = {
+		s	,0		,0		,0,
+		0		,s	,0		,0,
+		0		,0		,s	,0,
+		0		,2		,0		,1.0f
+
+	};
+	m_FBXM[1]->SetAniStartEnd(420, 432);
+	m_FBXM.push_back(new FBXModel("./models/characters/MicroGhoul/MicroGhoul/micro_ghoul_animated.fbx", fbxMScale, true));
+	std::cout << "Microghoul :Loaded" << std::endl;
+	m_FBXM[2]->SetAniStartEnd(0, 1000);
+	m_FBXM[2]->collision = new BoundingSphere(glm::vec3(0,2,0), 1);
+	//=========================================================================//
+
+	//ANIMATION LOADING
+	//=========================================================================//
+	ghoulAnimations.push_back("./models/characters/MicroGhoul/MicroGhoul/animations/mic_ghoul_attack.fbx");
+	std::cout << "ani1 :Loaded" << std::endl;
+	ghoulAnimations.push_back("./models/characters/MicroGhoul/MicroGhoul/animations/mic_ghoul_block.fbx");
+	std::cout << "ani2 :Loaded" << std::endl;
+	ghoulAnimations.push_back("./models/characters/MicroGhoul/MicroGhoul/animations/mic_ghoul_die.fbx");
+	std::cout << "ani3 :Loaded" << std::endl;
+	ghoulAnimations.push_back("./models/characters/MicroGhoul/MicroGhoul/animations/mic_ghoul_gethit_front.fbx");
+	std::cout << "ani4 :Loaded" << std::endl;
+	ghoulAnimations.push_back("./models/characters/MicroGhoul/MicroGhoul/animations/mic_ghoul_gethit_left.fbx");
+	std::cout << "ani5 :Loaded" << std::endl;
+	ghoulAnimations.push_back("./models/characters/MicroGhoul/MicroGhoul/animations/mic_ghoul_gethit_right.fbx");
+	std::cout << "ani6 :Loaded" << std::endl;
+	ghoulAnimations.push_back("./models/characters/MicroGhoul/MicroGhoul/animations/mic_ghoul_idle.fbx");
+	std::cout << "ani7 :Loaded" << std::endl;
+	ghoulAnimations.push_back("./models/characters/MicroGhoul/MicroGhoul/animations/mic_ghoul_laugh.fbx");
+	std::cout << "ani8 :Loaded" << std::endl;
+	ghoulAnimations.push_back("./models/characters/MicroGhoul/MicroGhoul/animations/mic_ghoul_panic.fbx");
+	std::cout << "ani9 :Loaded" << std::endl;
+
+	int numFiles = ghoulAnimations.size();
+	for (int i = 0; i < numFiles; i++)
+	{
+	m_FBXA.push_back(new FBXFile());
+	m_FBXA.at(i)->loadAnimationsOnly(ghoulAnimations[i].c_str(), FBXFile::UNITS_CENTIMETER);
+	}
+	//==============================================//
+	//LOAD HIEGHTMAP SHADERS
 	LoadShader();
+	std::cout << "HeightMap.cpp Shaders :Loaded" << std::endl;
+
+	//========================================================//
+	
+	MakeScreenQuad();
+	LoadEffect(BLUR);
+	std::cout << "Finished Startup "<< std::endl;
 
 	return true;
 }
 
 void HeightMapStarterApp::shutdown() {
-
+	UnloadEffect();
 	UnloadShader();
-
-	m_cubeMesh.Destroy();
+	for (int x = 0; x < 10; x++)
+	{
+		m_cubeMesh[x].Destroy();
+	}
 	m_heightmapMesh.Destroy();
-
+	for (unsigned int x = 0; x < m_FBXM.size(); x++)
+	{
+		m_FBXM[x]->UnloadModel();
+	}
 	delete m_otherTexture;
 	delete m_tileTexture;
 	delete m_heightmap;
@@ -62,20 +200,86 @@ void HeightMapStarterApp::shutdown() {
 }
 
 void HeightMapStarterApp::update(float deltaTime) {
-
 	// quit if we press escape
+	m_light[0]->m_Pos.x += sin(getTime());
+	m_light[0]->m_Pos.z += cos(getTime());
+	for (unsigned int i = 0; i < m_emitters.size(); i++)
+	{
+	m_emitters[i]->Update(deltaTime);
+	}
 	aie::Input* input = aie::Input::getInstance();
 
 	if (input->isKeyDown(aie::INPUT_KEY_ESCAPE))
 		quit();
-
-	UpdateCamera(deltaTime);
-	float time = getTime();
+	if(!ImGui::IsMouseHoveringAnyWindow())	m_camera->m_viewMatrix = m_camera->UpdateCamera(deltaTime, input);
+	
 		//move the light 
-	m_lightPos.x = (glm::cos( time) *5);
-	m_lightPos.z = (glm::sin(2 * time) * 10);
-	m_lightPos.y = glm::sin(time) * 2 + 5;
-	input->getMouseXY(&m_lastMouseXPos, &m_lastMouseYPos);
+	input->getMouseXY(&m_camera->m_lastMouseXPos, &m_camera->m_lastMouseYPos);
+	for (unsigned int i = 0; i < m_FBXM.size() - 1; i++)
+	{
+	m_FBXM[i]->update(deltaTime);
+
+	}
+	if ((m_FBXM[0]->m_animationTime >= DemoTime -0.5f && m_FBXM[0]->m_animationTime <= DemoTime + 0.5f)|| (m_FBXM[0]->m_animationTime >= DemoTime + 0.7f && m_FBXM[0]->m_animationTime <= DemoTime + 1.5f)) {
+		m_emitters[0]->SetNumParticles(5);
+	}
+	if ((m_FBXM[1]->m_animationTime >= MarkTime - 0.5f && m_FBXM[1]->m_animationTime <= MarkTime + 0.5f)) {
+		m_emitters[1]->SetNumParticles(2);
+	}
+	m_FBXM[2]->update(deltaTime, m_FBXA[m_FBXM[2]->m_animationID]);
+	if (ImGui::Button("Turn On/Off Post Processing")) {
+		effect = !effect;
+
+	}
+	if (effect) {
+		if (ImGui::Button("Blur Effect")) {
+			eType = 1;
+		}
+		if (ImGui::Button("Distort Effect")) {
+			eType = 2;
+		}
+		if (ImGui::Button("No Effect")) {
+			eType = 0;
+		}
+		if (ImGui::Button("EXPERIMENTAL ")) {
+			eType = 3;
+		}
+	}
+	if (ImGui::Button("Turn ON Frustum Gizmo")) {
+		drawCol = !drawCol;
+	}
+	const char* t = "Frstum cull = false";
+	const char* f = "Frstum cull = true";
+	m_camera->getFrustumPlanes();
+	for (int i = 0; i < 6; i++) 
+	{
+		float d = glm::dot(vec3(m_camera->frustrumPlanes[i]), m_FBXM[2]->collision->center) + m_camera->frustrumPlanes[i].w;
+		if (d < -m_FBXM[2]->collision->radius) {
+			
+			
+			m_FBXM[2]->collision->dontDraw = true;
+			break;
+		} 
+		else if (d < m_FBXM[2]->collision->radius) {
+			
+			m_FBXM[2]->collision->dontDraw = false;
+
+		}
+		else { 
+			
+			m_FBXM[2]->collision->dontDraw = false;
+		}
+	}
+	if (m_FBXM[2]->collision->dontDraw) {
+		ImGui::BulletText(t);
+		if (drawCol)Gizmos::addSphere(m_FBXM[2]->collision->center, m_FBXM[2]->collision->radius, 10, 10, glm::vec4(1, 0, 0, 1));
+	}
+	else if (!m_FBXM[2]->collision->dontDraw) {
+		ImGui::BulletText(f);
+		if (drawCol)Gizmos::addSphere(m_FBXM[2]->collision->center, m_FBXM[2]->collision->radius, 10, 10, glm::vec4(0, 1, 0, 1));
+
+	}
+
 }
 
 void HeightMapStarterApp::draw() {
@@ -84,16 +288,22 @@ void HeightMapStarterApp::draw() {
 
 	// wipe the screen to the background colour
 	clearScreen();
-
-	// update perspective based on screen size
-	m_projectionMatrix = glm::perspective(glm::pi<float>() * 0.25f, getWindowWidth() / (float)getWindowHeight(), 0.1f, 1000.0f);
-
+// update perspective based on screen size
+	m_camera->m_projectionMatrix = glm::perspective(glm::pi<float>() * 0.25f, getWindowWidth() / (float)getWindowHeight(), 0.1f, 1000.0f);
+	float time = getTime();
+	
+	/*m_FBXM->m_modelM = m_camera->m_viewMatrix * m_FBXM->m_modelM;*/
 	// setup the shader
+	if (effect) {
+		DrawEffect();
+		glUniform1i(glGetUniformLocation(m_postShaderProgram, "effect"), eType);
+
+	}
 	glUseProgram(m_shader);
 
 	// dend the model, view and projection matrices
-	glUniformMatrix4fv(glGetUniformLocation(m_shader, "projection"), 1, false, glm::value_ptr(m_projectionMatrix));
-	glUniformMatrix4fv(glGetUniformLocation(m_shader, "view"), 1, false, glm::value_ptr(m_viewMatrix));
+	glUniformMatrix4fv(glGetUniformLocation(m_shader, "projection"), 1, false, glm::value_ptr(m_camera->m_projectionMatrix));
+	glUniformMatrix4fv(glGetUniformLocation(m_shader, "view"), 1, false, glm::value_ptr(m_camera->m_viewMatrix));
 	glUniformMatrix4fv(glGetUniformLocation(m_shader, "model"), 1, false, glm::value_ptr(identity));
 	
 	// send the textures
@@ -105,97 +315,75 @@ void HeightMapStarterApp::draw() {
 	glBindTexture(GL_TEXTURE_2D, m_otherTexture->getHandle());
 	glUniform1i(glGetUniformLocation(m_shader, "texture2"), 1);
 
-	glUniform3fv(glGetUniformLocation(m_shader, "lightPosition"), 1, &m_lightPos[0]);
-	glUniform3fv(glGetUniformLocation(m_shader, "lightColor"), 1, &m_lightCol[0]);
-	glUniform1fv(glGetUniformLocation(m_shader, "lightAmbientStrength"), 1, &m_lightAmbientStrength);
+	std::vector<glm::vec3> lightPositions;
+	std::vector<glm::vec3> lightColors;
+	std::vector<float> lightASs;
+	std::vector<glm::vec3> lightSpecCols;
+	std::vector<float> lightSpecPows;
 
-	glUniform3fv(glGetUniformLocation(m_shader, "CameraPos"), 1, &m_cameraPos[0]);
-	glUniform3fv(glGetUniformLocation(m_shader, "SpecColor"), 1, &m_specColor[0]);
-	glUniform1fv(glGetUniformLocation(m_shader, "SpecPow"), 1, &m_specPow);
+	for (unsigned int i = 0; i < m_light.size(); i++)
+	{
+		lightPositions.push_back(m_light[i]->m_Pos);
+		lightColors.push_back(m_light[i]->m_Col);
+		lightASs.push_back(m_light[i]->m_AmbientStrength);
+		lightSpecCols.push_back(m_light[i]->m_specColor);
+		lightSpecPows.push_back(m_light[i]->m_specPow);
+
+	}
+
+	glUniform1i(glGetUniformLocation(m_shader, "numLights"), m_light.size());
+	glUniform3fv(glGetUniformLocation(m_shader, "lightPosition"), lightPositions.size(), &lightPositions[0].x);
+	glUniform3fv(glGetUniformLocation(m_shader, "lightColor"), lightColors.size(), &lightColors[0].r);
+	glUniform1fv(glGetUniformLocation(m_shader, "lightAmbientStrength"), lightASs.size(), &lightASs[0]);
+
+	glUniform3fv(glGetUniformLocation(m_shader, "CameraPos"), 1, &m_camera->m_Pos[0]);
+	glUniform3fv(glGetUniformLocation(m_shader, "SpecColor"), lightSpecCols.size(), &lightSpecCols[0].r);
+	glUniform1fv(glGetUniformLocation(m_shader, "SpecPow"), lightSpecPows.size(), &lightSpecPows[0]);
 
 	// Draw the heightmap
 	m_heightmapMesh.Draw();
 
-	for (int x = 0; x < 6; x++)
+	for (int x = 0; x < 10; x++)
 	{
-		for (int z = 0; z < 6; z++)
-		{
+		m_cubeMesh[x].Draw();
 
-			glm::mat4 cube11 = {
-				1,0,0,0,
-				0,1,0,0,
-				0,0,1,0,
-				(x + (z +x/2))-6, 1 ,(z + (z+x / 2)) - 6,1
-			};
-			glUniformMatrix4fv(glGetUniformLocation(m_shader, "model"), 1, false, glm::value_ptr(cube11));
-			m_cubeMesh.Draw();
-		}
+	}
+	glUseProgram(0);
+	for (unsigned int i = 0; i < m_FBXM.size(); i++)
+	{
+		if(m_FBXM[i]->collision == nullptr)	
+			m_FBXM[i]->draw(m_camera, m_light);
+		else if(!m_FBXM[i]->collision->dontDraw)m_FBXM[i]->draw(m_camera, m_light);
 	}
 
-
-
-
-
-
-	glUseProgram(0);
-
+	for (unsigned int i = 0; i < m_emitters.size(); i++)
+	{
+		m_emitters[i]->Render(m_camera);
+	}
 	DarwGizmosGrid();
-	Gizmos::draw(m_projectionMatrix * m_viewMatrix);
+
+	Gizmos::draw(m_camera->m_projectionMatrix * m_camera->m_viewMatrix);
+	if (effect) {
+		DrawBackEffect();
+	}
 	Gizmos::clear(); // clear gizmos for next frame.
 }
 
-void HeightMapStarterApp::UpdateCamera(float deltaTime)
+Light* HeightMapStarterApp::MakeLight(glm::vec3 pos, glm::vec3 Color, float ambientStrength, glm::vec3 specColor, float specPow)
 {
-	aie::Input *input = aie::Input::getInstance();
-	if (input->isMouseButtonDown(aie::INPUT_MOUSE_BUTTON_LEFT) || input->isMouseButtonDown(aie::INPUT_MOUSE_BUTTON_RIGHT))
-	{
-		const float mouseSensitivity = 10.0f * deltaTime;
+	Light* temp = new Light(pos, Color, ambientStrength, specColor, specPow);
 
-		int mouseX, mouseY;
-		float xOffset, yOffset;
-		aie::Input *input = aie::Input::getInstance();
-		input->getMouseXY(&mouseX, &mouseY);
-
-		// get the change in the mouse movement.
-		xOffset = (mouseX - m_lastMouseXPos) * mouseSensitivity;
-		yOffset = (mouseY - m_lastMouseYPos) * mouseSensitivity;
-
-		// ajdust yaw and pitch based on movement
-		m_cameraYaw += xOffset;
-		m_cameraPitch += yOffset;
-
-		if (m_cameraPitch > 89.0f) m_cameraPitch = 89.0f;
-		if (m_cameraPitch < -89.0f) m_cameraPitch = -89.0f;
-
-		glm::vec3 front;
-		front.x = glm::cos(glm::radians(m_cameraYaw)) * glm::cos(glm::radians(m_cameraPitch));
-		front.y = glm::sin(glm::radians(m_cameraPitch));
-		front.z = glm::sin(glm::radians(m_cameraYaw)) * glm::cos(glm::radians(m_cameraPitch));
-		m_cameraFront = glm::normalize(front);
-	}
-
-	const float cameraSpeed = 5.0f * deltaTime;
-
-	if (input->isKeyDown(aie::INPUT_KEY_W))
-		m_cameraPos += cameraSpeed * m_cameraFront;
-
-	if (input->isKeyDown(aie::INPUT_KEY_S))
-		m_cameraPos -= cameraSpeed * m_cameraFront;
-
-	if (input->isKeyDown(aie::INPUT_KEY_A))
-		m_cameraPos -= glm::normalize(glm::cross(m_cameraFront, m_cameraUp)) * cameraSpeed;
-
-	if (input->isKeyDown(aie::INPUT_KEY_D))
-		m_cameraPos += glm::normalize(glm::cross(m_cameraFront, m_cameraUp)) * cameraSpeed;
-
-
-	m_viewMatrix = glm::lookAt(m_cameraPos, m_cameraPos + m_cameraFront, m_cameraUp);
+	return temp;
 }
+
 
 void HeightMapStarterApp::DarwGizmosGrid()
 {
+	for (unsigned int i = 0; i < m_light.size(); i++)
+	{
+	Gizmos::addSphere(m_light[i]->m_Pos, 0.1f, 8, 8, glm::vec4(1, 1, 1, 1));
 
-	Gizmos::addSphere(m_lightPos, 0.1f, 8, 8, glm::vec4(1, 1, 1, 1));
+	}
 
 	// draw a simple grid with gizmos
 	vec4 white(1);
@@ -218,13 +406,7 @@ void HeightMapStarterApp::DarwGizmosGrid()
 	Gizmos::addTransform(mat4(1));
 }
 
-std::string HeightMapStarterApp::StringFromFile(const char *filename)
-{
-	std::ifstream file(filename);
-	std::string fileString((std::istreambuf_iterator<char>(file)), std::istreambuf_iterator<char>());
 
-	return fileString;
-}
 
 void HeightMapStarterApp::LoadShader()
 {
@@ -264,11 +446,16 @@ void HeightMapStarterApp::LoadShader()
 	// as they have been combined into the shaderProgram
 	glDeleteShader(vs);
 	glDeleteShader(fs);
+
 }
 
 void HeightMapStarterApp::UnloadShader()
 {
 	glDeleteProgram(m_shader);
+}
+void HeightMapStarterApp::UnloadEffect()
+{
+	glDeleteProgram(m_postShaderProgram);
 }
 
 void Vertex::SetupVertexAttribPointers()
@@ -317,231 +504,129 @@ void Vertex::SetupVertexAttribPointers()
 	);
 }
 
-void GLMesh::MakeCube()
-{
-	glm::vec4 white(1, 1, 1, 1);
+void HeightMapStarterApp::LoadEffect(effects id) {
+	// setup framebuffer 
+	glGenFramebuffers(1, &m_fbo);
+	glBindFramebuffer(GL_FRAMEBUFFER, m_fbo);
+	glGenTextures(1, &m_fboTexture);
+	glBindTexture(GL_TEXTURE_2D, m_fboTexture);
+	glTexStorage2D(GL_TEXTURE_2D, 1, GL_RGBA8, getWindowWidth(), getWindowHeight());
+	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_NEAREST);
+	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_NEAREST);
+	glFramebufferTexture(GL_FRAMEBUFFER, GL_COLOR_ATTACHMENT0, m_fboTexture, 0);
+	glGenRenderbuffers(1, &m_fboDepth);
+	glBindRenderbuffer(GL_RENDERBUFFER, m_fboDepth);
+	glRenderbufferStorage(GL_RENDERBUFFER, GL_DEPTH_COMPONENT24, getWindowWidth(), getWindowHeight());
+	glFramebufferRenderbuffer(GL_FRAMEBUFFER, GL_DEPTH_ATTACHMENT, GL_RENDERBUFFER, m_fboDepth);
+	GLenum drawBuffers[] = { GL_COLOR_ATTACHMENT0 };
+	glDrawBuffers(1, drawBuffers);
+	glBindFramebuffer(GL_FRAMEBUFFER, 0);
+	LoadScreenShaders();
+
+}
+
+
+void HeightMapStarterApp::LoadScreenShaders() {
+	std::string vsSource = StringFromFile("./shaders/postprocessing.vert");
+	const char *vsShaderSrcPtr = vsSource.c_str();
+
+	std::string fsSource = StringFromFile("./shaders/postprocessing.frag");
+	const char *fsShaderSrcPtr = fsSource.c_str();
 
 	// Step 1:
-	// Specify the position and color for each vert of a cube
-	// for this example, each face does not share a vert, so we have 4 verts for each face of our cube/
-	Vertex verts[] = {
-		// POSITION					COLOR	
-		// FRONT FACE				  - RED
-		{ {-0.5f,-0.5f, 0.5f, 1.0f },white,{ 0.0f, 0.0f } ,{ 0.0f,0.0f, -1.0f}},	// 0
-		{ { 0.5f,-0.5f, 0.5f, 1.0f }, white,{ 1.0f, 0.0f },{ 0.0f,0.0f, -1.0f }},	// 1
-		{ { 0.5f, 0.5f, 0.5f, 1.0f }, white,{ 1.0f, 1.0f },{ 0.0f,0.0f, -1.0f }},	// 2
-		{ {-0.5f, 0.5f, 0.5f, 1.0f },white,{ 0.0f, 1.0f } ,{ 0.0f,0.0f, -1.0f}},	// 3
-
-													// BACK FACE				- YELLOW
-		{ {-0.5f,-0.5f,-0.5f, 1.0f },white,{ 0.0f, 0.0f }, {0.0f, 0.0f, 1.0f }},	// 4
-		{ { 0.5f,-0.5f,-0.5f, 1.0f },white,{ 1.0f, 0.0f }, {0.0f, 0.0f, 1.0f }},	// 5
-		{ { 0.5f, 0.5f,-0.5f, 1.0f },white,{ 1.0f, 1.0f }, {0.0f, 0.0f, 1.0f }},	// 6
-		{ {-0.5f, 0.5f,-0.5f, 1.0f },white,{ 0.0f, 1.0f }, {0.0f, 0.0f, 1.0f }},	// 7
-
-													// LEFT FACE				- GREEN
-		{ {-0.5f,-0.5f,-0.5f, 1.0f },white,{ 0.0f, 0.0f }, {1.0f, 0.0f, 0.0f }},	// 8
-		{ {-0.5f,-0.5f, 0.5f, 1.0f },white,{ 0.0f, 1.0f }, {1.0f, 0.0f, 0.0f }},	// 9
-		{ {-0.5f, 0.5f, 0.5f, 1.0f },white,{ 1.0f, 1.0f }, {1.0f, 0.0f, 0.0f }},	// 10
-		{ {-0.5f, 0.5f,-0.5f, 1.0f },white,{ 1.0f, 0.0f }, {1.0f, 0.0f, 0.0f }},	// 11
-
-													// RIGHT FACE				- CYAN
-		{ { 0.5f,-0.5f,-0.5f, 1.0f },white,{ 0.0f, 0.0f }, { -1.0f, 0.0f, 0.0f }},	// 12
-		{ { 0.5f,-0.5f, 0.5f, 1.0f },white,{ 0.0f, 1.0f }, { -1.0f, 0.0f, 0.0f }},	// 13
-		{ { 0.5f, 0.5f, 0.5f, 1.0f },white,{ 1.0f, 1.0f }, { -1.0f, 0.0f, 0.0f }},	// 14
-		{ { 0.5f, 0.5f,-0.5f, 1.0f },white,{ 1.0f, 0.0f }, { -1.0f, 0.0f, 0.0f }},	// 15
-
-													// TOP FACE					 - BLUE 
-		{ {-0.5f, 0.5f,-0.5f, 1.0f },white,{ 0.0f, 0.0f }, { 0.0f, -1.0f, 0.0f }},	// 16
-		{ {-0.5f, 0.5f, 0.5f, 1.0f },white,{ 0.0f, 1.0f }, { 0.0f, -1.0f, 0.0f }},	// 17
-		{ { 0.5f, 0.5f, 0.5f, 1.0f },white,{ 1.0f, 1.0f }, { 0.0f, -1.0f, 0.0f }},	// 18
-		{ { 0.5f, 0.5f,-0.5f, 1.0f },white,{ 1.0f, 0.0f }, { 0.0f, -1.0f, 0.0f }},	// 19
-
-													// BOTTOM FACE				- MAGENTA
-		{ {-0.5f,-0.5f,-0.5f, 1.0f },white,{ 0.0f, 0.0f }, { 0.0f,1.0f, 0.0f }},	// 20
-		{ {-0.5f,-0.5f, 0.5f, 1.0f },white,{ 0.0f, 1.0f }, { 0.0f,1.0f, 0.0f }},	// 21
-		{ { 0.5f,-0.5f, 0.5f, 1.0f },white,{ 1.0f, 1.0f }, { 0.0f,1.0f, 0.0f }},	// 22
-		{ { 0.5f,-0.5f,-0.5f, 1.0f },white,{ 1.0f, 0.0f }, { 0.0f,1.0f, 0.0f }}		// 23
-	};
+	// Load the vertex shader, provide it with the source code and compile it.
+	GLuint vs = glCreateShader(GL_VERTEX_SHADER);
+	glShaderSource(vs, 1, &vsShaderSrcPtr, NULL);
+	glCompileShader(vs);
 
 	// Step 2:
-	// From the above verts, we need to construct triangles that opengl can then use to render.
-	// Winding order is important, each triangle needs to be described in a clockwise order
-	// this defines the faceing direction for the triangle.
-	// By default OpenGL will cull pixels that are "facing away" from the camera glCullMode(GL_BACK) is the default setting.
-	// Culling can be changed to GL_FRONT or GL_FRONT_AND_BACK, or enabled/dsabled via glEnable(GL_CULL_FACE) / glDisable(GL_CULL_FACE)
-	unsigned short indices[] =
-	{
-		0, 1, 2,	 0, 2, 3,  // front face
-		6, 5, 4,	 7, 6, 4,  // back face
-		8, 9, 10,	 8,10,11,  // left face
-		14,13,12,	 15,14,12, // right face
-		16,17,18,	 16,18,19, // top face
-		22,21,20,	 23,22,20  // bottom face
-	};
+	// Load the fragment shader, provide it with the source code and compile it.
+	GLuint fs = glCreateShader(GL_FRAGMENT_SHADER);
+	glShaderSource(fs, 1, &fsShaderSrcPtr, NULL);
+	glCompileShader(fs);
 
 	// Step 3:
-	// Its always a good idea to keep track of how many verts and indices we have
-	// When drawing the glDrawElements method requires the number if indices
-	// sizeof(verts) returns the entire size in bytes of the array
-	// sizeof(Vertex) returns the size in bytes of a single vertes
-	// we can calculate the number of verts or indices by dividing.
-	m_numIndices = sizeof(indices) / sizeof(unsigned short);
+	// Create the shader program
+	m_postShaderProgram = glCreateProgram();
 
-	// Step 4:
-	// Generate the VAO and Bind bind it.
-	// Our VBO (vertex buffer object) and IBO (Index Buffer Object) will be "grouped" with this VAO
-	// other settings will also be grouped with the VAO. this is used so we can reduce draw calls in the render method.
-	glGenVertexArrays(1, &m_vao);
-	glBindVertexArray(m_vao);
+	glAttachShader(m_postShaderProgram, vs);
+	glAttachShader(m_postShaderProgram, fs);
 
-	// Step 5:
-	// Create our VBO and IBO.
-	// Then tell Opengl what type of buffer they are used for
-	// VBO a buffer in graphics memory to contains our vertices
-	// IBO a buffer in graphics memory to contain our indices.
-	// Then Fill the buffers with our generated data.
-	// This is taking our verts and indices from ram, and sending them to the graphics card
-	glGenBuffers(1, &m_vbo);
-	glGenBuffers(1, &m_ibo);
-
-	glBindBuffer(GL_ARRAY_BUFFER, m_vbo);
-	glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, m_ibo);
-
-	glBufferData(GL_ARRAY_BUFFER, sizeof(verts), verts, GL_STATIC_DRAW);
-	glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(indices), indices, GL_STATIC_DRAW);
+	// Bind Attribute Locations
+	glBindAttribLocation(m_postShaderProgram, 0, "position");
+	glBindAttribLocation(m_postShaderProgram, 1, "texCoord");
+	glLinkProgram(m_postShaderProgram);
 
 	// Step 6:
-	// Vertices can have any shape, for us, each vertex has a position and color.
-	// The "shape" of our vertex need to be described to OepnGL
-	// This is so the vertices can be sent to our shader and be mapped to the correct variables locations.
-	Vertex::SetupVertexAttribPointers();
+	// destroy the vertex and fragment shader, we are finished with them
+	// as they have been combined into the shaderProgram
+	glDeleteShader(vs);
+	glDeleteShader(fs);
+}
+
+void HeightMapStarterApp::DrawEffect()
+{
+		// bind our target
+		glBindFramebuffer(GL_FRAMEBUFFER, m_fbo);
+		glViewport(0, 0, 1280, 720);
+		// clear the target 
+		glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+
+		
+}
+void HeightMapStarterApp::DrawBackEffect() {
+	// bind the back-buffer 
+	glBindFramebuffer(GL_FRAMEBUFFER, 0);
+	glViewport(0, 0, 1280, 720);
+	glUseProgram(m_postShaderProgram);
+
+	// just clear the back-buffer depth as // each pixel will be filled 
+	//glClear(GL_DEPTH_BUFFER_BIT);
+	// draw our full-screen quad 
+	glActiveTexture(GL_TEXTURE0);
+	glBindTexture(GL_TEXTURE_2D, m_fboTexture);
+	int loc = glGetUniformLocation(m_postShaderProgram, "target");
+	glUniform1i(loc, 0);
+	glBindVertexArray(m_vao);
+	glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_BYTE, 0);
 
 	glBindVertexArray(0);
-	glBindBuffer(GL_ARRAY_BUFFER, 0);
-	glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, 0);
 }
-void GLMesh::MakePlane(aie::Texture *heighmap)
-{
-	const unsigned char *pixels = heighmap->getPixels();
 
-	int xDiv = heighmap->getWidth();
-	int zDiv = heighmap->getHeight();
+void HeightMapStarterApp::MakeScreenQuad() {
+	glm::vec2 halfTexel = 1.0f / glm::vec2(1280, 720) * 0.5f;
+	float vertexData[] = {
+		-1,		  1,	 0,		 1,		 halfTexel.x,		 1 - halfTexel.y,		//top lft		//0
+	   	 1,		  1,	 0,		 1,		 1 - halfTexel.x ,	 1 - halfTexel.y,		//top rght		//1
+		 1,		 -1,	 0,		 1,		 1 - halfTexel.x,	 halfTexel.y,		//btm rght		//2
+		-1,		 -1,	 0,		 1,		 halfTexel.x,		 halfTexel.y		//btm lft		//3
+	};
+	std::cout << halfTexel.x << " ," << halfTexel.y << std::endl;
 
-	std::vector<Vertex> verts;
-	std::vector<unsigned short> indices;
-
-	// build the height map
-	for (int z = 0; z<zDiv; z++)
-	{
-		for (int x = 0; x<xDiv; x++)
-		{
-			unsigned int i = (z * xDiv + x);
-
-			// get the value of the r component at the pixel located at x,z
-			// the value returned is between 0 and 255 divided by 255 for a value between 0 and 1
-			// minue 0.5 so we have a value between -.05 and +0.5
-			// multiply by 2 for a value between -1 and 1
-			float y = ((pixels[i * 3] / 255.0f) - 0.5f);
-
-			// position of vertex
-			float xPos = (x*0.1f) - (xDiv*0.1f*0.5f);
-			float yPos = y;
-			float zPos = (z*0.1f) - (zDiv*0.1f*0.5f);
-
-			Vertex vert{
-				{ xPos, yPos, zPos, 1.0f },
-				{ 1.0f, 1.0f, 1.0f, 1.0f },
-				{ (float)x / (xDiv - 1), (float)z / (zDiv - 1) }, 
-				{0,0,0,}
-
-			
-			};
-
-			verts.push_back(vert);
-		}
-	}
-
-	// calculate indices
-	for (unsigned int z = 0; z<zDiv - 1; z++)
-	{
-		for (unsigned int x = 0; x<xDiv - 1; x++)
-		{
-			unsigned int i = z * xDiv + x;
-
-			indices.push_back(i + 1);		// 1--0
-			indices.push_back(i);			// | /
-			indices.push_back(i + xDiv);	// 2
-
-			indices.push_back(i + 1);			//    0
-			indices.push_back(i + xDiv);		//  / |
-			indices.push_back(i + xDiv + 1);	// 2--1
-		}
-	}
-	for (int i = 0; i < indices.size() / 3; i++)
-	{
-		int index1 = indices[i * 3];
-		int index2 = indices[i * 3 + 1];
-		int index3 = indices[i * 3 + 2];
-
-		glm::vec4 side1(verts[index1].pos - verts[index3].pos);
-		glm::vec4 side2(verts[index1].pos - verts[index2].pos);
-
-		glm::vec3 normal = glm::cross(side1.xyz(), side2.xyz());
-
-
-		verts[index1].normal += normal;
-		verts[index2].normal += normal;
-		verts[index3].normal += normal;
-	}
-
-	for (int i = 0; i < verts.size(); i++)
-	{
-		verts[i].normal = glm::normalize(verts[i].normal);
-	}
-
-	m_numIndices = indices.size();
-
+	unsigned char indices[] = {
+		0,3,1,
+		1,3,2
+	};
 	glGenVertexArrays(1, &m_vao);
+	glBindVertexArray(m_vao);
+
 	glGenBuffers(1, &m_vbo);
 	glGenBuffers(1, &m_ibo);
 
-	glBindVertexArray(m_vao);
 	glBindBuffer(GL_ARRAY_BUFFER, m_vbo);
 	glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, m_ibo);
 
-	// populate the buffers with the verts passed in
-	glBufferData(GL_ARRAY_BUFFER, sizeof(Vertex) * verts.size(), &verts[0], GL_STATIC_DRAW);
-	glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(unsigned short) * indices.size(), &indices[0], GL_STATIC_DRAW);
+	glBufferData(GL_ARRAY_BUFFER, sizeof(vertexData), vertexData, GL_STATIC_DRAW);
+	glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(indices), indices, GL_STATIC_DRAW);
 
-	Vertex::SetupVertexAttribPointers();
+	glEnableVertexAttribArray(0);
+	glVertexAttribPointer(0, 4, GL_FLOAT, GL_FALSE, sizeof(float) * 6, 0);
 
-	// un-bind the buffers;
+	glEnableVertexAttribArray(1);
+	glVertexAttribPointer(1, 2, GL_FLOAT, GL_FALSE, sizeof(float) * 6,(void*)(sizeof(float) * 4));
+
 	glBindVertexArray(0);
 	glBindBuffer(GL_ARRAY_BUFFER, 0);
 	glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, 0);
-}
 
-void GLMesh::Destroy()
-{
-	glDeleteBuffers(1, &m_vbo);
-	glDeleteBuffers(1, &m_ibo);
-	glDeleteVertexArrays(1, &m_vao);
-}
-
-void GLMesh::Draw()
-{
-	// Step 2: Bind the VAO
-	// When we setup the geometry, we did a bunch of glEnableVertexAttribArray and glVertexAttribPointer method calls
-	// we also Bound the vertex array and index array via the glBindBuffer call.
-	// if we where not using VAO's we would have to do thoes method calls each frame here.
-	glBindVertexArray(m_vao);
-
-	// Step 3: Draw Elements. We are using GL_TRIANGLES.
-	// we need to tell openGL how many indices there are, and the size of our indices
-	// when we setup the geometry, our indices where an unsigned char (1 byte for each indicy)
-	glDrawElements(GL_TRIANGLES, m_numIndices, GL_UNSIGNED_SHORT, 0);
-
-	// Step 5: Now that we are done drawing the geometry
-	// unbind the vao, we are basicly cleaning the opengl state
-	glBindVertexArray(0);
 }

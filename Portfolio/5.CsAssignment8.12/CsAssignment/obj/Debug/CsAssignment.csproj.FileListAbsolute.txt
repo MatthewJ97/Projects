@@ -62,3 +62,20 @@ D:\Dropbox\Dropbox\AIE PROJECTS\5.Cs Assessment\CsAssignment8.12\CsAssignment\ob
 D:\Dropbox\Dropbox\AIE PROJECTS\5.Cs Assessment\CsAssignment8.12\CsAssignment\obj\Debug\CsAssignment.g.resources
 D:\Dropbox\Dropbox\AIE PROJECTS\5.Cs Assessment\CsAssignment8.12\CsAssignment\obj\Debug\CsAssignment.Properties.Resources.resources
 D:\Dropbox\Dropbox\AIE PROJECTS\5.Cs Assessment\CsAssignment8.12\CsAssignment\obj\Debug\CsAssignment.csproj.GenerateResource.Cache
+D:\Documents\GitHub\Projects\Portfolio\5.CsAssignment8.12\CsAssignment\bin\Debug\CsAssignment.exe.config
+D:\Documents\GitHub\Projects\Portfolio\5.CsAssignment8.12\CsAssignment\obj\Debug\CsAssignment.exe
+D:\Documents\GitHub\Projects\Portfolio\5.CsAssignment8.12\CsAssignment\obj\Debug\CsAssignment.pdb
+D:\Documents\GitHub\Projects\Portfolio\5.CsAssignment8.12\CsAssignment\bin\Debug\CsAssignment.exe
+D:\Documents\GitHub\Projects\Portfolio\5.CsAssignment8.12\CsAssignment\bin\Debug\CsAssignment.pdb
+D:\Documents\GitHub\Projects\Portfolio\5.CsAssignment8.12\CsAssignment\obj\Debug\MainWindow.g.cs
+D:\Documents\GitHub\Projects\Portfolio\5.CsAssignment8.12\CsAssignment\obj\Debug\NewMapWindow.g.cs
+D:\Documents\GitHub\Projects\Portfolio\5.CsAssignment8.12\CsAssignment\obj\Debug\Tile.g.cs
+D:\Documents\GitHub\Projects\Portfolio\5.CsAssignment8.12\CsAssignment\obj\Debug\App.g.cs
+D:\Documents\GitHub\Projects\Portfolio\5.CsAssignment8.12\CsAssignment\obj\Debug\CsAssignment_MarkupCompile.cache
+D:\Documents\GitHub\Projects\Portfolio\5.CsAssignment8.12\CsAssignment\obj\Debug\CsAssignment_MarkupCompile.lref
+D:\Documents\GitHub\Projects\Portfolio\5.CsAssignment8.12\CsAssignment\obj\Debug\MainWindow.baml
+D:\Documents\GitHub\Projects\Portfolio\5.CsAssignment8.12\CsAssignment\obj\Debug\NewMapWindow.baml
+D:\Documents\GitHub\Projects\Portfolio\5.CsAssignment8.12\CsAssignment\obj\Debug\Tile.baml
+D:\Documents\GitHub\Projects\Portfolio\5.CsAssignment8.12\CsAssignment\obj\Debug\CsAssignment.g.resources
+D:\Documents\GitHub\Projects\Portfolio\5.CsAssignment8.12\CsAssignment\obj\Debug\CsAssignment.Properties.Resources.resources
+D:\Documents\GitHub\Projects\Portfolio\5.CsAssignment8.12\CsAssignment\obj\Debug\CsAssignment.csproj.GenerateResource.Cache

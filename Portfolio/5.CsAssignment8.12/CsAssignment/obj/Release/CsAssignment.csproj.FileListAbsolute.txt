@@ -1,0 +1,17 @@
+D:\Documents\GitHub\Projects\Portfolio\5.CsAssignment8.12\CsAssignment\bin\Release\CsAssignment.exe.config
+D:\Documents\GitHub\Projects\Portfolio\5.CsAssignment8.12\CsAssignment\bin\Release\CsAssignment.exe
+D:\Documents\GitHub\Projects\Portfolio\5.CsAssignment8.12\CsAssignment\bin\Release\CsAssignment.pdb
+D:\Documents\GitHub\Projects\Portfolio\5.CsAssignment8.12\CsAssignment\obj\Release\MainWindow.g.cs
+D:\Documents\GitHub\Projects\Portfolio\5.CsAssignment8.12\CsAssignment\obj\Release\NewMapWindow.g.cs
+D:\Documents\GitHub\Projects\Portfolio\5.CsAssignment8.12\CsAssignment\obj\Release\Tile.g.cs
+D:\Documents\GitHub\Projects\Portfolio\5.CsAssignment8.12\CsAssignment\obj\Release\App.g.cs
+D:\Documents\GitHub\Projects\Portfolio\5.CsAssignment8.12\CsAssignment\obj\Release\CsAssignment_MarkupCompile.cache
+D:\Documents\GitHub\Projects\Portfolio\5.CsAssignment8.12\CsAssignment\obj\Release\CsAssignment_MarkupCompile.lref
+D:\Documents\GitHub\Projects\Portfolio\5.CsAssignment8.12\CsAssignment\obj\Release\MainWindow.baml
+D:\Documents\GitHub\Projects\Portfolio\5.CsAssignment8.12\CsAssignment\obj\Release\NewMapWindow.baml
+D:\Documents\GitHub\Projects\Portfolio\5.CsAssignment8.12\CsAssignment\obj\Release\Tile.baml
+D:\Documents\GitHub\Projects\Portfolio\5.CsAssignment8.12\CsAssignment\obj\Release\CsAssignment.g.resources
+D:\Documents\GitHub\Projects\Portfolio\5.CsAssignment8.12\CsAssignment\obj\Release\CsAssignment.Properties.Resources.resources
+D:\Documents\GitHub\Projects\Portfolio\5.CsAssignment8.12\CsAssignment\obj\Release\CsAssignment.csproj.GenerateResource.Cache
+D:\Documents\GitHub\Projects\Portfolio\5.CsAssignment8.12\CsAssignment\obj\Release\CsAssignment.exe
+D:\Documents\GitHub\Projects\Portfolio\5.CsAssignment8.12\CsAssignment\obj\Release\CsAssignment.pdb
