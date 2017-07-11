@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 986550c8d400f8b469490dd63f6694f8
+timeCreated: 1498797128
+licenseType: Pro
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Qarmic sans
+  fontNames:
+  - Qarmic sans
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

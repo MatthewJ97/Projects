@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Attack of the Jackhammer Man.Plugins", "Attack of the Jackhammer Man.Plugins.csproj", "{D504A1AD-A81B-A576-9F7E-206D2687058D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Attack of the Jackhammer Man", "Attack of the Jackhammer Man.csproj", "{D44336B9-35F6-3926-AA06-C0A5F3CBA1D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Attack of the Jackhammer Man.Editor.Plugins", "Attack of the Jackhammer Man.Editor.Plugins.csproj", "{54DBD201-0096-DFAC-516F-99F6749B0F95}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D504A1AD-A81B-A576-9F7E-206D2687058D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D504A1AD-A81B-A576-9F7E-206D2687058D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D504A1AD-A81B-A576-9F7E-206D2687058D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D504A1AD-A81B-A576-9F7E-206D2687058D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D44336B9-35F6-3926-AA06-C0A5F3CBA1D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D44336B9-35F6-3926-AA06-C0A5F3CBA1D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D44336B9-35F6-3926-AA06-C0A5F3CBA1D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D44336B9-35F6-3926-AA06-C0A5F3CBA1D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54DBD201-0096-DFAC-516F-99F6749B0F95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54DBD201-0096-DFAC-516F-99F6749B0F95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54DBD201-0096-DFAC-516F-99F6749B0F95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54DBD201-0096-DFAC-516F-99F6749B0F95}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
