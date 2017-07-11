@@ -1,0 +1,659 @@
+fileFormatVersion: 2
+guid: 85a3367e5a2e3af468b641e38d0639cd
+timeCreated: 1478778106
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Bind_ankle_left_jnt
+    100002: Bind_ankle_right_jnt
+    100004: Bind_belly_jnt
+    100006: Bind_chest_jnt
+    100008: Bind_clavicle_left_end
+    100010: BInd_clavicle_left_jnt
+    100012: Bind_clavicle_right_end
+    100014: BInd_clavicle_right_jnt
+    100016: bind_elbow_left_jnt
+    100018: bind_elbow_right_jnt
+    100020: bind_group
+    100022: Bind_hand_left_end
+    100024: Bind_hand_right_end
+    100026: Bind_head_end
+    100028: Bind_head_jnt
+    100030: Bind_Hips_jnt1
+    100032: Bind_Knee_left_jnt
+    100034: Bind_Knee_right_jnt
+    100036: Bind_neck_jnt
+    100038: Bind_neck_mid_jnt
+    100040: Bind_pelvis_end
+    100042: Bind_pelvis_jnt
+    100044: Bind_shoulder_left_jnt
+    100046: Bind_shoulder_right_jnt
+    100048: Bind_Thigh_left_jnt
+    100050: Bind_Thigh_right_jnt
+    100052: Bind_toe_left_end
+    100054: Bind_toe_left_jnt
+    100056: Bind_toe_right_end
+    100058: Bind_toe_right_jnt
+    100060: bind_wrist_left_jnt
+    100062: bind_wrist_right_jnt
+    100064: Character_edited_geo_04:character
+    100066: Character_edited_geo_04:character_geo
+    100068: Character_edited_geo_04:Cloth
+    100070: Character_edited_geo_04:sleeves
+    100072: Character_edited_geo_04:torsoCloth03
+    100074: //RootNode
+    100076: dynamicConstraint1
+    100078: ikHandle1
+    100080: ikHandle3
+    100082: nCloth1
+    100084: nCloth2
+    100086: nRigid1
+    100088: nucleus1
+    100090: Root_Jnt
+    400000: Bind_ankle_left_jnt
+    400002: Bind_ankle_right_jnt
+    400004: Bind_belly_jnt
+    400006: Bind_chest_jnt
+    400008: Bind_clavicle_left_end
+    400010: BInd_clavicle_left_jnt
+    400012: Bind_clavicle_right_end
+    400014: BInd_clavicle_right_jnt
+    400016: bind_elbow_left_jnt
+    400018: bind_elbow_right_jnt
+    400020: bind_group
+    400022: Bind_hand_left_end
+    400024: Bind_hand_right_end
+    400026: Bind_head_end
+    400028: Bind_head_jnt
+    400030: Bind_Hips_jnt1
+    400032: Bind_Knee_left_jnt
+    400034: Bind_Knee_right_jnt
+    400036: Bind_neck_jnt
+    400038: Bind_neck_mid_jnt
+    400040: Bind_pelvis_end
+    400042: Bind_pelvis_jnt
+    400044: Bind_shoulder_left_jnt
+    400046: Bind_shoulder_right_jnt
+    400048: Bind_Thigh_left_jnt
+    400050: Bind_Thigh_right_jnt
+    400052: Bind_toe_left_end
+    400054: Bind_toe_left_jnt
+    400056: Bind_toe_right_end
+    400058: Bind_toe_right_jnt
+    400060: bind_wrist_left_jnt
+    400062: bind_wrist_right_jnt
+    400064: Character_edited_geo_04:character
+    400066: Character_edited_geo_04:character_geo
+    400068: Character_edited_geo_04:Cloth
+    400070: Character_edited_geo_04:sleeves
+    400072: Character_edited_geo_04:torsoCloth03
+    400074: //RootNode
+    400076: dynamicConstraint1
+    400078: ikHandle1
+    400080: ikHandle3
+    400082: nCloth1
+    400084: nCloth2
+    400086: nRigid1
+    400088: nucleus1
+    400090: Root_Jnt
+    2300000: Character_edited_geo_04:sleeves
+    2300002: Character_edited_geo_04:torsoCloth03
+    3300000: Character_edited_geo_04:sleeves
+    3300002: Character_edited_geo_04:torsoCloth03
+    4300000: Character_edited_geo_04:sleeves
+    4300002: Character_edited_geo_04:torsoCloth03
+    4300004: Character_edited_geo_04:character
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Character_edited_geo_04:character
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 40
+      lastFrame: 134
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bind_group
+        weight: 1
+      - path: bind_group/Root_Jnt
+        weight: 1
+      - path: bind_group/Root_Jnt/Bind_Hips_jnt1
+        weight: 1
+      - path: bind_group/Root_Jnt/Bind_Hips_jnt1/Bind_belly_jnt
+        weight: 1
+      - path: bind_group/Root_Jnt/Bind_Hips_jnt1/Bind_belly_jnt/Bind_chest_jnt
+        weight: 1
+      - path: bind_group/Root_Jnt/Bind_Hips_jnt1/Bind_belly_jnt/Bind_chest_jnt/BInd_clavicle_left_jnt
+        weight: 1
+      - path: bind_group/Root_Jnt/Bind_Hips_jnt1/Bind_belly_jnt/Bind_chest_jnt/BInd_clavicle_left_jnt/Bind_clavicle_left_end
+        weight: 1
+      - path: bind_group/Root_Jnt/Bind_Hips_jnt1/Bind_belly_jnt/Bind_chest_jnt/BInd_clavicle_left_jnt/Bind_clavicle_left_end/Bind_shoulder_left_jnt
+        weight: 1
+      - path: bind_group/Root_Jnt/Bind_Hips_jnt1/Bind_belly_jnt/Bind_chest_jnt/BInd_clavicle_left_jnt/Bind_clavicle_left_end/Bind_shoulder_left_jnt/bind_elbow_left_jnt
+        weight: 1
+      - path: bind_group/Root_Jnt/Bind_Hips_jnt1/Bind_belly_jnt/Bind_chest_jnt/BInd_clavicle_left_jnt/Bind_clavicle_left_end/Bind_shoulder_left_jnt/bind_elbow_left_jnt/bind_wrist_left_jnt
+        weight: 1
+      - path: bind_group/Root_Jnt/Bind_Hips_jnt1/Bind_belly_jnt/Bind_chest_jnt/BInd_clavicle_left_jnt/Bind_clavicle_left_end/Bind_shoulder_left_jnt/bind_elbow_left_jnt/bind_wrist_left_jnt/Bind_hand_left_end
+        weight: 0
+      - path: bind_group/Root_Jnt/Bind_Hips_jnt1/Bind_belly_jnt/Bind_chest_jnt/BInd_clavicle_right_jnt
+        weight: 1
+      - path: bind_group/Root_Jnt/Bind_Hips_jnt1/Bind_belly_jnt/Bind_chest_jnt/BInd_clavicle_right_jnt/Bind_clavicle_right_end
+        weight: 1
+      - path: bind_group/Root_Jnt/Bind_Hips_jnt1/Bind_belly_jnt/Bind_chest_jnt/BInd_clavicle_right_jnt/Bind_clavicle_right_end/Bind_shoulder_right_jnt
+        weight: 1
+      - path: bind_group/Root_Jnt/Bind_Hips_jnt1/Bind_belly_jnt/Bind_chest_jnt/BInd_clavicle_right_jnt/Bind_clavicle_right_end/Bind_shoulder_right_jnt/bind_elbow_right_jnt
+        weight: 1
+      - path: bind_group/Root_Jnt/Bind_Hips_jnt1/Bind_belly_jnt/Bind_chest_jnt/BInd_clavicle_right_jnt/Bind_clavicle_right_end/Bind_shoulder_right_jnt/bind_elbow_right_jnt/bind_wrist_right_jnt
+        weight: 1
+      - path: bind_group/Root_Jnt/Bind_Hips_jnt1/Bind_belly_jnt/Bind_chest_jnt/BInd_clavicle_right_jnt/Bind_clavicle_right_end/Bind_shoulder_right_jnt/bind_elbow_right_jnt/bind_wrist_right_jnt/Bind_hand_right_end
+        weight: 0
+      - path: bind_group/Root_Jnt/Bind_Hips_jnt1/Bind_belly_jnt/Bind_chest_jnt/Bind_neck_jnt
+        weight: 1
+      - path: bind_group/Root_Jnt/Bind_Hips_jnt1/Bind_belly_jnt/Bind_chest_jnt/Bind_neck_jnt/Bind_neck_mid_jnt
+        weight: 1
+      - path: bind_group/Root_Jnt/Bind_Hips_jnt1/Bind_belly_jnt/Bind_chest_jnt/Bind_neck_jnt/Bind_neck_mid_jnt/Bind_head_jnt
+        weight: 1
+      - path: bind_group/Root_Jnt/Bind_Hips_jnt1/Bind_belly_jnt/Bind_chest_jnt/Bind_neck_jnt/Bind_neck_mid_jnt/Bind_head_jnt/Bind_head_end
+        weight: 0
+      - path: bind_group/Root_Jnt/Bind_pelvis_jnt
+        weight: 1
+      - path: bind_group/Root_Jnt/Bind_pelvis_jnt/Bind_pelvis_end
+        weight: 1
+      - path: bind_group/Root_Jnt/Bind_pelvis_jnt/Bind_pelvis_end/Bind_Thigh_left_jnt
+        weight: 1
+      - path: bind_group/Root_Jnt/Bind_pelvis_jnt/Bind_pelvis_end/Bind_Thigh_left_jnt/Bind_Knee_left_jnt
+        weight: 1
+      - path: bind_group/Root_Jnt/Bind_pelvis_jnt/Bind_pelvis_end/Bind_Thigh_left_jnt/Bind_Knee_left_jnt/Bind_ankle_left_jnt
+        weight: 1
+      - path: bind_group/Root_Jnt/Bind_pelvis_jnt/Bind_pelvis_end/Bind_Thigh_left_jnt/Bind_Knee_left_jnt/Bind_ankle_left_jnt/Bind_toe_left_jnt
+        weight: 1
+      - path: bind_group/Root_Jnt/Bind_pelvis_jnt/Bind_pelvis_end/Bind_Thigh_left_jnt/Bind_Knee_left_jnt/Bind_ankle_left_jnt/Bind_toe_left_jnt/Bind_toe_left_end
+        weight: 0
+      - path: bind_group/Root_Jnt/Bind_pelvis_jnt/Bind_pelvis_end/Bind_Thigh_right_jnt
+        weight: 0
+      - path: bind_group/Root_Jnt/Bind_pelvis_jnt/Bind_pelvis_end/Bind_Thigh_right_jnt/Bind_Knee_right_jnt
+        weight: 0
+      - path: bind_group/Root_Jnt/Bind_pelvis_jnt/Bind_pelvis_end/Bind_Thigh_right_jnt/Bind_Knee_right_jnt/Bind_ankle_right_jnt
+        weight: 0
+      - path: bind_group/Root_Jnt/Bind_pelvis_jnt/Bind_pelvis_end/Bind_Thigh_right_jnt/Bind_Knee_right_jnt/Bind_ankle_right_jnt/Bind_toe_right_jnt
+        weight: 0
+      - path: bind_group/Root_Jnt/Bind_pelvis_jnt/Bind_pelvis_end/Bind_Thigh_right_jnt/Bind_Knee_right_jnt/Bind_ankle_right_jnt/Bind_toe_right_jnt/Bind_toe_right_end
+        weight: 0
+      - path: Character_edited_geo_04:character_geo
+        weight: 0
+      - path: Character_edited_geo_04:character_geo/Character_edited_geo_04:character
+        weight: 0
+      - path: Character_edited_geo_04:character_geo/Character_edited_geo_04:Cloth
+        weight: 0
+      - path: Character_edited_geo_04:character_geo/Character_edited_geo_04:Cloth/Character_edited_geo_04:sleeves
+        weight: 0
+      - path: Character_edited_geo_04:character_geo/Character_edited_geo_04:Cloth/Character_edited_geo_04:torsoCloth03
+        weight: 0
+      - path: dynamicConstraint1
+        weight: 0
+      - path: ikHandle1
+        weight: 0
+      - path: ikHandle3
+        weight: 0
+      - path: nCloth1
+        weight: 0
+      - path: nCloth2
+        weight: 0
+      - path: nRigid1
+        weight: 0
+      - path: nucleus1
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 19.800001
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human:
+    - boneName: Root_Jnt
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_pelvis_end
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_Knee_left_jnt
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_ankle_left_jnt
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_Hips_jnt1
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_belly_jnt
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_neck_jnt
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_head_jnt
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BInd_clavicle_left_jnt
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BInd_clavicle_right_jnt
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_shoulder_left_jnt
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_shoulder_right_jnt
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bind_elbow_left_jnt
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bind_elbow_right_jnt
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bind_wrist_left_jnt
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bind_wrist_right_jnt
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_toe_left_jnt
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: character_walk_frame_40_to_134(Clone)
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: bind_group
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Root_Jnt
+      position: {x: 0.00018874278, y: 0.05535652, z: -0.00062175124}
+      rotation: {x: -0.5, y: 0.5, z: -0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Bind_pelvis_jnt
+      position: {x: -0.000009419533, y: -0.000015697316, z: -0.0000022480317}
+      rotation: {x: -0.050531972, y: 0.9987225, z: 6.115412e-17, w: -3.0941909e-18}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Bind_pelvis_end
+      position: {x: -0.0035747197, y: -2.081668e-18, z: -3.5197543e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Bind_Thigh_left_jnt
+      position: {x: -0.0010891578, y: 0.0003321246, z: 0.004571048}
+      rotation: {x: 0.9969122, y: 0.07852483, z: -1.6359538e-17, w: 6.2710614e-17}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Bind_Knee_left_jnt
+      position: {x: -0.026579, y: 0, z: 3.2609524e-18}
+      rotation: {x: -1.0194874e-30, y: -9.646386e-30, z: 0.111212395, w: 0.99379665}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Bind_ankle_left_jnt
+      position: {x: -0.020049224, y: -5.551115e-19, z: -8.604228e-17}
+      rotation: {x: 0, y: -0, z: -0.3585884, w: 0.93349576}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Bind_toe_left_jnt
+      position: {x: -0.004489391, y: 0.00076703075, z: -3.5977516e-17}
+      rotation: {x: 0, y: -0, z: -0.45938376, w: 0.88823795}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Bind_toe_left_end
+      position: {x: -0.005243325, y: -1.6998648e-18, z: -2.346096e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Bind_Thigh_right_jnt
+      position: {x: -0.0010891622, y: 0.00033212415, z: -0.0045710453}
+      rotation: {x: -0.078524806, y: 0.9969122, z: 6.104326e-17, w: -4.808258e-18}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Bind_Knee_right_jnt
+      position: {x: 0.026579019, y: 0.0000000010607796, z: 5.551115e-19}
+      rotation: {x: 2.106159e-30, y: -5.900472e-30, z: 0.111212395, w: 0.99379665}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Bind_ankle_right_jnt
+      position: {x: 0.020049198, y: -5.551115e-19, z: 7.216449e-18}
+      rotation: {x: 0, y: -0, z: -0.3585884, w: 0.93349576}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Bind_toe_right_jnt
+      position: {x: 0.004489394, y: -0.0007670257, z: -3.3360488e-18}
+      rotation: {x: 0.000000013235777, y: -0.0000000068453514, z: -0.45938376, w: 0.88823795}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Bind_toe_right_end
+      position: {x: 0.005243327, y: -1.6811096e-10, z: 5.551115e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Bind_Hips_jnt1
+      position: {x: -0.0021784494, y: -2.3886998e-10, z: -1.9428903e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Bind_belly_jnt
+      position: {x: -0.0042777294, y: -4.857226e-19, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Bind_chest_jnt
+      position: {x: -0.005702126, y: 2.3887e-10, z: -1.899185e-18}
+      rotation: {x: 0, y: -0, z: -0.11888558, w: 0.992908}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Bind_neck_jnt
+      position: {x: -0.007162655, y: 3.3009093e-18, z: 1.8009213e-18}
+      rotation: {x: 0, y: 0, z: 0.3531891, w: 0.93555194}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Bind_neck_mid_jnt
+      position: {x: -0.002016466, y: -6.111377e-18, z: 1.4836222e-19}
+      rotation: {x: 0, y: -0, z: -0.07818859, w: 0.9969386}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Bind_head_jnt
+      position: {x: -0.004080189, y: -2.3199476e-18, z: 6.749861e-19}
+      rotation: {x: 0, y: -0, z: -0.08194415, w: 0.9966369}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Bind_head_end
+      position: {x: -0.0082629025, y: 3.7092197e-18, z: 1.9302315e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: BInd_clavicle_left_jnt
+      position: {x: -0.005078084, y: -0.0010970131, z: -0.000987139}
+      rotation: {x: 0.55589676, y: -0.43701118, z: 0.55589676, w: 0.43701118}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Bind_clavicle_left_end
+      position: {x: -0.0052824765, y: 8.881784e-18, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Bind_shoulder_left_jnt
+      position: {x: -0.0011258215, y: -0.001250321, z: -0.00018862665}
+      rotation: {x: 0.7004448, y: 0.022291463, z: 0.014851995, w: 0.7132038}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: bind_elbow_left_jnt
+      position: {x: -0.015119653, y: -5.689893e-18, z: 7.9936054e-17}
+      rotation: {x: -0.001152694, y: -0.0145853255, z: -0.0324552, w: 0.9993661}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: bind_wrist_left_jnt
+      position: {x: -0.011663767, y: 0, z: 0.000000028218775}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Bind_hand_left_end
+      position: {x: -0.004408037, y: 0.0000000064856227, z: -0.000000028218775}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: BInd_clavicle_right_jnt
+      position: {x: -0.005078129, y: -0.001097024, z: 0.0009871372}
+      rotation: {x: -0.43701118, y: -0.55589676, z: -0.43701118, w: 0.55589676}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Bind_clavicle_right_end
+      position: {x: 0.00528248, y: 0, z: 4.0245583e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Bind_shoulder_right_jnt
+      position: {x: 0.00112582, y: 0.0012504, z: 0.00018862599}
+      rotation: {x: 0.7043087, y: 0.021713609, z: 0.015913036, w: 0.7093832}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: bind_elbow_right_jnt
+      position: {x: 0.015119651, y: 5.084956e-10, z: 0.000000029587296}
+      rotation: {x: -0.001155585, y: -0.014620849, z: -0.033433586, w: 0.9993334}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: bind_wrist_right_jnt
+      position: {x: 0.011663748, y: -0.0000000035373493, z: 0.000000025964267}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Bind_hand_right_end
+      position: {x: 0.004408043, y: -0.000000009392069, z: 0.000000031227117}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Character_edited_geo_04:character_geo
+      position: {x: -0, y: 0, z: -0.008028216}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Character_edited_geo_04:character
+      position: {x: -0, y: 0, z: 0.008028216}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Character_edited_geo_04:Cloth
+      position: {x: -0, y: 0.045319993, z: 0.008028216}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Character_edited_geo_04:sleeves
+      position: {x: 0.017034845, y: 0.019365387, z: 0.000541359}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Character_edited_geo_04:torsoCloth03
+      position: {x: -0, y: -0.045319993, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: dynamicConstraint1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: ikHandle1
+      position: {x: -0.0043845535, y: 0.004451197, z: -0.0032451665}
+      rotation: {x: 0.53990954, y: 0.45661548, z: 0.53990954, w: 0.45661548}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: ikHandle3
+      position: {x: 0.00475754, y: 0.0044512018, z: -0.0032451616}
+      rotation: {x: -0.45661548, y: 0.53990954, z: -0.45661548, w: 0.53990954}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: nCloth1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: nCloth2
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: nRigid1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: nucleus1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

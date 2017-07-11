@@ -1,0 +1,494 @@
+fileFormatVersion: 2
+guid: 2568a192e4ce0af4389fd2e6495903b2
+timeCreated: 1479769348
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: ChineseWall
+    100002: ChineseWall 1
+    100004: ChineseWall1
+    100006: ChineseWall1 1
+    100008: ChineseWall10
+    100010: ChineseWall10 1
+    100012: ChineseWall11
+    100014: ChineseWall12
+    100016: ChineseWall4
+    100018: ChineseWall4 1
+    100020: ChineseWall5
+    100022: ChineseWall5 1
+    100024: ChineseWall6
+    100026: ChineseWall6 1
+    100028: ChineseWall7
+    100030: ChineseWall7 1
+    100032: ChineseWall8
+    100034: ChineseWall8 1
+    100036: ChineseWall9
+    100038: ChineseWall9 1
+    100040: doorFinish_01
+    100042: doorStart_01
+    100044: //RootNode
+    100046: mainWall_01
+    100048: Platform_00
+    100050: polySurface100
+    100052: polySurface101
+    100054: polySurface102
+    100056: polySurface103
+    100058: polySurface104
+    100060: polySurface108
+    100062: polySurface109
+    100064: polySurface110
+    100066: polySurface117
+    100068: polySurface118
+    100070: polySurface119
+    100072: polySurface121
+    100074: polySurface122
+    100076: polySurface123
+    100078: polySurface124
+    100080: polySurface125
+    100082: polySurface126
+    100084: polySurface127
+    100086: polySurface128
+    100088: polySurface129
+    100090: polySurface130
+    100092: polySurface131
+    100094: polySurface132
+    100096: polySurface133
+    100098: polySurface134
+    100100: polySurface138
+    100102: polySurface139
+    100104: polySurface140
+    100106: polySurface197
+    100108: polySurface198
+    100110: polySurface199
+    100112: polySurface200
+    100114: polySurface201
+    100116: polySurface202
+    100118: polySurface203
+    100120: polySurface204
+    100122: polySurface205
+    100124: polySurface206
+    100126: polySurface207
+    100128: polySurface208
+    100130: polySurface209
+    100132: polySurface210
+    100134: polySurface211
+    100136: polySurface212
+    100138: polySurface213
+    100140: polySurface214
+    100142: polySurface87
+    100144: polySurface88
+    100146: polySurface89
+    100148: polySurface90
+    100150: polySurface91
+    100152: polySurface92
+    100154: polySurface93
+    100156: polySurface94
+    100158: polySurface95
+    100160: polySurface96
+    100162: polySurface97
+    100164: polySurface98
+    100166: polySurface99
+    100168: pCube12
+    400000: ChineseWall
+    400002: ChineseWall 1
+    400004: ChineseWall1
+    400006: ChineseWall1 1
+    400008: ChineseWall10
+    400010: ChineseWall10 1
+    400012: ChineseWall11
+    400014: ChineseWall12
+    400016: ChineseWall4
+    400018: ChineseWall4 1
+    400020: ChineseWall5
+    400022: ChineseWall5 1
+    400024: ChineseWall6
+    400026: ChineseWall6 1
+    400028: ChineseWall7
+    400030: ChineseWall7 1
+    400032: ChineseWall8
+    400034: ChineseWall8 1
+    400036: ChineseWall9
+    400038: ChineseWall9 1
+    400040: doorFinish_01
+    400042: doorStart_01
+    400044: //RootNode
+    400046: mainWall_01
+    400048: Platform_00
+    400050: polySurface100
+    400052: polySurface101
+    400054: polySurface102
+    400056: polySurface103
+    400058: polySurface104
+    400060: polySurface108
+    400062: polySurface109
+    400064: polySurface110
+    400066: polySurface117
+    400068: polySurface118
+    400070: polySurface119
+    400072: polySurface121
+    400074: polySurface122
+    400076: polySurface123
+    400078: polySurface124
+    400080: polySurface125
+    400082: polySurface126
+    400084: polySurface127
+    400086: polySurface128
+    400088: polySurface129
+    400090: polySurface130
+    400092: polySurface131
+    400094: polySurface132
+    400096: polySurface133
+    400098: polySurface134
+    400100: polySurface138
+    400102: polySurface139
+    400104: polySurface140
+    400106: polySurface197
+    400108: polySurface198
+    400110: polySurface199
+    400112: polySurface200
+    400114: polySurface201
+    400116: polySurface202
+    400118: polySurface203
+    400120: polySurface204
+    400122: polySurface205
+    400124: polySurface206
+    400126: polySurface207
+    400128: polySurface208
+    400130: polySurface209
+    400132: polySurface210
+    400134: polySurface211
+    400136: polySurface212
+    400138: polySurface213
+    400140: polySurface214
+    400142: polySurface87
+    400144: polySurface88
+    400146: polySurface89
+    400148: polySurface90
+    400150: polySurface91
+    400152: polySurface92
+    400154: polySurface93
+    400156: polySurface94
+    400158: polySurface95
+    400160: polySurface96
+    400162: polySurface97
+    400164: polySurface98
+    400166: polySurface99
+    400168: pCube12
+    2300000: ChineseWall
+    2300002: ChineseWall 1
+    2300004: ChineseWall1
+    2300006: ChineseWall1 1
+    2300008: ChineseWall10
+    2300010: ChineseWall10 1
+    2300012: ChineseWall11
+    2300014: ChineseWall12
+    2300016: ChineseWall4
+    2300018: ChineseWall4 1
+    2300020: ChineseWall5
+    2300022: ChineseWall5 1
+    2300024: ChineseWall6
+    2300026: ChineseWall6 1
+    2300028: ChineseWall7
+    2300030: ChineseWall7 1
+    2300032: ChineseWall8
+    2300034: ChineseWall8 1
+    2300036: ChineseWall9
+    2300038: ChineseWall9 1
+    2300040: doorFinish_01
+    2300042: doorStart_01
+    2300044: mainWall_01
+    2300046: Platform_00
+    2300048: polySurface100
+    2300050: polySurface101
+    2300052: polySurface102
+    2300054: polySurface103
+    2300056: polySurface104
+    2300058: polySurface108
+    2300060: polySurface109
+    2300062: polySurface110
+    2300064: polySurface117
+    2300066: polySurface118
+    2300068: polySurface119
+    2300070: polySurface121
+    2300072: polySurface122
+    2300074: polySurface123
+    2300076: polySurface124
+    2300078: polySurface125
+    2300080: polySurface126
+    2300082: polySurface127
+    2300084: polySurface128
+    2300086: polySurface129
+    2300088: polySurface130
+    2300090: polySurface131
+    2300092: polySurface132
+    2300094: polySurface133
+    2300096: polySurface134
+    2300098: polySurface138
+    2300100: polySurface139
+    2300102: polySurface140
+    2300104: polySurface197
+    2300106: polySurface198
+    2300108: polySurface199
+    2300110: polySurface200
+    2300112: polySurface201
+    2300114: polySurface202
+    2300116: polySurface203
+    2300118: polySurface204
+    2300120: polySurface205
+    2300122: polySurface206
+    2300124: polySurface207
+    2300126: polySurface208
+    2300128: polySurface209
+    2300130: polySurface210
+    2300132: polySurface211
+    2300134: polySurface212
+    2300136: polySurface213
+    2300138: polySurface214
+    2300140: polySurface87
+    2300142: polySurface88
+    2300144: polySurface89
+    2300146: polySurface90
+    2300148: polySurface91
+    2300150: polySurface92
+    2300152: polySurface93
+    2300154: polySurface94
+    2300156: polySurface95
+    2300158: polySurface96
+    2300160: polySurface97
+    2300162: polySurface98
+    2300164: polySurface99
+    2300166: pCube12
+    3300000: ChineseWall
+    3300002: ChineseWall 1
+    3300004: ChineseWall1
+    3300006: ChineseWall1 1
+    3300008: ChineseWall10
+    3300010: ChineseWall10 1
+    3300012: ChineseWall11
+    3300014: ChineseWall12
+    3300016: ChineseWall4
+    3300018: ChineseWall4 1
+    3300020: ChineseWall5
+    3300022: ChineseWall5 1
+    3300024: ChineseWall6
+    3300026: ChineseWall6 1
+    3300028: ChineseWall7
+    3300030: ChineseWall7 1
+    3300032: ChineseWall8
+    3300034: ChineseWall8 1
+    3300036: ChineseWall9
+    3300038: ChineseWall9 1
+    3300040: doorFinish_01
+    3300042: doorStart_01
+    3300044: mainWall_01
+    3300046: Platform_00
+    3300048: polySurface100
+    3300050: polySurface101
+    3300052: polySurface102
+    3300054: polySurface103
+    3300056: polySurface104
+    3300058: polySurface108
+    3300060: polySurface109
+    3300062: polySurface110
+    3300064: polySurface117
+    3300066: polySurface118
+    3300068: polySurface119
+    3300070: polySurface121
+    3300072: polySurface122
+    3300074: polySurface123
+    3300076: polySurface124
+    3300078: polySurface125
+    3300080: polySurface126
+    3300082: polySurface127
+    3300084: polySurface128
+    3300086: polySurface129
+    3300088: polySurface130
+    3300090: polySurface131
+    3300092: polySurface132
+    3300094: polySurface133
+    3300096: polySurface134
+    3300098: polySurface138
+    3300100: polySurface139
+    3300102: polySurface140
+    3300104: polySurface197
+    3300106: polySurface198
+    3300108: polySurface199
+    3300110: polySurface200
+    3300112: polySurface201
+    3300114: polySurface202
+    3300116: polySurface203
+    3300118: polySurface204
+    3300120: polySurface205
+    3300122: polySurface206
+    3300124: polySurface207
+    3300126: polySurface208
+    3300128: polySurface209
+    3300130: polySurface210
+    3300132: polySurface211
+    3300134: polySurface212
+    3300136: polySurface213
+    3300138: polySurface214
+    3300140: polySurface87
+    3300142: polySurface88
+    3300144: polySurface89
+    3300146: polySurface90
+    3300148: polySurface91
+    3300150: polySurface92
+    3300152: polySurface93
+    3300154: polySurface94
+    3300156: polySurface95
+    3300158: polySurface96
+    3300160: polySurface97
+    3300162: polySurface98
+    3300164: polySurface99
+    3300166: pCube12
+    4300000: Platform_00
+    4300002: polySurface197
+    4300004: polySurface198
+    4300006: polySurface199
+    4300008: polySurface206
+    4300010: polySurface207
+    4300012: polySurface208
+    4300014: polySurface87
+    4300016: polySurface88
+    4300018: polySurface89
+    4300020: polySurface90
+    4300022: polySurface91
+    4300024: polySurface92
+    4300026: polySurface93
+    4300028: polySurface94
+    4300030: polySurface95
+    4300032: polySurface96
+    4300034: polySurface97
+    4300036: polySurface98
+    4300038: polySurface99
+    4300040: polySurface100
+    4300042: polySurface101
+    4300044: polySurface102
+    4300046: polySurface103
+    4300048: polySurface104
+    4300050: polySurface108
+    4300052: polySurface109
+    4300054: polySurface110
+    4300056: polySurface117
+    4300058: polySurface118
+    4300060: polySurface119
+    4300062: polySurface121
+    4300064: polySurface122
+    4300066: polySurface123
+    4300068: polySurface124
+    4300070: polySurface125
+    4300072: polySurface126
+    4300074: polySurface127
+    4300076: polySurface128
+    4300078: polySurface129
+    4300080: polySurface130
+    4300082: polySurface131
+    4300084: polySurface132
+    4300086: polySurface133
+    4300088: polySurface134
+    4300090: polySurface138
+    4300092: polySurface139
+    4300094: polySurface140
+    4300096: polySurface200
+    4300098: polySurface201
+    4300100: polySurface202
+    4300102: polySurface203
+    4300104: polySurface204
+    4300106: polySurface205
+    4300108: polySurface209
+    4300110: polySurface210
+    4300112: polySurface211
+    4300114: polySurface212
+    4300116: polySurface213
+    4300118: polySurface214
+    4300120: doorStart_01
+    4300122: doorFinish_01
+    4300124: mainWall_01
+    4300126: ChineseWall11
+    4300128: ChineseWall7
+    4300130: ChineseWall5
+    4300132: ChineseWall6
+    4300134: ChineseWall4
+    4300136: ChineseWall
+    4300138: ChineseWall1
+    4300140: ChineseWall8
+    4300142: ChineseWall9
+    4300144: ChineseWall10
+    4300146: ChineseWall12
+    4300148: ChineseWall7
+    4300150: ChineseWall5
+    4300152: ChineseWall6
+    4300154: ChineseWall4
+    4300156: ChineseWall
+    4300158: ChineseWall1
+    4300160: ChineseWall8
+    4300162: ChineseWall9
+    4300164: ChineseWall10
+    4300166: pCube12
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

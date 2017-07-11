@@ -1,0 +1,167 @@
+fileFormatVersion: 2
+guid: 2da0c44bb61d66a4bacbf3c1a0351a9f
+timeCreated: 1477524654
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: bodyModel01
+    100002: BowModel01
+    100004: bowRibbon01
+    100006: bowRibbon02
+    100008: bowRibbon03
+    100010: bowRibbon04
+    100012: //RootNode
+    100014: HatModel01
+    100016: headHair04
+    100018: middleModel
+    100020: polySurface1
+    100022: polySurface15
+    100024: shoeButton01
+    100026: shoeButton02
+    100028: shoeButton03
+    100030: shoeButton04
+    100032: shoeLace01
+    100034: shoeLace02
+    100036: shoeModel01
+    100038: shoeModel02
+    100040: shoeModel03
+    100042: sleevesModel01
+    100044: torsoCloth01
+    100046: torsoCloth02
+    100048: transform1
+    100050: transform10
+    100052: transform11
+    100054: transform12
+    100056: transform13
+    100058: transform14
+    100060: transform15
+    100062: transform16
+    100064: transform17
+    100066: transform18
+    100068: transform19
+    100070: transform2
+    100072: transform20
+    100074: transform21
+    100076: transform22
+    100078: transform3
+    100080: transform4
+    100082: transform5
+    100084: transform6
+    100086: transform7
+    100088: transform8
+    100090: transform9
+    400000: bodyModel01
+    400002: BowModel01
+    400004: bowRibbon01
+    400006: bowRibbon02
+    400008: bowRibbon03
+    400010: bowRibbon04
+    400012: //RootNode
+    400014: HatModel01
+    400016: headHair04
+    400018: middleModel
+    400020: polySurface1
+    400022: polySurface15
+    400024: shoeButton01
+    400026: shoeButton02
+    400028: shoeButton03
+    400030: shoeButton04
+    400032: shoeLace01
+    400034: shoeLace02
+    400036: shoeModel01
+    400038: shoeModel02
+    400040: shoeModel03
+    400042: sleevesModel01
+    400044: torsoCloth01
+    400046: torsoCloth02
+    400048: transform1
+    400050: transform10
+    400052: transform11
+    400054: transform12
+    400056: transform13
+    400058: transform14
+    400060: transform15
+    400062: transform16
+    400064: transform17
+    400066: transform18
+    400068: transform19
+    400070: transform2
+    400072: transform20
+    400074: transform21
+    400076: transform22
+    400078: transform3
+    400080: transform4
+    400082: transform5
+    400084: transform6
+    400086: transform7
+    400088: transform8
+    400090: transform9
+    2300000: shoeModel03
+    3300000: shoeModel03
+    4300000: shoeModel03
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,3432 @@
+fileFormatVersion: 2
+guid: 6596c4eaf92dc6545b69a5d59d5c5877
+timeCreated: 1479868290
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Archway_01
+    100002: Bamboocube1:bambooPL_01
+    100004: Bamboocube1:polySurface1
+    100006: Bamboocube1:polySurface78
+    100008: Bamboocube1:polySurface79
+    100010: Bamboocube1:polySurface80
+    100012: Bamboocube1:polySurface81
+    100014: Bamboocube1:polySurface82
+    100016: //RootNode
+    100018: flower_PL_02
+    100020: Gateway:Archway_01
+    100022: Lantern_00:pCylinder6
+    100024: pCube30
+    100026: pCube31
+    100028: pCube33
+    100030: pCube34
+    100032: pCube35
+    100034: pCube36
+    100036: pCylinder10
+    100038: pCylinder10 1
+    100040: pCylinder11
+    100042: pCylinder11 1
+    100044: pCylinder12
+    100046: pCylinder12 1
+    100048: pCylinder13
+    100050: pCylinder13 1
+    100052: pCylinder14
+    100054: pCylinder16
+    100056: pCylinder17
+    100058: pCylinder18
+    100060: pCylinder19
+    100062: pCylinder20
+    100064: pCylinder21
+    100066: pCylinder22
+    100068: pCylinder23
+    100070: pCylinder24
+    100072: pCylinder25
+    100074: pCylinder26
+    100076: pCylinder27
+    100078: pCylinder28
+    100080: pCylinder29
+    100082: pCylinder31
+    100084: pCylinder32
+    100086: pCylinder34
+    100088: pCylinder35
+    100090: pCylinder36
+    100092: pCylinder37
+    100094: pCylinder38
+    100096: pCylinder39
+    100098: pCylinder40
+    100100: pCylinder41
+    100102: pCylinder42
+    100104: pCylinder43
+    100106: pCylinder44
+    100108: pCylinder45
+    100110: pCylinder46
+    100112: pCylinder47
+    100114: pCylinder48
+    100116: pCylinder49
+    100118: pCylinder8
+    100120: pCylinder9
+    100122: pCylinder9 1
+    100124: polySurface1
+    100126: polySurface1 1
+    100128: polySurface1 10
+    100130: polySurface1 11
+    100132: polySurface1 12
+    100134: polySurface1 13
+    100136: polySurface1 14
+    100138: polySurface1 15
+    100140: polySurface1 16
+    100142: polySurface1 17
+    100144: polySurface1 18
+    100146: polySurface1 19
+    100148: polySurface1 2
+    100150: polySurface1 3
+    100152: polySurface1 4
+    100154: polySurface1 5
+    100156: polySurface1 6
+    100158: polySurface1 7
+    100160: polySurface1 8
+    100162: polySurface1 9
+    100164: polySurface100
+    100166: polySurface101
+    100168: polySurface102
+    100170: polySurface103
+    100172: polySurface104
+    100174: polySurface105
+    100176: polySurface106
+    100178: polySurface107
+    100180: polySurface169
+    100182: polySurface183
+    100184: polySurface183 1
+    100186: polySurface184
+    100188: polySurface184 1
+    100190: polySurface185
+    100192: polySurface185 1
+    100194: polySurface186
+    100196: polySurface191
+    100198: polySurface191 1
+    100200: polySurface192
+    100202: polySurface192 1
+    100204: polySurface193
+    100206: polySurface194
+    100208: polySurface195
+    100210: polySurface196
+    100212: polySurface198
+    100214: polySurface199
+    100216: polySurface200
+    100218: polySurface200 1
+    100220: polySurface201
+    100222: polySurface202
+    100224: polySurface202 1
+    100226: polySurface203
+    100228: polySurface203 1
+    100230: polySurface204
+    100232: polySurface204 1
+    100234: polySurface205
+    100236: polySurface205 1
+    100238: polySurface206
+    100240: polySurface206 1
+    100242: polySurface207
+    100244: polySurface207 1
+    100246: polySurface208
+    100248: polySurface209
+    100250: polySurface210
+    100252: polySurface211
+    100254: polySurface212
+    100256: polySurface213
+    100258: polySurface214
+    100260: polySurface215
+    100262: polySurface216
+    100264: polySurface217
+    100266: polySurface218
+    100268: polySurface219
+    100270: polySurface220
+    100272: polySurface221
+    100274: polySurface222
+    100276: polySurface223
+    100278: polySurface224
+    100280: polySurface225
+    100282: polySurface226
+    100284: polySurface227
+    100286: polySurface228
+    100288: polySurface229
+    100290: polySurface230
+    100292: polySurface231
+    100294: polySurface232
+    100296: polySurface233
+    100298: polySurface234
+    100300: polySurface235
+    100302: polySurface236
+    100304: polySurface237
+    100306: polySurface238
+    100308: polySurface239
+    100310: polySurface240
+    100312: polySurface241
+    100314: polySurface242
+    100316: polySurface243
+    100318: polySurface244
+    100320: polySurface245
+    100322: polySurface246
+    100324: polySurface247
+    100326: polySurface248
+    100328: polySurface78
+    100330: polySurface78 1
+    100332: polySurface78 10
+    100334: polySurface78 11
+    100336: polySurface78 12
+    100338: polySurface78 13
+    100340: polySurface78 14
+    100342: polySurface78 15
+    100344: polySurface78 16
+    100346: polySurface78 17
+    100348: polySurface78 18
+    100350: polySurface78 19
+    100352: polySurface78 2
+    100354: polySurface78 20
+    100356: polySurface78 21
+    100358: polySurface78 22
+    100360: polySurface78 23
+    100362: polySurface78 24
+    100364: polySurface78 25
+    100366: polySurface78 26
+    100368: polySurface78 27
+    100370: polySurface78 28
+    100372: polySurface78 29
+    100374: polySurface78 3
+    100376: polySurface78 30
+    100378: polySurface78 31
+    100380: polySurface78 32
+    100382: polySurface78 33
+    100384: polySurface78 34
+    100386: polySurface78 35
+    100388: polySurface78 36
+    100390: polySurface78 37
+    100392: polySurface78 38
+    100394: polySurface78 39
+    100396: polySurface78 4
+    100398: polySurface78 40
+    100400: polySurface78 41
+    100402: polySurface78 42
+    100404: polySurface78 43
+    100406: polySurface78 44
+    100408: polySurface78 45
+    100410: polySurface78 46
+    100412: polySurface78 47
+    100414: polySurface78 48
+    100416: polySurface78 49
+    100418: polySurface78 5
+    100420: polySurface78 50
+    100422: polySurface78 51
+    100424: polySurface78 52
+    100426: polySurface78 53
+    100428: polySurface78 54
+    100430: polySurface78 55
+    100432: polySurface78 56
+    100434: polySurface78 57
+    100436: polySurface78 58
+    100438: polySurface78 59
+    100440: polySurface78 6
+    100442: polySurface78 60
+    100444: polySurface78 61
+    100446: polySurface78 62
+    100448: polySurface78 63
+    100450: polySurface78 64
+    100452: polySurface78 65
+    100454: polySurface78 66
+    100456: polySurface78 67
+    100458: polySurface78 68
+    100460: polySurface78 69
+    100462: polySurface78 7
+    100464: polySurface78 70
+    100466: polySurface78 71
+    100468: polySurface78 72
+    100470: polySurface78 73
+    100472: polySurface78 74
+    100474: polySurface78 75
+    100476: polySurface78 76
+    100478: polySurface78 77
+    100480: polySurface78 78
+    100482: polySurface78 79
+    100484: polySurface78 8
+    100486: polySurface78 80
+    100488: polySurface78 81
+    100490: polySurface78 82
+    100492: polySurface78 83
+    100494: polySurface78 84
+    100496: polySurface78 85
+    100498: polySurface78 86
+    100500: polySurface78 87
+    100502: polySurface78 88
+    100504: polySurface78 89
+    100506: polySurface78 9
+    100508: polySurface78 90
+    100510: polySurface78 91
+    100512: polySurface78 92
+    100514: polySurface78 93
+    100516: polySurface78 94
+    100518: polySurface78 95
+    100520: polySurface78 96
+    100522: polySurface79
+    100524: polySurface79 1
+    100526: polySurface79 10
+    100528: polySurface79 11
+    100530: polySurface79 12
+    100532: polySurface79 13
+    100534: polySurface79 14
+    100536: polySurface79 15
+    100538: polySurface79 16
+    100540: polySurface79 17
+    100542: polySurface79 18
+    100544: polySurface79 19
+    100546: polySurface79 2
+    100548: polySurface79 20
+    100550: polySurface79 21
+    100552: polySurface79 22
+    100554: polySurface79 23
+    100556: polySurface79 24
+    100558: polySurface79 25
+    100560: polySurface79 26
+    100562: polySurface79 27
+    100564: polySurface79 28
+    100566: polySurface79 29
+    100568: polySurface79 3
+    100570: polySurface79 30
+    100572: polySurface79 31
+    100574: polySurface79 32
+    100576: polySurface79 33
+    100578: polySurface79 34
+    100580: polySurface79 35
+    100582: polySurface79 36
+    100584: polySurface79 37
+    100586: polySurface79 38
+    100588: polySurface79 39
+    100590: polySurface79 4
+    100592: polySurface79 40
+    100594: polySurface79 41
+    100596: polySurface79 42
+    100598: polySurface79 43
+    100600: polySurface79 44
+    100602: polySurface79 45
+    100604: polySurface79 46
+    100606: polySurface79 47
+    100608: polySurface79 48
+    100610: polySurface79 49
+    100612: polySurface79 5
+    100614: polySurface79 50
+    100616: polySurface79 51
+    100618: polySurface79 52
+    100620: polySurface79 53
+    100622: polySurface79 54
+    100624: polySurface79 55
+    100626: polySurface79 56
+    100628: polySurface79 57
+    100630: polySurface79 58
+    100632: polySurface79 6
+    100634: polySurface79 7
+    100636: polySurface79 8
+    100638: polySurface79 9
+    100640: polySurface80
+    100642: polySurface80 1
+    100644: polySurface80 10
+    100646: polySurface80 11
+    100648: polySurface80 12
+    100650: polySurface80 13
+    100652: polySurface80 14
+    100654: polySurface80 15
+    100656: polySurface80 16
+    100658: polySurface80 17
+    100660: polySurface80 18
+    100662: polySurface80 19
+    100664: polySurface80 2
+    100666: polySurface80 20
+    100668: polySurface80 21
+    100670: polySurface80 22
+    100672: polySurface80 23
+    100674: polySurface80 24
+    100676: polySurface80 25
+    100678: polySurface80 26
+    100680: polySurface80 27
+    100682: polySurface80 28
+    100684: polySurface80 29
+    100686: polySurface80 3
+    100688: polySurface80 30
+    100690: polySurface80 31
+    100692: polySurface80 32
+    100694: polySurface80 33
+    100696: polySurface80 34
+    100698: polySurface80 35
+    100700: polySurface80 36
+    100702: polySurface80 37
+    100704: polySurface80 38
+    100706: polySurface80 39
+    100708: polySurface80 4
+    100710: polySurface80 40
+    100712: polySurface80 41
+    100714: polySurface80 42
+    100716: polySurface80 43
+    100718: polySurface80 44
+    100720: polySurface80 45
+    100722: polySurface80 46
+    100724: polySurface80 47
+    100726: polySurface80 48
+    100728: polySurface80 49
+    100730: polySurface80 5
+    100732: polySurface80 50
+    100734: polySurface80 51
+    100736: polySurface80 52
+    100738: polySurface80 53
+    100740: polySurface80 54
+    100742: polySurface80 55
+    100744: polySurface80 56
+    100746: polySurface80 57
+    100748: polySurface80 6
+    100750: polySurface80 7
+    100752: polySurface80 8
+    100754: polySurface80 9
+    100756: polySurface81
+    100758: polySurface81 1
+    100760: polySurface81 10
+    100762: polySurface81 11
+    100764: polySurface81 12
+    100766: polySurface81 13
+    100768: polySurface81 14
+    100770: polySurface81 15
+    100772: polySurface81 16
+    100774: polySurface81 17
+    100776: polySurface81 18
+    100778: polySurface81 19
+    100780: polySurface81 2
+    100782: polySurface81 20
+    100784: polySurface81 21
+    100786: polySurface81 22
+    100788: polySurface81 23
+    100790: polySurface81 24
+    100792: polySurface81 25
+    100794: polySurface81 26
+    100796: polySurface81 27
+    100798: polySurface81 28
+    100800: polySurface81 29
+    100802: polySurface81 3
+    100804: polySurface81 30
+    100806: polySurface81 31
+    100808: polySurface81 32
+    100810: polySurface81 33
+    100812: polySurface81 34
+    100814: polySurface81 35
+    100816: polySurface81 36
+    100818: polySurface81 37
+    100820: polySurface81 38
+    100822: polySurface81 39
+    100824: polySurface81 4
+    100826: polySurface81 40
+    100828: polySurface81 41
+    100830: polySurface81 42
+    100832: polySurface81 43
+    100834: polySurface81 44
+    100836: polySurface81 45
+    100838: polySurface81 46
+    100840: polySurface81 47
+    100842: polySurface81 48
+    100844: polySurface81 49
+    100846: polySurface81 5
+    100848: polySurface81 50
+    100850: polySurface81 51
+    100852: polySurface81 52
+    100854: polySurface81 53
+    100856: polySurface81 54
+    100858: polySurface81 55
+    100860: polySurface81 56
+    100862: polySurface81 57
+    100864: polySurface81 58
+    100866: polySurface81 6
+    100868: polySurface81 7
+    100870: polySurface81 8
+    100872: polySurface81 9
+    100874: polySurface82
+    100876: polySurface82 1
+    100878: polySurface82 10
+    100880: polySurface82 11
+    100882: polySurface82 12
+    100884: polySurface82 13
+    100886: polySurface82 14
+    100888: polySurface82 15
+    100890: polySurface82 16
+    100892: polySurface82 17
+    100894: polySurface82 18
+    100896: polySurface82 19
+    100898: polySurface82 2
+    100900: polySurface82 20
+    100902: polySurface82 21
+    100904: polySurface82 22
+    100906: polySurface82 23
+    100908: polySurface82 24
+    100910: polySurface82 25
+    100912: polySurface82 26
+    100914: polySurface82 27
+    100916: polySurface82 28
+    100918: polySurface82 29
+    100920: polySurface82 3
+    100922: polySurface82 30
+    100924: polySurface82 31
+    100926: polySurface82 32
+    100928: polySurface82 33
+    100930: polySurface82 34
+    100932: polySurface82 35
+    100934: polySurface82 36
+    100936: polySurface82 37
+    100938: polySurface82 38
+    100940: polySurface82 39
+    100942: polySurface82 4
+    100944: polySurface82 40
+    100946: polySurface82 41
+    100948: polySurface82 42
+    100950: polySurface82 43
+    100952: polySurface82 44
+    100954: polySurface82 45
+    100956: polySurface82 46
+    100958: polySurface82 47
+    100960: polySurface82 48
+    100962: polySurface82 49
+    100964: polySurface82 5
+    100966: polySurface82 50
+    100968: polySurface82 51
+    100970: polySurface82 52
+    100972: polySurface82 53
+    100974: polySurface82 54
+    100976: polySurface82 55
+    100978: polySurface82 56
+    100980: polySurface82 57
+    100982: polySurface82 58
+    100984: polySurface82 6
+    100986: polySurface82 7
+    100988: polySurface82 8
+    100990: polySurface82 9
+    100992: polySurface83
+    100994: polySurface84
+    100996: polySurface84 1
+    100998: polySurface84 10
+    101000: polySurface84 11
+    101002: polySurface84 12
+    101004: polySurface84 13
+    101006: polySurface84 14
+    101008: polySurface84 15
+    101010: polySurface84 16
+    101012: polySurface84 17
+    101014: polySurface84 18
+    101016: polySurface84 19
+    101018: polySurface84 2
+    101020: polySurface84 3
+    101022: polySurface84 4
+    101024: polySurface84 5
+    101026: polySurface84 6
+    101028: polySurface84 7
+    101030: polySurface84 8
+    101032: polySurface84 9
+    101034: polySurface85
+    101036: polySurface86
+    101038: polySurface87
+    101040: polySurface88
+    101042: polySurface89
+    101044: polySurface90
+    101046: polySurface91
+    101048: polySurface92
+    101050: polySurface92 1
+    101052: polySurface92 10
+    101054: polySurface92 11
+    101056: polySurface92 12
+    101058: polySurface92 13
+    101060: polySurface92 14
+    101062: polySurface92 15
+    101064: polySurface92 16
+    101066: polySurface92 17
+    101068: polySurface92 18
+    101070: polySurface92 19
+    101072: polySurface92 2
+    101074: polySurface92 20
+    101076: polySurface92 21
+    101078: polySurface92 22
+    101080: polySurface92 23
+    101082: polySurface92 24
+    101084: polySurface92 25
+    101086: polySurface92 26
+    101088: polySurface92 27
+    101090: polySurface92 28
+    101092: polySurface92 29
+    101094: polySurface92 3
+    101096: polySurface92 30
+    101098: polySurface92 31
+    101100: polySurface92 32
+    101102: polySurface92 33
+    101104: polySurface92 34
+    101106: polySurface92 35
+    101108: polySurface92 36
+    101110: polySurface92 37
+    101112: polySurface92 38
+    101114: polySurface92 39
+    101116: polySurface92 4
+    101118: polySurface92 40
+    101120: polySurface92 41
+    101122: polySurface92 42
+    101124: polySurface92 43
+    101126: polySurface92 44
+    101128: polySurface92 45
+    101130: polySurface92 46
+    101132: polySurface92 47
+    101134: polySurface92 48
+    101136: polySurface92 49
+    101138: polySurface92 5
+    101140: polySurface92 50
+    101142: polySurface92 51
+    101144: polySurface92 52
+    101146: polySurface92 53
+    101148: polySurface92 54
+    101150: polySurface92 55
+    101152: polySurface92 56
+    101154: polySurface92 57
+    101156: polySurface92 58
+    101158: polySurface92 59
+    101160: polySurface92 6
+    101162: polySurface92 60
+    101164: polySurface92 7
+    101166: polySurface92 8
+    101168: polySurface92 9
+    101170: polySurface93
+    101172: polySurface93 1
+    101174: polySurface93 10
+    101176: polySurface93 11
+    101178: polySurface93 2
+    101180: polySurface93 3
+    101182: polySurface93 4
+    101184: polySurface93 5
+    101186: polySurface93 6
+    101188: polySurface93 7
+    101190: polySurface93 8
+    101192: polySurface93 9
+    101194: polySurface94
+    101196: polySurface94 1
+    101198: polySurface94 10
+    101200: polySurface94 11
+    101202: polySurface94 2
+    101204: polySurface94 3
+    101206: polySurface94 4
+    101208: polySurface94 5
+    101210: polySurface94 6
+    101212: polySurface94 7
+    101214: polySurface94 8
+    101216: polySurface94 9
+    101218: polySurface95
+    101220: polySurface95 1
+    101222: polySurface95 10
+    101224: polySurface95 11
+    101226: polySurface95 2
+    101228: polySurface95 3
+    101230: polySurface95 4
+    101232: polySurface95 5
+    101234: polySurface95 6
+    101236: polySurface95 7
+    101238: polySurface95 8
+    101240: polySurface95 9
+    101242: polySurface96
+    101244: polySurface96 1
+    101246: polySurface96 10
+    101248: polySurface96 11
+    101250: polySurface96 2
+    101252: polySurface96 3
+    101254: polySurface96 4
+    101256: polySurface96 5
+    101258: polySurface96 6
+    101260: polySurface96 7
+    101262: polySurface96 8
+    101264: polySurface96 9
+    101266: polySurface97
+    101268: polySurface98
+    101270: polySurface99
+    101272: screenWall_010
+    101274: screenWall_010 1
+    101276: screenWall_010 2
+    101278: screenWall_011
+    101280: screenWall_012
+    101282: screenWall_013
+    101284: screenWall_014
+    101286: screenWall_015
+    101288: screenWall_016
+    101290: screenWall_017
+    101292: screenWall_018
+    101294: screenWall_019
+    101296: screenWall_020
+    101298: screenWall_021
+    101300: screenWall_022
+    101302: screenWall_023
+    101304: screenWall_06
+    101306: screenWall_07
+    101308: screenWall_07 1
+    101310: screenWall_07 2
+    101312: screenWall_08
+    101314: screenWall_08 1
+    101316: screenWall_08 2
+    101318: screenWall_09
+    101320: screenWall_09 1
+    101322: screenWall_09 2
+    101324: snakePillar1
+    101326: snakePillar10
+    101328: snakePillar11
+    101330: snakePillar12
+    101332: snakePillar13
+    101334: snakePillar14
+    101336: snakePillar15
+    101338: snakePillar16
+    101340: snakePillar23
+    101342: snakePillar24
+    101344: snakePillar6
+    101346: snakePillar9
+    101348: spikeTrap_01
+    400000: Archway_01
+    400002: Bamboocube1:bambooPL_01
+    400004: Bamboocube1:polySurface1
+    400006: Bamboocube1:polySurface78
+    400008: Bamboocube1:polySurface79
+    400010: Bamboocube1:polySurface80
+    400012: Bamboocube1:polySurface81
+    400014: Bamboocube1:polySurface82
+    400016: //RootNode
+    400018: flower_PL_02
+    400020: Gateway:Archway_01
+    400022: Lantern_00:pCylinder6
+    400024: pCube30
+    400026: pCube31
+    400028: pCube33
+    400030: pCube34
+    400032: pCube35
+    400034: pCube36
+    400036: pCylinder10
+    400038: pCylinder10 1
+    400040: pCylinder11
+    400042: pCylinder11 1
+    400044: pCylinder12
+    400046: pCylinder12 1
+    400048: pCylinder13
+    400050: pCylinder13 1
+    400052: pCylinder14
+    400054: pCylinder16
+    400056: pCylinder17
+    400058: pCylinder18
+    400060: pCylinder19
+    400062: pCylinder20
+    400064: pCylinder21
+    400066: pCylinder22
+    400068: pCylinder23
+    400070: pCylinder24
+    400072: pCylinder25
+    400074: pCylinder26
+    400076: pCylinder27
+    400078: pCylinder28
+    400080: pCylinder29
+    400082: pCylinder31
+    400084: pCylinder32
+    400086: pCylinder34
+    400088: pCylinder35
+    400090: pCylinder36
+    400092: pCylinder37
+    400094: pCylinder38
+    400096: pCylinder39
+    400098: pCylinder40
+    400100: pCylinder41
+    400102: pCylinder42
+    400104: pCylinder43
+    400106: pCylinder44
+    400108: pCylinder45
+    400110: pCylinder46
+    400112: pCylinder47
+    400114: pCylinder48
+    400116: pCylinder49
+    400118: pCylinder8
+    400120: pCylinder9
+    400122: pCylinder9 1
+    400124: polySurface1
+    400126: polySurface1 1
+    400128: polySurface1 10
+    400130: polySurface1 11
+    400132: polySurface1 12
+    400134: polySurface1 13
+    400136: polySurface1 14
+    400138: polySurface1 15
+    400140: polySurface1 16
+    400142: polySurface1 17
+    400144: polySurface1 18
+    400146: polySurface1 19
+    400148: polySurface1 2
+    400150: polySurface1 3
+    400152: polySurface1 4
+    400154: polySurface1 5
+    400156: polySurface1 6
+    400158: polySurface1 7
+    400160: polySurface1 8
+    400162: polySurface1 9
+    400164: polySurface100
+    400166: polySurface101
+    400168: polySurface102
+    400170: polySurface103
+    400172: polySurface104
+    400174: polySurface105
+    400176: polySurface106
+    400178: polySurface107
+    400180: polySurface169
+    400182: polySurface183
+    400184: polySurface183 1
+    400186: polySurface184
+    400188: polySurface184 1
+    400190: polySurface185
+    400192: polySurface185 1
+    400194: polySurface186
+    400196: polySurface191
+    400198: polySurface191 1
+    400200: polySurface192
+    400202: polySurface192 1
+    400204: polySurface193
+    400206: polySurface194
+    400208: polySurface195
+    400210: polySurface196
+    400212: polySurface198
+    400214: polySurface199
+    400216: polySurface200
+    400218: polySurface200 1
+    400220: polySurface201
+    400222: polySurface202
+    400224: polySurface202 1
+    400226: polySurface203
+    400228: polySurface203 1
+    400230: polySurface204
+    400232: polySurface204 1
+    400234: polySurface205
+    400236: polySurface205 1
+    400238: polySurface206
+    400240: polySurface206 1
+    400242: polySurface207
+    400244: polySurface207 1
+    400246: polySurface208
+    400248: polySurface209
+    400250: polySurface210
+    400252: polySurface211
+    400254: polySurface212
+    400256: polySurface213
+    400258: polySurface214
+    400260: polySurface215
+    400262: polySurface216
+    400264: polySurface217
+    400266: polySurface218
+    400268: polySurface219
+    400270: polySurface220
+    400272: polySurface221
+    400274: polySurface222
+    400276: polySurface223
+    400278: polySurface224
+    400280: polySurface225
+    400282: polySurface226
+    400284: polySurface227
+    400286: polySurface228
+    400288: polySurface229
+    400290: polySurface230
+    400292: polySurface231
+    400294: polySurface232
+    400296: polySurface233
+    400298: polySurface234
+    400300: polySurface235
+    400302: polySurface236
+    400304: polySurface237
+    400306: polySurface238
+    400308: polySurface239
+    400310: polySurface240
+    400312: polySurface241
+    400314: polySurface242
+    400316: polySurface243
+    400318: polySurface244
+    400320: polySurface245
+    400322: polySurface246
+    400324: polySurface247
+    400326: polySurface248
+    400328: polySurface78
+    400330: polySurface78 1
+    400332: polySurface78 10
+    400334: polySurface78 11
+    400336: polySurface78 12
+    400338: polySurface78 13
+    400340: polySurface78 14
+    400342: polySurface78 15
+    400344: polySurface78 16
+    400346: polySurface78 17
+    400348: polySurface78 18
+    400350: polySurface78 19
+    400352: polySurface78 2
+    400354: polySurface78 20
+    400356: polySurface78 21
+    400358: polySurface78 22
+    400360: polySurface78 23
+    400362: polySurface78 24
+    400364: polySurface78 25
+    400366: polySurface78 26
+    400368: polySurface78 27
+    400370: polySurface78 28
+    400372: polySurface78 29
+    400374: polySurface78 3
+    400376: polySurface78 30
+    400378: polySurface78 31
+    400380: polySurface78 32
+    400382: polySurface78 33
+    400384: polySurface78 34
+    400386: polySurface78 35
+    400388: polySurface78 36
+    400390: polySurface78 37
+    400392: polySurface78 38
+    400394: polySurface78 39
+    400396: polySurface78 4
+    400398: polySurface78 40
+    400400: polySurface78 41
+    400402: polySurface78 42
+    400404: polySurface78 43
+    400406: polySurface78 44
+    400408: polySurface78 45
+    400410: polySurface78 46
+    400412: polySurface78 47
+    400414: polySurface78 48
+    400416: polySurface78 49
+    400418: polySurface78 5
+    400420: polySurface78 50
+    400422: polySurface78 51
+    400424: polySurface78 52
+    400426: polySurface78 53
+    400428: polySurface78 54
+    400430: polySurface78 55
+    400432: polySurface78 56
+    400434: polySurface78 57
+    400436: polySurface78 58
+    400438: polySurface78 59
+    400440: polySurface78 6
+    400442: polySurface78 60
+    400444: polySurface78 61
+    400446: polySurface78 62
+    400448: polySurface78 63
+    400450: polySurface78 64
+    400452: polySurface78 65
+    400454: polySurface78 66
+    400456: polySurface78 67
+    400458: polySurface78 68
+    400460: polySurface78 69
+    400462: polySurface78 7
+    400464: polySurface78 70
+    400466: polySurface78 71
+    400468: polySurface78 72
+    400470: polySurface78 73
+    400472: polySurface78 74
+    400474: polySurface78 75
+    400476: polySurface78 76
+    400478: polySurface78 77
+    400480: polySurface78 78
+    400482: polySurface78 79
+    400484: polySurface78 8
+    400486: polySurface78 80
+    400488: polySurface78 81
+    400490: polySurface78 82
+    400492: polySurface78 83
+    400494: polySurface78 84
+    400496: polySurface78 85
+    400498: polySurface78 86
+    400500: polySurface78 87
+    400502: polySurface78 88
+    400504: polySurface78 89
+    400506: polySurface78 9
+    400508: polySurface78 90
+    400510: polySurface78 91
+    400512: polySurface78 92
+    400514: polySurface78 93
+    400516: polySurface78 94
+    400518: polySurface78 95
+    400520: polySurface78 96
+    400522: polySurface79
+    400524: polySurface79 1
+    400526: polySurface79 10
+    400528: polySurface79 11
+    400530: polySurface79 12
+    400532: polySurface79 13
+    400534: polySurface79 14
+    400536: polySurface79 15
+    400538: polySurface79 16
+    400540: polySurface79 17
+    400542: polySurface79 18
+    400544: polySurface79 19
+    400546: polySurface79 2
+    400548: polySurface79 20
+    400550: polySurface79 21
+    400552: polySurface79 22
+    400554: polySurface79 23
+    400556: polySurface79 24
+    400558: polySurface79 25
+    400560: polySurface79 26
+    400562: polySurface79 27
+    400564: polySurface79 28
+    400566: polySurface79 29
+    400568: polySurface79 3
+    400570: polySurface79 30
+    400572: polySurface79 31
+    400574: polySurface79 32
+    400576: polySurface79 33
+    400578: polySurface79 34
+    400580: polySurface79 35
+    400582: polySurface79 36
+    400584: polySurface79 37
+    400586: polySurface79 38
+    400588: polySurface79 39
+    400590: polySurface79 4
+    400592: polySurface79 40
+    400594: polySurface79 41
+    400596: polySurface79 42
+    400598: polySurface79 43
+    400600: polySurface79 44
+    400602: polySurface79 45
+    400604: polySurface79 46
+    400606: polySurface79 47
+    400608: polySurface79 48
+    400610: polySurface79 49
+    400612: polySurface79 5
+    400614: polySurface79 50
+    400616: polySurface79 51
+    400618: polySurface79 52
+    400620: polySurface79 53
+    400622: polySurface79 54
+    400624: polySurface79 55
+    400626: polySurface79 56
+    400628: polySurface79 57
+    400630: polySurface79 58
+    400632: polySurface79 6
+    400634: polySurface79 7
+    400636: polySurface79 8
+    400638: polySurface79 9
+    400640: polySurface80
+    400642: polySurface80 1
+    400644: polySurface80 10
+    400646: polySurface80 11
+    400648: polySurface80 12
+    400650: polySurface80 13
+    400652: polySurface80 14
+    400654: polySurface80 15
+    400656: polySurface80 16
+    400658: polySurface80 17
+    400660: polySurface80 18
+    400662: polySurface80 19
+    400664: polySurface80 2
+    400666: polySurface80 20
+    400668: polySurface80 21
+    400670: polySurface80 22
+    400672: polySurface80 23
+    400674: polySurface80 24
+    400676: polySurface80 25
+    400678: polySurface80 26
+    400680: polySurface80 27
+    400682: polySurface80 28
+    400684: polySurface80 29
+    400686: polySurface80 3
+    400688: polySurface80 30
+    400690: polySurface80 31
+    400692: polySurface80 32
+    400694: polySurface80 33
+    400696: polySurface80 34
+    400698: polySurface80 35
+    400700: polySurface80 36
+    400702: polySurface80 37
+    400704: polySurface80 38
+    400706: polySurface80 39
+    400708: polySurface80 4
+    400710: polySurface80 40
+    400712: polySurface80 41
+    400714: polySurface80 42
+    400716: polySurface80 43
+    400718: polySurface80 44
+    400720: polySurface80 45
+    400722: polySurface80 46
+    400724: polySurface80 47
+    400726: polySurface80 48
+    400728: polySurface80 49
+    400730: polySurface80 5
+    400732: polySurface80 50
+    400734: polySurface80 51
+    400736: polySurface80 52
+    400738: polySurface80 53
+    400740: polySurface80 54
+    400742: polySurface80 55
+    400744: polySurface80 56
+    400746: polySurface80 57
+    400748: polySurface80 6
+    400750: polySurface80 7
+    400752: polySurface80 8
+    400754: polySurface80 9
+    400756: polySurface81
+    400758: polySurface81 1
+    400760: polySurface81 10
+    400762: polySurface81 11
+    400764: polySurface81 12
+    400766: polySurface81 13
+    400768: polySurface81 14
+    400770: polySurface81 15
+    400772: polySurface81 16
+    400774: polySurface81 17
+    400776: polySurface81 18
+    400778: polySurface81 19
+    400780: polySurface81 2
+    400782: polySurface81 20
+    400784: polySurface81 21
+    400786: polySurface81 22
+    400788: polySurface81 23
+    400790: polySurface81 24
+    400792: polySurface81 25
+    400794: polySurface81 26
+    400796: polySurface81 27
+    400798: polySurface81 28
+    400800: polySurface81 29
+    400802: polySurface81 3
+    400804: polySurface81 30
+    400806: polySurface81 31
+    400808: polySurface81 32
+    400810: polySurface81 33
+    400812: polySurface81 34
+    400814: polySurface81 35
+    400816: polySurface81 36
+    400818: polySurface81 37
+    400820: polySurface81 38
+    400822: polySurface81 39
+    400824: polySurface81 4
+    400826: polySurface81 40
+    400828: polySurface81 41
+    400830: polySurface81 42
+    400832: polySurface81 43
+    400834: polySurface81 44
+    400836: polySurface81 45
+    400838: polySurface81 46
+    400840: polySurface81 47
+    400842: polySurface81 48
+    400844: polySurface81 49
+    400846: polySurface81 5
+    400848: polySurface81 50
+    400850: polySurface81 51
+    400852: polySurface81 52
+    400854: polySurface81 53
+    400856: polySurface81 54
+    400858: polySurface81 55
+    400860: polySurface81 56
+    400862: polySurface81 57
+    400864: polySurface81 58
+    400866: polySurface81 6
+    400868: polySurface81 7
+    400870: polySurface81 8
+    400872: polySurface81 9
+    400874: polySurface82
+    400876: polySurface82 1
+    400878: polySurface82 10
+    400880: polySurface82 11
+    400882: polySurface82 12
+    400884: polySurface82 13
+    400886: polySurface82 14
+    400888: polySurface82 15
+    400890: polySurface82 16
+    400892: polySurface82 17
+    400894: polySurface82 18
+    400896: polySurface82 19
+    400898: polySurface82 2
+    400900: polySurface82 20
+    400902: polySurface82 21
+    400904: polySurface82 22
+    400906: polySurface82 23
+    400908: polySurface82 24
+    400910: polySurface82 25
+    400912: polySurface82 26
+    400914: polySurface82 27
+    400916: polySurface82 28
+    400918: polySurface82 29
+    400920: polySurface82 3
+    400922: polySurface82 30
+    400924: polySurface82 31
+    400926: polySurface82 32
+    400928: polySurface82 33
+    400930: polySurface82 34
+    400932: polySurface82 35
+    400934: polySurface82 36
+    400936: polySurface82 37
+    400938: polySurface82 38
+    400940: polySurface82 39
+    400942: polySurface82 4
+    400944: polySurface82 40
+    400946: polySurface82 41
+    400948: polySurface82 42
+    400950: polySurface82 43
+    400952: polySurface82 44
+    400954: polySurface82 45
+    400956: polySurface82 46
+    400958: polySurface82 47
+    400960: polySurface82 48
+    400962: polySurface82 49
+    400964: polySurface82 5
+    400966: polySurface82 50
+    400968: polySurface82 51
+    400970: polySurface82 52
+    400972: polySurface82 53
+    400974: polySurface82 54
+    400976: polySurface82 55
+    400978: polySurface82 56
+    400980: polySurface82 57
+    400982: polySurface82 58
+    400984: polySurface82 6
+    400986: polySurface82 7
+    400988: polySurface82 8
+    400990: polySurface82 9
+    400992: polySurface83
+    400994: polySurface84
+    400996: polySurface84 1
+    400998: polySurface84 10
+    401000: polySurface84 11
+    401002: polySurface84 12
+    401004: polySurface84 13
+    401006: polySurface84 14
+    401008: polySurface84 15
+    401010: polySurface84 16
+    401012: polySurface84 17
+    401014: polySurface84 18
+    401016: polySurface84 19
+    401018: polySurface84 2
+    401020: polySurface84 3
+    401022: polySurface84 4
+    401024: polySurface84 5
+    401026: polySurface84 6
+    401028: polySurface84 7
+    401030: polySurface84 8
+    401032: polySurface84 9
+    401034: polySurface85
+    401036: polySurface86
+    401038: polySurface87
+    401040: polySurface88
+    401042: polySurface89
+    401044: polySurface90
+    401046: polySurface91
+    401048: polySurface92
+    401050: polySurface92 1
+    401052: polySurface92 10
+    401054: polySurface92 11
+    401056: polySurface92 12
+    401058: polySurface92 13
+    401060: polySurface92 14
+    401062: polySurface92 15
+    401064: polySurface92 16
+    401066: polySurface92 17
+    401068: polySurface92 18
+    401070: polySurface92 19
+    401072: polySurface92 2
+    401074: polySurface92 20
+    401076: polySurface92 21
+    401078: polySurface92 22
+    401080: polySurface92 23
+    401082: polySurface92 24
+    401084: polySurface92 25
+    401086: polySurface92 26
+    401088: polySurface92 27
+    401090: polySurface92 28
+    401092: polySurface92 29
+    401094: polySurface92 3
+    401096: polySurface92 30
+    401098: polySurface92 31
+    401100: polySurface92 32
+    401102: polySurface92 33
+    401104: polySurface92 34
+    401106: polySurface92 35
+    401108: polySurface92 36
+    401110: polySurface92 37
+    401112: polySurface92 38
+    401114: polySurface92 39
+    401116: polySurface92 4
+    401118: polySurface92 40
+    401120: polySurface92 41
+    401122: polySurface92 42
+    401124: polySurface92 43
+    401126: polySurface92 44
+    401128: polySurface92 45
+    401130: polySurface92 46
+    401132: polySurface92 47
+    401134: polySurface92 48
+    401136: polySurface92 49
+    401138: polySurface92 5
+    401140: polySurface92 50
+    401142: polySurface92 51
+    401144: polySurface92 52
+    401146: polySurface92 53
+    401148: polySurface92 54
+    401150: polySurface92 55
+    401152: polySurface92 56
+    401154: polySurface92 57
+    401156: polySurface92 58
+    401158: polySurface92 59
+    401160: polySurface92 6
+    401162: polySurface92 60
+    401164: polySurface92 7
+    401166: polySurface92 8
+    401168: polySurface92 9
+    401170: polySurface93
+    401172: polySurface93 1
+    401174: polySurface93 10
+    401176: polySurface93 11
+    401178: polySurface93 2
+    401180: polySurface93 3
+    401182: polySurface93 4
+    401184: polySurface93 5
+    401186: polySurface93 6
+    401188: polySurface93 7
+    401190: polySurface93 8
+    401192: polySurface93 9
+    401194: polySurface94
+    401196: polySurface94 1
+    401198: polySurface94 10
+    401200: polySurface94 11
+    401202: polySurface94 2
+    401204: polySurface94 3
+    401206: polySurface94 4
+    401208: polySurface94 5
+    401210: polySurface94 6
+    401212: polySurface94 7
+    401214: polySurface94 8
+    401216: polySurface94 9
+    401218: polySurface95
+    401220: polySurface95 1
+    401222: polySurface95 10
+    401224: polySurface95 11
+    401226: polySurface95 2
+    401228: polySurface95 3
+    401230: polySurface95 4
+    401232: polySurface95 5
+    401234: polySurface95 6
+    401236: polySurface95 7
+    401238: polySurface95 8
+    401240: polySurface95 9
+    401242: polySurface96
+    401244: polySurface96 1
+    401246: polySurface96 10
+    401248: polySurface96 11
+    401250: polySurface96 2
+    401252: polySurface96 3
+    401254: polySurface96 4
+    401256: polySurface96 5
+    401258: polySurface96 6
+    401260: polySurface96 7
+    401262: polySurface96 8
+    401264: polySurface96 9
+    401266: polySurface97
+    401268: polySurface98
+    401270: polySurface99
+    401272: screenWall_010
+    401274: screenWall_010 1
+    401276: screenWall_010 2
+    401278: screenWall_011
+    401280: screenWall_012
+    401282: screenWall_013
+    401284: screenWall_014
+    401286: screenWall_015
+    401288: screenWall_016
+    401290: screenWall_017
+    401292: screenWall_018
+    401294: screenWall_019
+    401296: screenWall_020
+    401298: screenWall_021
+    401300: screenWall_022
+    401302: screenWall_023
+    401304: screenWall_06
+    401306: screenWall_07
+    401308: screenWall_07 1
+    401310: screenWall_07 2
+    401312: screenWall_08
+    401314: screenWall_08 1
+    401316: screenWall_08 2
+    401318: screenWall_09
+    401320: screenWall_09 1
+    401322: screenWall_09 2
+    401324: snakePillar1
+    401326: snakePillar10
+    401328: snakePillar11
+    401330: snakePillar12
+    401332: snakePillar13
+    401334: snakePillar14
+    401336: snakePillar15
+    401338: snakePillar16
+    401340: snakePillar23
+    401342: snakePillar24
+    401344: snakePillar6
+    401346: snakePillar9
+    401348: spikeTrap_01
+    2300000: Archway_01
+    2300002: Bamboocube1:polySurface1
+    2300004: Bamboocube1:polySurface78
+    2300006: Bamboocube1:polySurface79
+    2300008: Bamboocube1:polySurface80
+    2300010: Bamboocube1:polySurface81
+    2300012: Bamboocube1:polySurface82
+    2300014: flower_PL_02
+    2300016: Gateway:Archway_01
+    2300018: Lantern_00:pCylinder6
+    2300020: pCube30
+    2300022: pCube31
+    2300024: pCube33
+    2300026: pCube34
+    2300028: pCube35
+    2300030: pCube36
+    2300032: pCylinder10
+    2300034: pCylinder10 1
+    2300036: pCylinder11
+    2300038: pCylinder11 1
+    2300040: pCylinder12
+    2300042: pCylinder12 1
+    2300044: pCylinder13
+    2300046: pCylinder13 1
+    2300048: pCylinder14
+    2300050: pCylinder16
+    2300052: pCylinder17
+    2300054: pCylinder18
+    2300056: pCylinder19
+    2300058: pCylinder20
+    2300060: pCylinder21
+    2300062: pCylinder22
+    2300064: pCylinder23
+    2300066: pCylinder24
+    2300068: pCylinder25
+    2300070: pCylinder26
+    2300072: pCylinder27
+    2300074: pCylinder28
+    2300076: pCylinder29
+    2300078: pCylinder31
+    2300080: pCylinder32
+    2300082: pCylinder34
+    2300084: pCylinder35
+    2300086: pCylinder36
+    2300088: pCylinder37
+    2300090: pCylinder38
+    2300092: pCylinder39
+    2300094: pCylinder40
+    2300096: pCylinder41
+    2300098: pCylinder42
+    2300100: pCylinder43
+    2300102: pCylinder44
+    2300104: pCylinder45
+    2300106: pCylinder46
+    2300108: pCylinder47
+    2300110: pCylinder48
+    2300112: pCylinder49
+    2300114: pCylinder8
+    2300116: pCylinder9
+    2300118: pCylinder9 1
+    2300120: polySurface1
+    2300122: polySurface1 1
+    2300124: polySurface1 10
+    2300126: polySurface1 11
+    2300128: polySurface1 12
+    2300130: polySurface1 13
+    2300132: polySurface1 14
+    2300134: polySurface1 15
+    2300136: polySurface1 16
+    2300138: polySurface1 17
+    2300140: polySurface1 18
+    2300142: polySurface1 19
+    2300144: polySurface1 2
+    2300146: polySurface1 3
+    2300148: polySurface1 4
+    2300150: polySurface1 5
+    2300152: polySurface1 6
+    2300154: polySurface1 7
+    2300156: polySurface1 8
+    2300158: polySurface1 9
+    2300160: polySurface100
+    2300162: polySurface101
+    2300164: polySurface102
+    2300166: polySurface103
+    2300168: polySurface104
+    2300170: polySurface105
+    2300172: polySurface106
+    2300174: polySurface107
+    2300176: polySurface169
+    2300178: polySurface183
+    2300180: polySurface183 1
+    2300182: polySurface184
+    2300184: polySurface184 1
+    2300186: polySurface185
+    2300188: polySurface185 1
+    2300190: polySurface186
+    2300192: polySurface191
+    2300194: polySurface191 1
+    2300196: polySurface192
+    2300198: polySurface192 1
+    2300200: polySurface193
+    2300202: polySurface194
+    2300204: polySurface195
+    2300206: polySurface196
+    2300208: polySurface198
+    2300210: polySurface199
+    2300212: polySurface200
+    2300214: polySurface200 1
+    2300216: polySurface201
+    2300218: polySurface202
+    2300220: polySurface202 1
+    2300222: polySurface203
+    2300224: polySurface203 1
+    2300226: polySurface204
+    2300228: polySurface204 1
+    2300230: polySurface205
+    2300232: polySurface205 1
+    2300234: polySurface206
+    2300236: polySurface206 1
+    2300238: polySurface207
+    2300240: polySurface207 1
+    2300242: polySurface208
+    2300244: polySurface209
+    2300246: polySurface210
+    2300248: polySurface211
+    2300250: polySurface212
+    2300252: polySurface213
+    2300254: polySurface214
+    2300256: polySurface215
+    2300258: polySurface216
+    2300260: polySurface217
+    2300262: polySurface218
+    2300264: polySurface219
+    2300266: polySurface220
+    2300268: polySurface221
+    2300270: polySurface222
+    2300272: polySurface223
+    2300274: polySurface224
+    2300276: polySurface225
+    2300278: polySurface226
+    2300280: polySurface227
+    2300282: polySurface228
+    2300284: polySurface229
+    2300286: polySurface230
+    2300288: polySurface231
+    2300290: polySurface232
+    2300292: polySurface233
+    2300294: polySurface234
+    2300296: polySurface235
+    2300298: polySurface236
+    2300300: polySurface237
+    2300302: polySurface238
+    2300304: polySurface239
+    2300306: polySurface240
+    2300308: polySurface241
+    2300310: polySurface242
+    2300312: polySurface243
+    2300314: polySurface244
+    2300316: polySurface245
+    2300318: polySurface246
+    2300320: polySurface247
+    2300322: polySurface248
+    2300324: polySurface78
+    2300326: polySurface78 1
+    2300328: polySurface78 10
+    2300330: polySurface78 11
+    2300332: polySurface78 12
+    2300334: polySurface78 13
+    2300336: polySurface78 14
+    2300338: polySurface78 15
+    2300340: polySurface78 16
+    2300342: polySurface78 17
+    2300344: polySurface78 18
+    2300346: polySurface78 19
+    2300348: polySurface78 2
+    2300350: polySurface78 20
+    2300352: polySurface78 21
+    2300354: polySurface78 22
+    2300356: polySurface78 23
+    2300358: polySurface78 24
+    2300360: polySurface78 25
+    2300362: polySurface78 26
+    2300364: polySurface78 27
+    2300366: polySurface78 28
+    2300368: polySurface78 29
+    2300370: polySurface78 3
+    2300372: polySurface78 30
+    2300374: polySurface78 31
+    2300376: polySurface78 32
+    2300378: polySurface78 33
+    2300380: polySurface78 34
+    2300382: polySurface78 35
+    2300384: polySurface78 36
+    2300386: polySurface78 37
+    2300388: polySurface78 38
+    2300390: polySurface78 39
+    2300392: polySurface78 4
+    2300394: polySurface78 40
+    2300396: polySurface78 41
+    2300398: polySurface78 42
+    2300400: polySurface78 43
+    2300402: polySurface78 44
+    2300404: polySurface78 45
+    2300406: polySurface78 46
+    2300408: polySurface78 47
+    2300410: polySurface78 48
+    2300412: polySurface78 49
+    2300414: polySurface78 5
+    2300416: polySurface78 50
+    2300418: polySurface78 51
+    2300420: polySurface78 52
+    2300422: polySurface78 53
+    2300424: polySurface78 54
+    2300426: polySurface78 55
+    2300428: polySurface78 56
+    2300430: polySurface78 57
+    2300432: polySurface78 58
+    2300434: polySurface78 59
+    2300436: polySurface78 6
+    2300438: polySurface78 60
+    2300440: polySurface78 61
+    2300442: polySurface78 62
+    2300444: polySurface78 63
+    2300446: polySurface78 64
+    2300448: polySurface78 65
+    2300450: polySurface78 66
+    2300452: polySurface78 67
+    2300454: polySurface78 68
+    2300456: polySurface78 69
+    2300458: polySurface78 7
+    2300460: polySurface78 70
+    2300462: polySurface78 71
+    2300464: polySurface78 72
+    2300466: polySurface78 73
+    2300468: polySurface78 74
+    2300470: polySurface78 75
+    2300472: polySurface78 76
+    2300474: polySurface78 77
+    2300476: polySurface78 78
+    2300478: polySurface78 79
+    2300480: polySurface78 8
+    2300482: polySurface78 80
+    2300484: polySurface78 81
+    2300486: polySurface78 82
+    2300488: polySurface78 83
+    2300490: polySurface78 84
+    2300492: polySurface78 85
+    2300494: polySurface78 86
+    2300496: polySurface78 87
+    2300498: polySurface78 88
+    2300500: polySurface78 89
+    2300502: polySurface78 9
+    2300504: polySurface78 90
+    2300506: polySurface78 91
+    2300508: polySurface78 92
+    2300510: polySurface78 93
+    2300512: polySurface78 94
+    2300514: polySurface78 95
+    2300516: polySurface78 96
+    2300518: polySurface79
+    2300520: polySurface79 1
+    2300522: polySurface79 10
+    2300524: polySurface79 11
+    2300526: polySurface79 12
+    2300528: polySurface79 13
+    2300530: polySurface79 14
+    2300532: polySurface79 15
+    2300534: polySurface79 16
+    2300536: polySurface79 17
+    2300538: polySurface79 18
+    2300540: polySurface79 19
+    2300542: polySurface79 2
+    2300544: polySurface79 20
+    2300546: polySurface79 21
+    2300548: polySurface79 22
+    2300550: polySurface79 23
+    2300552: polySurface79 24
+    2300554: polySurface79 25
+    2300556: polySurface79 26
+    2300558: polySurface79 27
+    2300560: polySurface79 28
+    2300562: polySurface79 29
+    2300564: polySurface79 3
+    2300566: polySurface79 30
+    2300568: polySurface79 31
+    2300570: polySurface79 32
+    2300572: polySurface79 33
+    2300574: polySurface79 34
+    2300576: polySurface79 35
+    2300578: polySurface79 36
+    2300580: polySurface79 37
+    2300582: polySurface79 38
+    2300584: polySurface79 39
+    2300586: polySurface79 4
+    2300588: polySurface79 40
+    2300590: polySurface79 41
+    2300592: polySurface79 42
+    2300594: polySurface79 43
+    2300596: polySurface79 44
+    2300598: polySurface79 45
+    2300600: polySurface79 46
+    2300602: polySurface79 47
+    2300604: polySurface79 48
+    2300606: polySurface79 49
+    2300608: polySurface79 5
+    2300610: polySurface79 50
+    2300612: polySurface79 51
+    2300614: polySurface79 52
+    2300616: polySurface79 53
+    2300618: polySurface79 54
+    2300620: polySurface79 55
+    2300622: polySurface79 56
+    2300624: polySurface79 57
+    2300626: polySurface79 58
+    2300628: polySurface79 6
+    2300630: polySurface79 7
+    2300632: polySurface79 8
+    2300634: polySurface79 9
+    2300636: polySurface80
+    2300638: polySurface80 1
+    2300640: polySurface80 10
+    2300642: polySurface80 11
+    2300644: polySurface80 12
+    2300646: polySurface80 13
+    2300648: polySurface80 14
+    2300650: polySurface80 15
+    2300652: polySurface80 16
+    2300654: polySurface80 17
+    2300656: polySurface80 18
+    2300658: polySurface80 19
+    2300660: polySurface80 2
+    2300662: polySurface80 20
+    2300664: polySurface80 21
+    2300666: polySurface80 22
+    2300668: polySurface80 23
+    2300670: polySurface80 24
+    2300672: polySurface80 25
+    2300674: polySurface80 26
+    2300676: polySurface80 27
+    2300678: polySurface80 28
+    2300680: polySurface80 29
+    2300682: polySurface80 3
+    2300684: polySurface80 30
+    2300686: polySurface80 31
+    2300688: polySurface80 32
+    2300690: polySurface80 33
+    2300692: polySurface80 34
+    2300694: polySurface80 35
+    2300696: polySurface80 36
+    2300698: polySurface80 37
+    2300700: polySurface80 38
+    2300702: polySurface80 39
+    2300704: polySurface80 4
+    2300706: polySurface80 40
+    2300708: polySurface80 41
+    2300710: polySurface80 42
+    2300712: polySurface80 43
+    2300714: polySurface80 44
+    2300716: polySurface80 45
+    2300718: polySurface80 46
+    2300720: polySurface80 47
+    2300722: polySurface80 48
+    2300724: polySurface80 49
+    2300726: polySurface80 5
+    2300728: polySurface80 50
+    2300730: polySurface80 51
+    2300732: polySurface80 52
+    2300734: polySurface80 53
+    2300736: polySurface80 54
+    2300738: polySurface80 55
+    2300740: polySurface80 56
+    2300742: polySurface80 57
+    2300744: polySurface80 6
+    2300746: polySurface80 7
+    2300748: polySurface80 8
+    2300750: polySurface80 9
+    2300752: polySurface81
+    2300754: polySurface81 1
+    2300756: polySurface81 10
+    2300758: polySurface81 11
+    2300760: polySurface81 12
+    2300762: polySurface81 13
+    2300764: polySurface81 14
+    2300766: polySurface81 15
+    2300768: polySurface81 16
+    2300770: polySurface81 17
+    2300772: polySurface81 18
+    2300774: polySurface81 19
+    2300776: polySurface81 2
+    2300778: polySurface81 20
+    2300780: polySurface81 21
+    2300782: polySurface81 22
+    2300784: polySurface81 23
+    2300786: polySurface81 24
+    2300788: polySurface81 25
+    2300790: polySurface81 26
+    2300792: polySurface81 27
+    2300794: polySurface81 28
+    2300796: polySurface81 29
+    2300798: polySurface81 3
+    2300800: polySurface81 30
+    2300802: polySurface81 31
+    2300804: polySurface81 32
+    2300806: polySurface81 33
+    2300808: polySurface81 34
+    2300810: polySurface81 35
+    2300812: polySurface81 36
+    2300814: polySurface81 37
+    2300816: polySurface81 38
+    2300818: polySurface81 39
+    2300820: polySurface81 4
+    2300822: polySurface81 40
+    2300824: polySurface81 41
+    2300826: polySurface81 42
+    2300828: polySurface81 43
+    2300830: polySurface81 44
+    2300832: polySurface81 45
+    2300834: polySurface81 46
+    2300836: polySurface81 47
+    2300838: polySurface81 48
+    2300840: polySurface81 49
+    2300842: polySurface81 5
+    2300844: polySurface81 50
+    2300846: polySurface81 51
+    2300848: polySurface81 52
+    2300850: polySurface81 53
+    2300852: polySurface81 54
+    2300854: polySurface81 55
+    2300856: polySurface81 56
+    2300858: polySurface81 57
+    2300860: polySurface81 58
+    2300862: polySurface81 6
+    2300864: polySurface81 7
+    2300866: polySurface81 8
+    2300868: polySurface81 9
+    2300870: polySurface82
+    2300872: polySurface82 1
+    2300874: polySurface82 10
+    2300876: polySurface82 11
+    2300878: polySurface82 12
+    2300880: polySurface82 13
+    2300882: polySurface82 14
+    2300884: polySurface82 15
+    2300886: polySurface82 16
+    2300888: polySurface82 17
+    2300890: polySurface82 18
+    2300892: polySurface82 19
+    2300894: polySurface82 2
+    2300896: polySurface82 20
+    2300898: polySurface82 21
+    2300900: polySurface82 22
+    2300902: polySurface82 23
+    2300904: polySurface82 24
+    2300906: polySurface82 25
+    2300908: polySurface82 26
+    2300910: polySurface82 27
+    2300912: polySurface82 28
+    2300914: polySurface82 29
+    2300916: polySurface82 3
+    2300918: polySurface82 30
+    2300920: polySurface82 31
+    2300922: polySurface82 32
+    2300924: polySurface82 33
+    2300926: polySurface82 34
+    2300928: polySurface82 35
+    2300930: polySurface82 36
+    2300932: polySurface82 37
+    2300934: polySurface82 38
+    2300936: polySurface82 39
+    2300938: polySurface82 4
+    2300940: polySurface82 40
+    2300942: polySurface82 41
+    2300944: polySurface82 42
+    2300946: polySurface82 43
+    2300948: polySurface82 44
+    2300950: polySurface82 45
+    2300952: polySurface82 46
+    2300954: polySurface82 47
+    2300956: polySurface82 48
+    2300958: polySurface82 49
+    2300960: polySurface82 5
+    2300962: polySurface82 50
+    2300964: polySurface82 51
+    2300966: polySurface82 52
+    2300968: polySurface82 53
+    2300970: polySurface82 54
+    2300972: polySurface82 55
+    2300974: polySurface82 56
+    2300976: polySurface82 57
+    2300978: polySurface82 58
+    2300980: polySurface82 6
+    2300982: polySurface82 7
+    2300984: polySurface82 8
+    2300986: polySurface82 9
+    2300988: polySurface83
+    2300990: polySurface84
+    2300992: polySurface84 1
+    2300994: polySurface84 10
+    2300996: polySurface84 11
+    2300998: polySurface84 12
+    2301000: polySurface84 13
+    2301002: polySurface84 14
+    2301004: polySurface84 15
+    2301006: polySurface84 16
+    2301008: polySurface84 17
+    2301010: polySurface84 18
+    2301012: polySurface84 19
+    2301014: polySurface84 2
+    2301016: polySurface84 3
+    2301018: polySurface84 4
+    2301020: polySurface84 5
+    2301022: polySurface84 6
+    2301024: polySurface84 7
+    2301026: polySurface84 8
+    2301028: polySurface84 9
+    2301030: polySurface85
+    2301032: polySurface86
+    2301034: polySurface87
+    2301036: polySurface88
+    2301038: polySurface89
+    2301040: polySurface90
+    2301042: polySurface91
+    2301044: polySurface92
+    2301046: polySurface92 1
+    2301048: polySurface92 10
+    2301050: polySurface92 11
+    2301052: polySurface92 12
+    2301054: polySurface92 13
+    2301056: polySurface92 14
+    2301058: polySurface92 15
+    2301060: polySurface92 16
+    2301062: polySurface92 17
+    2301064: polySurface92 18
+    2301066: polySurface92 19
+    2301068: polySurface92 2
+    2301070: polySurface92 20
+    2301072: polySurface92 21
+    2301074: polySurface92 22
+    2301076: polySurface92 23
+    2301078: polySurface92 24
+    2301080: polySurface92 25
+    2301082: polySurface92 26
+    2301084: polySurface92 27
+    2301086: polySurface92 28
+    2301088: polySurface92 29
+    2301090: polySurface92 3
+    2301092: polySurface92 30
+    2301094: polySurface92 31
+    2301096: polySurface92 32
+    2301098: polySurface92 33
+    2301100: polySurface92 34
+    2301102: polySurface92 35
+    2301104: polySurface92 36
+    2301106: polySurface92 37
+    2301108: polySurface92 38
+    2301110: polySurface92 39
+    2301112: polySurface92 4
+    2301114: polySurface92 40
+    2301116: polySurface92 41
+    2301118: polySurface92 42
+    2301120: polySurface92 43
+    2301122: polySurface92 44
+    2301124: polySurface92 45
+    2301126: polySurface92 46
+    2301128: polySurface92 47
+    2301130: polySurface92 48
+    2301132: polySurface92 49
+    2301134: polySurface92 5
+    2301136: polySurface92 50
+    2301138: polySurface92 51
+    2301140: polySurface92 52
+    2301142: polySurface92 53
+    2301144: polySurface92 54
+    2301146: polySurface92 55
+    2301148: polySurface92 56
+    2301150: polySurface92 57
+    2301152: polySurface92 58
+    2301154: polySurface92 59
+    2301156: polySurface92 6
+    2301158: polySurface92 60
+    2301160: polySurface92 7
+    2301162: polySurface92 8
+    2301164: polySurface92 9
+    2301166: polySurface93
+    2301168: polySurface93 1
+    2301170: polySurface93 10
+    2301172: polySurface93 11
+    2301174: polySurface93 2
+    2301176: polySurface93 3
+    2301178: polySurface93 4
+    2301180: polySurface93 5
+    2301182: polySurface93 6
+    2301184: polySurface93 7
+    2301186: polySurface93 8
+    2301188: polySurface93 9
+    2301190: polySurface94
+    2301192: polySurface94 1
+    2301194: polySurface94 10
+    2301196: polySurface94 11
+    2301198: polySurface94 2
+    2301200: polySurface94 3
+    2301202: polySurface94 4
+    2301204: polySurface94 5
+    2301206: polySurface94 6
+    2301208: polySurface94 7
+    2301210: polySurface94 8
+    2301212: polySurface94 9
+    2301214: polySurface95
+    2301216: polySurface95 1
+    2301218: polySurface95 10
+    2301220: polySurface95 11
+    2301222: polySurface95 2
+    2301224: polySurface95 3
+    2301226: polySurface95 4
+    2301228: polySurface95 5
+    2301230: polySurface95 6
+    2301232: polySurface95 7
+    2301234: polySurface95 8
+    2301236: polySurface95 9
+    2301238: polySurface96
+    2301240: polySurface96 1
+    2301242: polySurface96 10
+    2301244: polySurface96 11
+    2301246: polySurface96 2
+    2301248: polySurface96 3
+    2301250: polySurface96 4
+    2301252: polySurface96 5
+    2301254: polySurface96 6
+    2301256: polySurface96 7
+    2301258: polySurface96 8
+    2301260: polySurface96 9
+    2301262: polySurface97
+    2301264: polySurface98
+    2301266: polySurface99
+    2301268: screenWall_010
+    2301270: screenWall_010 1
+    2301272: screenWall_010 2
+    2301274: screenWall_011
+    2301276: screenWall_014
+    2301278: screenWall_015
+    2301280: screenWall_016
+    2301282: screenWall_017
+    2301284: screenWall_018
+    2301286: screenWall_019
+    2301288: screenWall_020
+    2301290: screenWall_021
+    2301292: screenWall_022
+    2301294: screenWall_023
+    2301296: screenWall_06
+    2301298: screenWall_07
+    2301300: screenWall_07 1
+    2301302: screenWall_07 2
+    2301304: screenWall_08
+    2301306: screenWall_08 1
+    2301308: screenWall_08 2
+    2301310: screenWall_09
+    2301312: screenWall_09 1
+    2301314: screenWall_09 2
+    2301316: snakePillar1
+    2301318: snakePillar10
+    2301320: snakePillar11
+    2301322: snakePillar12
+    2301324: snakePillar13
+    2301326: snakePillar14
+    2301328: snakePillar15
+    2301330: snakePillar16
+    2301332: snakePillar23
+    2301334: snakePillar24
+    2301336: snakePillar6
+    2301338: snakePillar9
+    3300000: Archway_01
+    3300002: Bamboocube1:polySurface1
+    3300004: Bamboocube1:polySurface78
+    3300006: Bamboocube1:polySurface79
+    3300008: Bamboocube1:polySurface80
+    3300010: Bamboocube1:polySurface81
+    3300012: Bamboocube1:polySurface82
+    3300014: flower_PL_02
+    3300016: Gateway:Archway_01
+    3300018: Lantern_00:pCylinder6
+    3300020: pCube30
+    3300022: pCube31
+    3300024: pCube33
+    3300026: pCube34
+    3300028: pCube35
+    3300030: pCube36
+    3300032: pCylinder10
+    3300034: pCylinder10 1
+    3300036: pCylinder11
+    3300038: pCylinder11 1
+    3300040: pCylinder12
+    3300042: pCylinder12 1
+    3300044: pCylinder13
+    3300046: pCylinder13 1
+    3300048: pCylinder14
+    3300050: pCylinder16
+    3300052: pCylinder17
+    3300054: pCylinder18
+    3300056: pCylinder19
+    3300058: pCylinder20
+    3300060: pCylinder21
+    3300062: pCylinder22
+    3300064: pCylinder23
+    3300066: pCylinder24
+    3300068: pCylinder25
+    3300070: pCylinder26
+    3300072: pCylinder27
+    3300074: pCylinder28
+    3300076: pCylinder29
+    3300078: pCylinder31
+    3300080: pCylinder32
+    3300082: pCylinder34
+    3300084: pCylinder35
+    3300086: pCylinder36
+    3300088: pCylinder37
+    3300090: pCylinder38
+    3300092: pCylinder39
+    3300094: pCylinder40
+    3300096: pCylinder41
+    3300098: pCylinder42
+    3300100: pCylinder43
+    3300102: pCylinder44
+    3300104: pCylinder45
+    3300106: pCylinder46
+    3300108: pCylinder47
+    3300110: pCylinder48
+    3300112: pCylinder49
+    3300114: pCylinder8
+    3300116: pCylinder9
+    3300118: pCylinder9 1
+    3300120: polySurface1
+    3300122: polySurface1 1
+    3300124: polySurface1 10
+    3300126: polySurface1 11
+    3300128: polySurface1 12
+    3300130: polySurface1 13
+    3300132: polySurface1 14
+    3300134: polySurface1 15
+    3300136: polySurface1 16
+    3300138: polySurface1 17
+    3300140: polySurface1 18
+    3300142: polySurface1 19
+    3300144: polySurface1 2
+    3300146: polySurface1 3
+    3300148: polySurface1 4
+    3300150: polySurface1 5
+    3300152: polySurface1 6
+    3300154: polySurface1 7
+    3300156: polySurface1 8
+    3300158: polySurface1 9
+    3300160: polySurface100
+    3300162: polySurface101
+    3300164: polySurface102
+    3300166: polySurface103
+    3300168: polySurface104
+    3300170: polySurface105
+    3300172: polySurface106
+    3300174: polySurface107
+    3300176: polySurface169
+    3300178: polySurface183
+    3300180: polySurface183 1
+    3300182: polySurface184
+    3300184: polySurface184 1
+    3300186: polySurface185
+    3300188: polySurface185 1
+    3300190: polySurface186
+    3300192: polySurface191
+    3300194: polySurface191 1
+    3300196: polySurface192
+    3300198: polySurface192 1
+    3300200: polySurface193
+    3300202: polySurface194
+    3300204: polySurface195
+    3300206: polySurface196
+    3300208: polySurface198
+    3300210: polySurface199
+    3300212: polySurface200
+    3300214: polySurface200 1
+    3300216: polySurface201
+    3300218: polySurface202
+    3300220: polySurface202 1
+    3300222: polySurface203
+    3300224: polySurface203 1
+    3300226: polySurface204
+    3300228: polySurface204 1
+    3300230: polySurface205
+    3300232: polySurface205 1
+    3300234: polySurface206
+    3300236: polySurface206 1
+    3300238: polySurface207
+    3300240: polySurface207 1
+    3300242: polySurface208
+    3300244: polySurface209
+    3300246: polySurface210
+    3300248: polySurface211
+    3300250: polySurface212
+    3300252: polySurface213
+    3300254: polySurface214
+    3300256: polySurface215
+    3300258: polySurface216
+    3300260: polySurface217
+    3300262: polySurface218
+    3300264: polySurface219
+    3300266: polySurface220
+    3300268: polySurface221
+    3300270: polySurface222
+    3300272: polySurface223
+    3300274: polySurface224
+    3300276: polySurface225
+    3300278: polySurface226
+    3300280: polySurface227
+    3300282: polySurface228
+    3300284: polySurface229
+    3300286: polySurface230
+    3300288: polySurface231
+    3300290: polySurface232
+    3300292: polySurface233
+    3300294: polySurface234
+    3300296: polySurface235
+    3300298: polySurface236
+    3300300: polySurface237
+    3300302: polySurface238
+    3300304: polySurface239
+    3300306: polySurface240
+    3300308: polySurface241
+    3300310: polySurface242
+    3300312: polySurface243
+    3300314: polySurface244
+    3300316: polySurface245
+    3300318: polySurface246
+    3300320: polySurface247
+    3300322: polySurface248
+    3300324: polySurface78
+    3300326: polySurface78 1
+    3300328: polySurface78 10
+    3300330: polySurface78 11
+    3300332: polySurface78 12
+    3300334: polySurface78 13
+    3300336: polySurface78 14
+    3300338: polySurface78 15
+    3300340: polySurface78 16
+    3300342: polySurface78 17
+    3300344: polySurface78 18
+    3300346: polySurface78 19
+    3300348: polySurface78 2
+    3300350: polySurface78 20
+    3300352: polySurface78 21
+    3300354: polySurface78 22
+    3300356: polySurface78 23
+    3300358: polySurface78 24
+    3300360: polySurface78 25
+    3300362: polySurface78 26
+    3300364: polySurface78 27
+    3300366: polySurface78 28
+    3300368: polySurface78 29
+    3300370: polySurface78 3
+    3300372: polySurface78 30
+    3300374: polySurface78 31
+    3300376: polySurface78 32
+    3300378: polySurface78 33
+    3300380: polySurface78 34
+    3300382: polySurface78 35
+    3300384: polySurface78 36
+    3300386: polySurface78 37
+    3300388: polySurface78 38
+    3300390: polySurface78 39
+    3300392: polySurface78 4
+    3300394: polySurface78 40
+    3300396: polySurface78 41
+    3300398: polySurface78 42
+    3300400: polySurface78 43
+    3300402: polySurface78 44
+    3300404: polySurface78 45
+    3300406: polySurface78 46
+    3300408: polySurface78 47
+    3300410: polySurface78 48
+    3300412: polySurface78 49
+    3300414: polySurface78 5
+    3300416: polySurface78 50
+    3300418: polySurface78 51
+    3300420: polySurface78 52
+    3300422: polySurface78 53
+    3300424: polySurface78 54
+    3300426: polySurface78 55
+    3300428: polySurface78 56
+    3300430: polySurface78 57
+    3300432: polySurface78 58
+    3300434: polySurface78 59
+    3300436: polySurface78 6
+    3300438: polySurface78 60
+    3300440: polySurface78 61
+    3300442: polySurface78 62
+    3300444: polySurface78 63
+    3300446: polySurface78 64
+    3300448: polySurface78 65
+    3300450: polySurface78 66
+    3300452: polySurface78 67
+    3300454: polySurface78 68
+    3300456: polySurface78 69
+    3300458: polySurface78 7
+    3300460: polySurface78 70
+    3300462: polySurface78 71
+    3300464: polySurface78 72
+    3300466: polySurface78 73
+    3300468: polySurface78 74
+    3300470: polySurface78 75
+    3300472: polySurface78 76
+    3300474: polySurface78 77
+    3300476: polySurface78 78
+    3300478: polySurface78 79
+    3300480: polySurface78 8
+    3300482: polySurface78 80
+    3300484: polySurface78 81
+    3300486: polySurface78 82
+    3300488: polySurface78 83
+    3300490: polySurface78 84
+    3300492: polySurface78 85
+    3300494: polySurface78 86
+    3300496: polySurface78 87
+    3300498: polySurface78 88
+    3300500: polySurface78 89
+    3300502: polySurface78 9
+    3300504: polySurface78 90
+    3300506: polySurface78 91
+    3300508: polySurface78 92
+    3300510: polySurface78 93
+    3300512: polySurface78 94
+    3300514: polySurface78 95
+    3300516: polySurface78 96
+    3300518: polySurface79
+    3300520: polySurface79 1
+    3300522: polySurface79 10
+    3300524: polySurface79 11
+    3300526: polySurface79 12
+    3300528: polySurface79 13
+    3300530: polySurface79 14
+    3300532: polySurface79 15
+    3300534: polySurface79 16
+    3300536: polySurface79 17
+    3300538: polySurface79 18
+    3300540: polySurface79 19
+    3300542: polySurface79 2
+    3300544: polySurface79 20
+    3300546: polySurface79 21
+    3300548: polySurface79 22
+    3300550: polySurface79 23
+    3300552: polySurface79 24
+    3300554: polySurface79 25
+    3300556: polySurface79 26
+    3300558: polySurface79 27
+    3300560: polySurface79 28
+    3300562: polySurface79 29
+    3300564: polySurface79 3
+    3300566: polySurface79 30
+    3300568: polySurface79 31
+    3300570: polySurface79 32
+    3300572: polySurface79 33
+    3300574: polySurface79 34
+    3300576: polySurface79 35
+    3300578: polySurface79 36
+    3300580: polySurface79 37
+    3300582: polySurface79 38
+    3300584: polySurface79 39
+    3300586: polySurface79 4
+    3300588: polySurface79 40
+    3300590: polySurface79 41
+    3300592: polySurface79 42
+    3300594: polySurface79 43
+    3300596: polySurface79 44
+    3300598: polySurface79 45
+    3300600: polySurface79 46
+    3300602: polySurface79 47
+    3300604: polySurface79 48
+    3300606: polySurface79 49
+    3300608: polySurface79 5
+    3300610: polySurface79 50
+    3300612: polySurface79 51
+    3300614: polySurface79 52
+    3300616: polySurface79 53
+    3300618: polySurface79 54
+    3300620: polySurface79 55
+    3300622: polySurface79 56
+    3300624: polySurface79 57
+    3300626: polySurface79 58
+    3300628: polySurface79 6
+    3300630: polySurface79 7
+    3300632: polySurface79 8
+    3300634: polySurface79 9
+    3300636: polySurface80
+    3300638: polySurface80 1
+    3300640: polySurface80 10
+    3300642: polySurface80 11
+    3300644: polySurface80 12
+    3300646: polySurface80 13
+    3300648: polySurface80 14
+    3300650: polySurface80 15
+    3300652: polySurface80 16
+    3300654: polySurface80 17
+    3300656: polySurface80 18
+    3300658: polySurface80 19
+    3300660: polySurface80 2
+    3300662: polySurface80 20
+    3300664: polySurface80 21
+    3300666: polySurface80 22
+    3300668: polySurface80 23
+    3300670: polySurface80 24
+    3300672: polySurface80 25
+    3300674: polySurface80 26
+    3300676: polySurface80 27
+    3300678: polySurface80 28
+    3300680: polySurface80 29
+    3300682: polySurface80 3
+    3300684: polySurface80 30
+    3300686: polySurface80 31
+    3300688: polySurface80 32
+    3300690: polySurface80 33
+    3300692: polySurface80 34
+    3300694: polySurface80 35
+    3300696: polySurface80 36
+    3300698: polySurface80 37
+    3300700: polySurface80 38
+    3300702: polySurface80 39
+    3300704: polySurface80 4
+    3300706: polySurface80 40
+    3300708: polySurface80 41
+    3300710: polySurface80 42
+    3300712: polySurface80 43
+    3300714: polySurface80 44
+    3300716: polySurface80 45
+    3300718: polySurface80 46
+    3300720: polySurface80 47
+    3300722: polySurface80 48
+    3300724: polySurface80 49
+    3300726: polySurface80 5
+    3300728: polySurface80 50
+    3300730: polySurface80 51
+    3300732: polySurface80 52
+    3300734: polySurface80 53
+    3300736: polySurface80 54
+    3300738: polySurface80 55
+    3300740: polySurface80 56
+    3300742: polySurface80 57
+    3300744: polySurface80 6
+    3300746: polySurface80 7
+    3300748: polySurface80 8
+    3300750: polySurface80 9
+    3300752: polySurface81
+    3300754: polySurface81 1
+    3300756: polySurface81 10
+    3300758: polySurface81 11
+    3300760: polySurface81 12
+    3300762: polySurface81 13
+    3300764: polySurface81 14
+    3300766: polySurface81 15
+    3300768: polySurface81 16
+    3300770: polySurface81 17
+    3300772: polySurface81 18
+    3300774: polySurface81 19
+    3300776: polySurface81 2
+    3300778: polySurface81 20
+    3300780: polySurface81 21
+    3300782: polySurface81 22
+    3300784: polySurface81 23
+    3300786: polySurface81 24
+    3300788: polySurface81 25
+    3300790: polySurface81 26
+    3300792: polySurface81 27
+    3300794: polySurface81 28
+    3300796: polySurface81 29
+    3300798: polySurface81 3
+    3300800: polySurface81 30
+    3300802: polySurface81 31
+    3300804: polySurface81 32
+    3300806: polySurface81 33
+    3300808: polySurface81 34
+    3300810: polySurface81 35
+    3300812: polySurface81 36
+    3300814: polySurface81 37
+    3300816: polySurface81 38
+    3300818: polySurface81 39
+    3300820: polySurface81 4
+    3300822: polySurface81 40
+    3300824: polySurface81 41
+    3300826: polySurface81 42
+    3300828: polySurface81 43
+    3300830: polySurface81 44
+    3300832: polySurface81 45
+    3300834: polySurface81 46
+    3300836: polySurface81 47
+    3300838: polySurface81 48
+    3300840: polySurface81 49
+    3300842: polySurface81 5
+    3300844: polySurface81 50
+    3300846: polySurface81 51
+    3300848: polySurface81 52
+    3300850: polySurface81 53
+    3300852: polySurface81 54
+    3300854: polySurface81 55
+    3300856: polySurface81 56
+    3300858: polySurface81 57
+    3300860: polySurface81 58
+    3300862: polySurface81 6
+    3300864: polySurface81 7
+    3300866: polySurface81 8
+    3300868: polySurface81 9
+    3300870: polySurface82
+    3300872: polySurface82 1
+    3300874: polySurface82 10
+    3300876: polySurface82 11
+    3300878: polySurface82 12
+    3300880: polySurface82 13
+    3300882: polySurface82 14
+    3300884: polySurface82 15
+    3300886: polySurface82 16
+    3300888: polySurface82 17
+    3300890: polySurface82 18
+    3300892: polySurface82 19
+    3300894: polySurface82 2
+    3300896: polySurface82 20
+    3300898: polySurface82 21
+    3300900: polySurface82 22
+    3300902: polySurface82 23
+    3300904: polySurface82 24
+    3300906: polySurface82 25
+    3300908: polySurface82 26
+    3300910: polySurface82 27
+    3300912: polySurface82 28
+    3300914: polySurface82 29
+    3300916: polySurface82 3
+    3300918: polySurface82 30
+    3300920: polySurface82 31
+    3300922: polySurface82 32
+    3300924: polySurface82 33
+    3300926: polySurface82 34
+    3300928: polySurface82 35
+    3300930: polySurface82 36
+    3300932: polySurface82 37
+    3300934: polySurface82 38
+    3300936: polySurface82 39
+    3300938: polySurface82 4
+    3300940: polySurface82 40
+    3300942: polySurface82 41
+    3300944: polySurface82 42
+    3300946: polySurface82 43
+    3300948: polySurface82 44
+    3300950: polySurface82 45
+    3300952: polySurface82 46
+    3300954: polySurface82 47
+    3300956: polySurface82 48
+    3300958: polySurface82 49
+    3300960: polySurface82 5
+    3300962: polySurface82 50
+    3300964: polySurface82 51
+    3300966: polySurface82 52
+    3300968: polySurface82 53
+    3300970: polySurface82 54
+    3300972: polySurface82 55
+    3300974: polySurface82 56
+    3300976: polySurface82 57
+    3300978: polySurface82 58
+    3300980: polySurface82 6
+    3300982: polySurface82 7
+    3300984: polySurface82 8
+    3300986: polySurface82 9
+    3300988: polySurface83
+    3300990: polySurface84
+    3300992: polySurface84 1
+    3300994: polySurface84 10
+    3300996: polySurface84 11
+    3300998: polySurface84 12
+    3301000: polySurface84 13
+    3301002: polySurface84 14
+    3301004: polySurface84 15
+    3301006: polySurface84 16
+    3301008: polySurface84 17
+    3301010: polySurface84 18
+    3301012: polySurface84 19
+    3301014: polySurface84 2
+    3301016: polySurface84 3
+    3301018: polySurface84 4
+    3301020: polySurface84 5
+    3301022: polySurface84 6
+    3301024: polySurface84 7
+    3301026: polySurface84 8
+    3301028: polySurface84 9
+    3301030: polySurface85
+    3301032: polySurface86
+    3301034: polySurface87
+    3301036: polySurface88
+    3301038: polySurface89
+    3301040: polySurface90
+    3301042: polySurface91
+    3301044: polySurface92
+    3301046: polySurface92 1
+    3301048: polySurface92 10
+    3301050: polySurface92 11
+    3301052: polySurface92 12
+    3301054: polySurface92 13
+    3301056: polySurface92 14
+    3301058: polySurface92 15
+    3301060: polySurface92 16
+    3301062: polySurface92 17
+    3301064: polySurface92 18
+    3301066: polySurface92 19
+    3301068: polySurface92 2
+    3301070: polySurface92 20
+    3301072: polySurface92 21
+    3301074: polySurface92 22
+    3301076: polySurface92 23
+    3301078: polySurface92 24
+    3301080: polySurface92 25
+    3301082: polySurface92 26
+    3301084: polySurface92 27
+    3301086: polySurface92 28
+    3301088: polySurface92 29
+    3301090: polySurface92 3
+    3301092: polySurface92 30
+    3301094: polySurface92 31
+    3301096: polySurface92 32
+    3301098: polySurface92 33
+    3301100: polySurface92 34
+    3301102: polySurface92 35
+    3301104: polySurface92 36
+    3301106: polySurface92 37
+    3301108: polySurface92 38
+    3301110: polySurface92 39
+    3301112: polySurface92 4
+    3301114: polySurface92 40
+    3301116: polySurface92 41
+    3301118: polySurface92 42
+    3301120: polySurface92 43
+    3301122: polySurface92 44
+    3301124: polySurface92 45
+    3301126: polySurface92 46
+    3301128: polySurface92 47
+    3301130: polySurface92 48
+    3301132: polySurface92 49
+    3301134: polySurface92 5
+    3301136: polySurface92 50
+    3301138: polySurface92 51
+    3301140: polySurface92 52
+    3301142: polySurface92 53
+    3301144: polySurface92 54
+    3301146: polySurface92 55
+    3301148: polySurface92 56
+    3301150: polySurface92 57
+    3301152: polySurface92 58
+    3301154: polySurface92 59
+    3301156: polySurface92 6
+    3301158: polySurface92 60
+    3301160: polySurface92 7
+    3301162: polySurface92 8
+    3301164: polySurface92 9
+    3301166: polySurface93
+    3301168: polySurface93 1
+    3301170: polySurface93 10
+    3301172: polySurface93 11
+    3301174: polySurface93 2
+    3301176: polySurface93 3
+    3301178: polySurface93 4
+    3301180: polySurface93 5
+    3301182: polySurface93 6
+    3301184: polySurface93 7
+    3301186: polySurface93 8
+    3301188: polySurface93 9
+    3301190: polySurface94
+    3301192: polySurface94 1
+    3301194: polySurface94 10
+    3301196: polySurface94 11
+    3301198: polySurface94 2
+    3301200: polySurface94 3
+    3301202: polySurface94 4
+    3301204: polySurface94 5
+    3301206: polySurface94 6
+    3301208: polySurface94 7
+    3301210: polySurface94 8
+    3301212: polySurface94 9
+    3301214: polySurface95
+    3301216: polySurface95 1
+    3301218: polySurface95 10
+    3301220: polySurface95 11
+    3301222: polySurface95 2
+    3301224: polySurface95 3
+    3301226: polySurface95 4
+    3301228: polySurface95 5
+    3301230: polySurface95 6
+    3301232: polySurface95 7
+    3301234: polySurface95 8
+    3301236: polySurface95 9
+    3301238: polySurface96
+    3301240: polySurface96 1
+    3301242: polySurface96 10
+    3301244: polySurface96 11
+    3301246: polySurface96 2
+    3301248: polySurface96 3
+    3301250: polySurface96 4
+    3301252: polySurface96 5
+    3301254: polySurface96 6
+    3301256: polySurface96 7
+    3301258: polySurface96 8
+    3301260: polySurface96 9
+    3301262: polySurface97
+    3301264: polySurface98
+    3301266: polySurface99
+    3301268: screenWall_010
+    3301270: screenWall_010 1
+    3301272: screenWall_010 2
+    3301274: screenWall_011
+    3301276: screenWall_014
+    3301278: screenWall_015
+    3301280: screenWall_016
+    3301282: screenWall_017
+    3301284: screenWall_018
+    3301286: screenWall_019
+    3301288: screenWall_020
+    3301290: screenWall_021
+    3301292: screenWall_022
+    3301294: screenWall_023
+    3301296: screenWall_06
+    3301298: screenWall_07
+    3301300: screenWall_07 1
+    3301302: screenWall_07 2
+    3301304: screenWall_08
+    3301306: screenWall_08 1
+    3301308: screenWall_08 2
+    3301310: screenWall_09
+    3301312: screenWall_09 1
+    3301314: screenWall_09 2
+    3301316: snakePillar1
+    3301318: snakePillar10
+    3301320: snakePillar11
+    3301322: snakePillar12
+    3301324: snakePillar13
+    3301326: snakePillar14
+    3301328: snakePillar15
+    3301330: snakePillar16
+    3301332: snakePillar23
+    3301334: snakePillar24
+    3301336: snakePillar6
+    3301338: snakePillar9
+    4300000: pCube33
+    4300002: pCube34
+    4300004: polySurface83
+    4300006: polySurface78
+    4300008: polySurface79
+    4300010: polySurface80
+    4300012: polySurface81
+    4300014: polySurface82
+    4300016: polySurface1
+    4300018: polySurface78
+    4300020: polySurface79
+    4300022: polySurface80
+    4300024: polySurface81
+    4300026: polySurface82
+    4300028: Bamboocube1:polySurface1
+    4300030: Bamboocube1:polySurface78
+    4300032: Bamboocube1:polySurface79
+    4300034: Bamboocube1:polySurface80
+    4300036: Bamboocube1:polySurface81
+    4300038: Bamboocube1:polySurface82
+    4300040: polySurface84
+    4300042: polySurface78
+    4300044: polySurface79
+    4300046: polySurface80
+    4300048: polySurface81
+    4300050: polySurface82
+    4300052: polySurface1
+    4300054: polySurface78
+    4300056: polySurface79
+    4300058: polySurface80
+    4300060: polySurface81
+    4300062: polySurface82
+    4300064: polySurface84
+    4300066: polySurface78
+    4300068: polySurface79
+    4300070: polySurface80
+    4300072: polySurface81
+    4300074: polySurface82
+    4300076: polySurface85
+    4300078: polySurface78
+    4300080: polySurface79
+    4300082: polySurface80
+    4300084: polySurface81
+    4300086: polySurface82
+    4300088: polySurface1
+    4300090: polySurface78
+    4300092: polySurface79
+    4300094: polySurface80
+    4300096: polySurface81
+    4300098: polySurface82
+    4300100: polySurface84
+    4300102: polySurface78
+    4300104: polySurface79
+    4300106: polySurface80
+    4300108: polySurface81
+    4300110: polySurface82
+    4300112: polySurface86
+    4300114: polySurface78
+    4300116: polySurface79
+    4300118: polySurface80
+    4300120: polySurface81
+    4300122: polySurface82
+    4300124: polySurface1
+    4300126: polySurface78
+    4300128: polySurface79
+    4300130: polySurface80
+    4300132: polySurface81
+    4300134: polySurface82
+    4300136: polySurface84
+    4300138: polySurface78
+    4300140: polySurface79
+    4300142: polySurface80
+    4300144: polySurface81
+    4300146: polySurface82
+    4300148: polySurface87
+    4300150: polySurface78
+    4300152: polySurface79
+    4300154: polySurface80
+    4300156: polySurface81
+    4300158: polySurface82
+    4300160: polySurface1
+    4300162: polySurface78
+    4300164: polySurface79
+    4300166: polySurface80
+    4300168: polySurface81
+    4300170: polySurface82
+    4300172: polySurface84
+    4300174: polySurface78
+    4300176: polySurface79
+    4300178: polySurface80
+    4300180: polySurface81
+    4300182: polySurface82
+    4300184: polySurface88
+    4300186: polySurface78
+    4300188: polySurface79
+    4300190: polySurface80
+    4300192: polySurface81
+    4300194: polySurface82
+    4300196: polySurface1
+    4300198: polySurface78
+    4300200: polySurface79
+    4300202: polySurface80
+    4300204: polySurface81
+    4300206: polySurface82
+    4300208: polySurface84
+    4300210: polySurface78
+    4300212: polySurface79
+    4300214: polySurface80
+    4300216: polySurface81
+    4300218: polySurface82
+    4300220: polySurface89
+    4300222: polySurface78
+    4300224: polySurface79
+    4300226: polySurface80
+    4300228: polySurface81
+    4300230: polySurface82
+    4300232: polySurface1
+    4300234: polySurface78
+    4300236: polySurface79
+    4300238: polySurface80
+    4300240: polySurface81
+    4300242: polySurface82
+    4300244: polySurface84
+    4300246: polySurface78
+    4300248: polySurface79
+    4300250: polySurface80
+    4300252: polySurface81
+    4300254: polySurface82
+    4300256: polySurface90
+    4300258: polySurface78
+    4300260: polySurface79
+    4300262: polySurface80
+    4300264: polySurface81
+    4300266: polySurface82
+    4300268: polySurface1
+    4300270: polySurface78
+    4300272: polySurface79
+    4300274: polySurface80
+    4300276: polySurface81
+    4300278: polySurface82
+    4300280: polySurface84
+    4300282: polySurface78
+    4300284: polySurface79
+    4300286: polySurface80
+    4300288: polySurface81
+    4300290: polySurface82
+    4300292: polySurface91
+    4300294: polySurface78
+    4300296: polySurface78
+    4300298: polySurface92
+    4300300: polySurface79
+    4300302: polySurface80
+    4300304: polySurface81
+    4300306: polySurface82
+    4300308: polySurface1
+    4300310: polySurface79
+    4300312: polySurface80
+    4300314: polySurface81
+    4300316: polySurface82
+    4300318: polySurface84
+    4300320: polySurface79
+    4300322: polySurface80
+    4300324: polySurface81
+    4300326: polySurface82
+    4300328: polySurface93
+    4300330: polySurface78
+    4300332: polySurface92
+    4300334: polySurface94
+    4300336: polySurface78
+    4300338: polySurface92
+    4300340: polySurface95
+    4300342: polySurface78
+    4300344: polySurface92
+    4300346: polySurface96
+    4300348: polySurface78
+    4300350: polySurface92
+    4300352: polySurface97
+    4300354: polySurface78
+    4300356: polySurface78
+    4300358: polySurface92
+    4300360: polySurface79
+    4300362: polySurface80
+    4300364: polySurface81
+    4300366: polySurface82
+    4300368: polySurface1
+    4300370: polySurface79
+    4300372: polySurface80
+    4300374: polySurface81
+    4300376: polySurface82
+    4300378: polySurface84
+    4300380: polySurface79
+    4300382: polySurface80
+    4300384: polySurface81
+    4300386: polySurface82
+    4300388: polySurface93
+    4300390: polySurface78
+    4300392: polySurface92
+    4300394: polySurface94
+    4300396: polySurface78
+    4300398: polySurface92
+    4300400: polySurface95
+    4300402: polySurface78
+    4300404: polySurface92
+    4300406: polySurface96
+    4300408: polySurface78
+    4300410: polySurface92
+    4300412: polySurface98
+    4300414: polySurface78
+    4300416: polySurface78
+    4300418: polySurface92
+    4300420: polySurface79
+    4300422: polySurface80
+    4300424: polySurface81
+    4300426: polySurface82
+    4300428: polySurface1
+    4300430: polySurface79
+    4300432: polySurface80
+    4300434: polySurface81
+    4300436: polySurface82
+    4300438: polySurface84
+    4300440: polySurface79
+    4300442: polySurface80
+    4300444: polySurface81
+    4300446: polySurface82
+    4300448: polySurface93
+    4300450: polySurface78
+    4300452: polySurface92
+    4300454: polySurface94
+    4300456: polySurface78
+    4300458: polySurface92
+    4300460: polySurface95
+    4300462: polySurface78
+    4300464: polySurface92
+    4300466: polySurface96
+    4300468: polySurface78
+    4300470: polySurface92
+    4300472: polySurface99
+    4300474: polySurface78
+    4300476: polySurface78
+    4300478: polySurface92
+    4300480: polySurface79
+    4300482: polySurface80
+    4300484: polySurface81
+    4300486: polySurface82
+    4300488: polySurface1
+    4300490: polySurface79
+    4300492: polySurface80
+    4300494: polySurface81
+    4300496: polySurface82
+    4300498: polySurface84
+    4300500: polySurface79
+    4300502: polySurface80
+    4300504: polySurface81
+    4300506: polySurface82
+    4300508: polySurface93
+    4300510: polySurface78
+    4300512: polySurface92
+    4300514: polySurface94
+    4300516: polySurface78
+    4300518: polySurface92
+    4300520: polySurface95
+    4300522: polySurface78
+    4300524: polySurface92
+    4300526: polySurface96
+    4300528: polySurface78
+    4300530: polySurface92
+    4300532: polySurface100
+    4300534: polySurface78
+    4300536: polySurface78
+    4300538: polySurface92
+    4300540: polySurface79
+    4300542: polySurface80
+    4300544: polySurface81
+    4300546: polySurface82
+    4300548: polySurface1
+    4300550: polySurface79
+    4300552: polySurface80
+    4300554: polySurface81
+    4300556: polySurface82
+    4300558: polySurface84
+    4300560: polySurface79
+    4300562: polySurface80
+    4300564: polySurface81
+    4300566: polySurface82
+    4300568: polySurface93
+    4300570: polySurface78
+    4300572: polySurface92
+    4300574: polySurface94
+    4300576: polySurface78
+    4300578: polySurface92
+    4300580: polySurface95
+    4300582: polySurface78
+    4300584: polySurface92
+    4300586: polySurface96
+    4300588: polySurface78
+    4300590: polySurface92
+    4300592: polySurface101
+    4300594: polySurface78
+    4300596: polySurface78
+    4300598: polySurface92
+    4300600: polySurface79
+    4300602: polySurface80
+    4300604: polySurface81
+    4300606: polySurface82
+    4300608: polySurface1
+    4300610: polySurface79
+    4300612: polySurface80
+    4300614: polySurface81
+    4300616: polySurface82
+    4300618: polySurface84
+    4300620: polySurface79
+    4300622: polySurface80
+    4300624: polySurface81
+    4300626: polySurface82
+    4300628: polySurface93
+    4300630: polySurface78
+    4300632: polySurface92
+    4300634: polySurface94
+    4300636: polySurface78
+    4300638: polySurface92
+    4300640: polySurface95
+    4300642: polySurface78
+    4300644: polySurface92
+    4300646: polySurface96
+    4300648: polySurface78
+    4300650: polySurface92
+    4300652: polySurface102
+    4300654: polySurface78
+    4300656: polySurface78
+    4300658: polySurface92
+    4300660: polySurface79
+    4300662: polySurface80
+    4300664: polySurface81
+    4300666: polySurface82
+    4300668: polySurface1
+    4300670: polySurface79
+    4300672: polySurface80
+    4300674: polySurface81
+    4300676: polySurface82
+    4300678: polySurface84
+    4300680: polySurface79
+    4300682: polySurface80
+    4300684: polySurface81
+    4300686: polySurface82
+    4300688: polySurface93
+    4300690: polySurface78
+    4300692: polySurface92
+    4300694: polySurface94
+    4300696: polySurface78
+    4300698: polySurface92
+    4300700: polySurface95
+    4300702: polySurface78
+    4300704: polySurface92
+    4300706: polySurface96
+    4300708: polySurface78
+    4300710: polySurface92
+    4300712: polySurface103
+    4300714: polySurface78
+    4300716: polySurface78
+    4300718: polySurface92
+    4300720: polySurface79
+    4300722: polySurface80
+    4300724: polySurface81
+    4300726: polySurface82
+    4300728: polySurface1
+    4300730: polySurface79
+    4300732: polySurface80
+    4300734: polySurface81
+    4300736: polySurface82
+    4300738: polySurface84
+    4300740: polySurface79
+    4300742: polySurface80
+    4300744: polySurface81
+    4300746: polySurface82
+    4300748: polySurface93
+    4300750: polySurface78
+    4300752: polySurface92
+    4300754: polySurface94
+    4300756: polySurface78
+    4300758: polySurface92
+    4300760: polySurface95
+    4300762: polySurface78
+    4300764: polySurface92
+    4300766: polySurface96
+    4300768: polySurface78
+    4300770: polySurface92
+    4300772: polySurface104
+    4300774: polySurface78
+    4300776: polySurface78
+    4300778: polySurface92
+    4300780: polySurface79
+    4300782: polySurface80
+    4300784: polySurface81
+    4300786: polySurface82
+    4300788: polySurface1
+    4300790: polySurface79
+    4300792: polySurface80
+    4300794: polySurface81
+    4300796: polySurface82
+    4300798: polySurface84
+    4300800: polySurface79
+    4300802: polySurface80
+    4300804: polySurface81
+    4300806: polySurface82
+    4300808: polySurface93
+    4300810: polySurface78
+    4300812: polySurface92
+    4300814: polySurface94
+    4300816: polySurface78
+    4300818: polySurface92
+    4300820: polySurface95
+    4300822: polySurface78
+    4300824: polySurface92
+    4300826: polySurface96
+    4300828: polySurface78
+    4300830: polySurface92
+    4300832: polySurface105
+    4300834: polySurface81
+    4300836: polySurface82
+    4300838: polySurface1
+    4300840: polySurface79
+    4300842: polySurface78
+    4300844: polySurface78
+    4300846: polySurface92
+    4300848: polySurface80
+    4300850: polySurface183
+    4300852: polySurface184
+    4300854: polySurface79
+    4300856: polySurface185
+    4300858: polySurface81
+    4300860: polySurface82
+    4300862: polySurface186
+    4300864: polySurface78
+    4300866: polySurface78
+    4300868: polySurface92
+    4300870: polySurface80
+    4300872: polySurface183
+    4300874: polySurface184
+    4300876: polySurface79
+    4300878: polySurface185
+    4300880: polySurface84
+    4300882: polySurface81
+    4300884: polySurface82
+    4300886: polySurface93
+    4300888: polySurface78
+    4300890: polySurface92
+    4300892: polySurface96
+    4300894: polySurface78
+    4300896: polySurface92
+    4300898: polySurface94
+    4300900: polySurface78
+    4300902: polySurface92
+    4300904: polySurface95
+    4300906: polySurface78
+    4300908: polySurface92
+    4300910: polySurface106
+    4300912: polySurface78
+    4300914: polySurface78
+    4300916: polySurface92
+    4300918: polySurface79
+    4300920: polySurface80
+    4300922: polySurface81
+    4300924: polySurface82
+    4300926: polySurface1
+    4300928: polySurface79
+    4300930: polySurface80
+    4300932: polySurface81
+    4300934: polySurface82
+    4300936: polySurface84
+    4300938: polySurface79
+    4300940: polySurface80
+    4300942: polySurface81
+    4300944: polySurface82
+    4300946: polySurface93
+    4300948: polySurface78
+    4300950: polySurface92
+    4300952: polySurface94
+    4300954: polySurface78
+    4300956: polySurface92
+    4300958: polySurface95
+    4300960: polySurface78
+    4300962: polySurface92
+    4300964: polySurface96
+    4300966: polySurface78
+    4300968: polySurface92
+    4300970: polySurface107
+    4300972: polySurface78
+    4300974: polySurface78
+    4300976: polySurface92
+    4300978: polySurface79
+    4300980: polySurface80
+    4300982: polySurface81
+    4300984: polySurface82
+    4300986: polySurface1
+    4300988: polySurface79
+    4300990: polySurface80
+    4300992: polySurface81
+    4300994: polySurface82
+    4300996: polySurface84
+    4300998: polySurface79
+    4301000: polySurface80
+    4301002: polySurface81
+    4301004: polySurface82
+    4301006: polySurface93
+    4301008: polySurface78
+    4301010: polySurface92
+    4301012: polySurface94
+    4301014: polySurface78
+    4301016: polySurface92
+    4301018: polySurface95
+    4301020: polySurface78
+    4301022: polySurface92
+    4301024: polySurface96
+    4301026: polySurface78
+    4301028: polySurface92
+    4301030: flower_PL_02
+    4301032: pCube30
+    4301034: pCube31
+    4301036: pCube35
+    4301038: polySurface169
+    4301040: polySurface193
+    4301042: polySurface191
+    4301044: polySurface192
+    4301046: polySurface195
+    4301048: polySurface194
+    4301050: polySurface191
+    4301052: polySurface192
+    4301054: polySurface196
+    4301056: polySurface198
+    4301058: Gateway:Archway_01
+    4301060: Archway_01
+    4301062: snakePillar1
+    4301064: snakePillar6
+    4301066: snakePillar9
+    4301068: snakePillar10
+    4301070: snakePillar11
+    4301072: snakePillar12
+    4301074: snakePillar13
+    4301076: snakePillar14
+    4301078: snakePillar15
+    4301080: snakePillar16
+    4301082: screenWall_011
+    4301084: screenWall_06
+    4301086: polySurface200
+    4301088: screenWall_07
+    4301090: screenWall_08
+    4301092: screenWall_09
+    4301094: screenWall_010
+    4301096: polySurface199
+    4301098: polySurface201
+    4301100: polySurface208
+    4301102: polySurface200
+    4301104: polySurface204
+    4301106: polySurface205
+    4301108: screenWall_07
+    4301110: screenWall_08
+    4301112: screenWall_09
+    4301114: screenWall_010
+    4301116: polySurface202
+    4301118: polySurface206
+    4301120: polySurface203
+    4301122: polySurface207
+    4301124: polySurface210
+    4301126: polySurface211
+    4301128: polySurface212
+    4301130: polySurface213
+    4301132: polySurface214
+    4301134: polySurface215
+    4301136: polySurface216
+    4301138: polySurface217
+    4301140: polySurface218
+    4301142: polySurface219
+    4301144: polySurface220
+    4301146: polySurface221
+    4301148: polySurface222
+    4301150: polySurface223
+    4301152: polySurface224
+    4301154: polySurface228
+    4301156: polySurface209
+    4301158: polySurface204
+    4301160: polySurface205
+    4301162: screenWall_07
+    4301164: screenWall_08
+    4301166: screenWall_09
+    4301168: screenWall_010
+    4301170: polySurface202
+    4301172: polySurface206
+    4301174: polySurface203
+    4301176: polySurface207
+    4301178: polySurface225
+    4301180: polySurface226
+    4301182: polySurface227
+    4301184: screenWall_014
+    4301186: screenWall_015
+    4301188: screenWall_016
+    4301190: screenWall_017
+    4301192: screenWall_018
+    4301194: screenWall_019
+    4301196: screenWall_020
+    4301198: screenWall_021
+    4301200: screenWall_022
+    4301202: screenWall_023
+    4301204: polySurface229
+    4301206: polySurface230
+    4301208: polySurface231
+    4301210: polySurface232
+    4301212: polySurface233
+    4301214: polySurface234
+    4301216: polySurface235
+    4301218: polySurface236
+    4301220: polySurface237
+    4301222: polySurface238
+    4301224: polySurface239
+    4301226: polySurface240
+    4301228: polySurface241
+    4301230: polySurface242
+    4301232: polySurface243
+    4301234: polySurface244
+    4301236: polySurface245
+    4301238: polySurface246
+    4301240: polySurface247
+    4301242: polySurface248
+    4301244: snakePillar23
+    4301246: snakePillar24
+    4301248: Lantern_00:pCylinder6
+    4301250: pCylinder8
+    4301252: pCylinder13
+    4301254: pCylinder12
+    4301256: pCylinder11
+    4301258: pCylinder10
+    4301260: pCylinder9
+    4301262: pCylinder14
+    4301264: pCylinder13
+    4301266: pCylinder12
+    4301268: pCylinder11
+    4301270: pCylinder10
+    4301272: pCylinder9
+    4301274: pCylinder16
+    4301276: pCylinder17
+    4301278: pCylinder18
+    4301280: pCylinder19
+    4301282: pCylinder20
+    4301284: pCylinder21
+    4301286: pCylinder22
+    4301288: pCylinder23
+    4301290: pCylinder24
+    4301292: pCylinder25
+    4301294: pCylinder26
+    4301296: pCylinder27
+    4301298: pCylinder28
+    4301300: pCylinder29
+    4301302: pCylinder31
+    4301304: pCylinder32
+    4301306: pCylinder34
+    4301308: pCylinder35
+    4301310: pCylinder36
+    4301312: pCylinder37
+    4301314: pCylinder38
+    4301316: pCylinder39
+    4301318: pCylinder40
+    4301320: pCylinder41
+    4301322: pCylinder42
+    4301324: pCylinder43
+    4301326: pCube36
+    4301328: pCylinder44
+    4301330: pCylinder45
+    4301332: pCylinder46
+    4301334: pCylinder47
+    4301336: pCylinder48
+    4301338: pCylinder49
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

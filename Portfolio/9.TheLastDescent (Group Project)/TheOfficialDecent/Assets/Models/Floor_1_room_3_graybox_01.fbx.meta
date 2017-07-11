@@ -1,0 +1,275 @@
+fileFormatVersion: 2
+guid: 66cfa403d3318ce4eab8434bcdae4c1d
+timeCreated: 1476940137
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: button_1
+    100002: button_2
+    100004: button_3
+    100006: button_4
+    100008: button_5
+    100010: buttons
+    100012: door_wall
+    100014: extirior_walls
+    100016: floating_platform_1
+    100018: floating_platform_2
+    100020: floating_platform_3
+    100022: floating_platform_4
+    100024: floating_platform_5
+    100026: floating_platforms
+    100028: //RootNode
+    100030: platform_1
+    100032: platform_10
+    100034: platform_11
+    100036: platform_12
+    100038: platform_13
+    100040: platform_2
+    100042: platform_3
+    100044: platform_4
+    100046: platform_5
+    100048: platform_6
+    100050: platform_7
+    100052: platform_8
+    100054: platform_9
+    100056: platforming_wall
+    100058: spike_1
+    100060: spike_2
+    100062: spike_locations
+    100064: start_and_end_doors
+    100066: starting_door_place_holder_1
+    100068: starting_door_place_holder_2
+    100070: starting_platform
+    100072: tower
+    100074: wall_1
+    100076: wall_1 1
+    100078: wall_2
+    100080: wall_2 1
+    100082: wall_3
+    100084: wall_4
+    100086: wall_5
+    100088: wall_6
+    100090: wall_platforms
+    400000: button_1
+    400002: button_2
+    400004: button_3
+    400006: button_4
+    400008: button_5
+    400010: buttons
+    400012: door_wall
+    400014: extirior_walls
+    400016: floating_platform_1
+    400018: floating_platform_2
+    400020: floating_platform_3
+    400022: floating_platform_4
+    400024: floating_platform_5
+    400026: floating_platforms
+    400028: //RootNode
+    400030: platform_1
+    400032: platform_10
+    400034: platform_11
+    400036: platform_12
+    400038: platform_13
+    400040: platform_2
+    400042: platform_3
+    400044: platform_4
+    400046: platform_5
+    400048: platform_6
+    400050: platform_7
+    400052: platform_8
+    400054: platform_9
+    400056: platforming_wall
+    400058: spike_1
+    400060: spike_2
+    400062: spike_locations
+    400064: start_and_end_doors
+    400066: starting_door_place_holder_1
+    400068: starting_door_place_holder_2
+    400070: starting_platform
+    400072: tower
+    400074: wall_1
+    400076: wall_1 1
+    400078: wall_2
+    400080: wall_2 1
+    400082: wall_3
+    400084: wall_4
+    400086: wall_5
+    400088: wall_6
+    400090: wall_platforms
+    2300000: button_1
+    2300002: button_2
+    2300004: button_3
+    2300006: button_4
+    2300008: button_5
+    2300010: door_wall
+    2300012: floating_platform_1
+    2300014: floating_platform_2
+    2300016: floating_platform_3
+    2300018: floating_platform_4
+    2300020: floating_platform_5
+    2300022: platform_1
+    2300024: platform_10
+    2300026: platform_11
+    2300028: platform_12
+    2300030: platform_13
+    2300032: platform_2
+    2300034: platform_3
+    2300036: platform_4
+    2300038: platform_5
+    2300040: platform_6
+    2300042: platform_7
+    2300044: platform_8
+    2300046: platform_9
+    2300048: spike_1
+    2300050: spike_2
+    2300052: starting_door_place_holder_1
+    2300054: starting_door_place_holder_2
+    2300056: tower
+    2300058: wall_1
+    2300060: wall_1 1
+    2300062: wall_2
+    2300064: wall_2 1
+    2300066: wall_3
+    2300068: wall_4
+    2300070: wall_5
+    2300072: wall_6
+    3300000: button_1
+    3300002: button_2
+    3300004: button_3
+    3300006: button_4
+    3300008: button_5
+    3300010: door_wall
+    3300012: floating_platform_1
+    3300014: floating_platform_2
+    3300016: floating_platform_3
+    3300018: floating_platform_4
+    3300020: floating_platform_5
+    3300022: platform_1
+    3300024: platform_10
+    3300026: platform_11
+    3300028: platform_12
+    3300030: platform_13
+    3300032: platform_2
+    3300034: platform_3
+    3300036: platform_4
+    3300038: platform_5
+    3300040: platform_6
+    3300042: platform_7
+    3300044: platform_8
+    3300046: platform_9
+    3300048: spike_1
+    3300050: spike_2
+    3300052: starting_door_place_holder_1
+    3300054: starting_door_place_holder_2
+    3300056: tower
+    3300058: wall_1
+    3300060: wall_1 1
+    3300062: wall_2
+    3300064: wall_2 1
+    3300066: wall_3
+    3300068: wall_4
+    3300070: wall_5
+    3300072: wall_6
+    4300000: platform_1
+    4300002: platform_2
+    4300004: platform_3
+    4300006: tower
+    4300008: platform_4
+    4300010: platform_5
+    4300012: platform_6
+    4300014: platform_7
+    4300016: platform_8
+    4300018: platform_9
+    4300020: platform_10
+    4300022: platform_11
+    4300024: platform_12
+    4300026: platform_13
+    4300028: floating_platform_5
+    4300030: floating_platform_4
+    4300032: floating_platform_3
+    4300034: floating_platform_2
+    4300036: floating_platform_1
+    4300038: door_wall
+    4300040: wall_2
+    4300042: wall_1
+    4300044: button_1
+    4300046: button_2
+    4300048: button_3
+    4300050: button_4
+    4300052: button_5
+    4300054: starting_door_place_holder_1
+    4300056: starting_door_place_holder_2
+    4300058: spike_1
+    4300060: spike_2
+    4300062: wall_1
+    4300064: wall_2
+    4300066: wall_3
+    4300068: wall_4
+    4300070: wall_5
+    4300072: wall_6
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1601 @@
+fileFormatVersion: 2
+guid: a2be0baca7e74ce4794ee214fb48bb8c
+timeCreated: 1477545807
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: brigde_platform
+    100002: button_1
+    100004: ending_platform
+    100006: ending_walls
+    100008: ending_walls 1
+    100010: //RootNode
+    100012: interactables
+    100014: middle_cage
+    100016: middle_cage 1
+    100018: middle_cage 10
+    100020: middle_cage 100
+    100022: middle_cage 101
+    100024: middle_cage 102
+    100026: middle_cage 103
+    100028: middle_cage 11
+    100030: middle_cage 12
+    100032: middle_cage 13
+    100034: middle_cage 14
+    100036: middle_cage 15
+    100038: middle_cage 16
+    100040: middle_cage 17
+    100042: middle_cage 18
+    100044: middle_cage 19
+    100046: middle_cage 2
+    100048: middle_cage 20
+    100050: middle_cage 21
+    100052: middle_cage 22
+    100054: middle_cage 23
+    100056: middle_cage 24
+    100058: middle_cage 25
+    100060: middle_cage 26
+    100062: middle_cage 27
+    100064: middle_cage 28
+    100066: middle_cage 29
+    100068: middle_cage 3
+    100070: middle_cage 30
+    100072: middle_cage 31
+    100074: middle_cage 32
+    100076: middle_cage 33
+    100078: middle_cage 34
+    100080: middle_cage 35
+    100082: middle_cage 36
+    100084: middle_cage 37
+    100086: middle_cage 38
+    100088: middle_cage 39
+    100090: middle_cage 4
+    100092: middle_cage 40
+    100094: middle_cage 41
+    100096: middle_cage 42
+    100098: middle_cage 43
+    100100: middle_cage 44
+    100102: middle_cage 45
+    100104: middle_cage 46
+    100106: middle_cage 47
+    100108: middle_cage 48
+    100110: middle_cage 49
+    100112: middle_cage 5
+    100114: middle_cage 50
+    100116: middle_cage 51
+    100118: middle_cage 52
+    100120: middle_cage 53
+    100122: middle_cage 54
+    100124: middle_cage 55
+    100126: middle_cage 56
+    100128: middle_cage 57
+    100130: middle_cage 58
+    100132: middle_cage 59
+    100134: middle_cage 6
+    100136: middle_cage 60
+    100138: middle_cage 61
+    100140: middle_cage 62
+    100142: middle_cage 63
+    100144: middle_cage 64
+    100146: middle_cage 65
+    100148: middle_cage 66
+    100150: middle_cage 67
+    100152: middle_cage 68
+    100154: middle_cage 69
+    100156: middle_cage 7
+    100158: middle_cage 70
+    100160: middle_cage 71
+    100162: middle_cage 72
+    100164: middle_cage 73
+    100166: middle_cage 74
+    100168: middle_cage 75
+    100170: middle_cage 76
+    100172: middle_cage 77
+    100174: middle_cage 78
+    100176: middle_cage 79
+    100178: middle_cage 8
+    100180: middle_cage 80
+    100182: middle_cage 81
+    100184: middle_cage 82
+    100186: middle_cage 83
+    100188: middle_cage 84
+    100190: middle_cage 85
+    100192: middle_cage 86
+    100194: middle_cage 87
+    100196: middle_cage 88
+    100198: middle_cage 89
+    100200: middle_cage 9
+    100202: middle_cage 90
+    100204: middle_cage 91
+    100206: middle_cage 92
+    100208: middle_cage 93
+    100210: middle_cage 94
+    100212: middle_cage 95
+    100214: middle_cage 96
+    100216: middle_cage 97
+    100218: middle_cage 98
+    100220: middle_cage 99
+    100222: middle_platform
+    100224: otherplaforms
+    100226: platform
+    100228: platform1
+    100230: platform10
+    100232: platform11
+    100234: platform12
+    100236: platform14
+    100238: platform15
+    100240: platform16
+    100242: platform17
+    100244: platform18
+    100246: platform19
+    100248: platform2
+    100250: platform20
+    100252: platform21
+    100254: platform22
+    100256: platform23
+    100258: platform24
+    100260: platform25
+    100262: platform26
+    100264: platform3
+    100266: platform4
+    100268: platform5
+    100270: platform6
+    100272: platform7
+    100274: platform8
+    100276: platform9
+    100278: platform_base
+    100280: platform_base 1
+    100282: platform_base 10
+    100284: platform_base 11
+    100286: platform_base 12
+    100288: platform_base 13
+    100290: platform_base 14
+    100292: platform_base 15
+    100294: platform_base 16
+    100296: platform_base 17
+    100298: platform_base 18
+    100300: platform_base 19
+    100302: platform_base 2
+    100304: platform_base 20
+    100306: platform_base 21
+    100308: platform_base 22
+    100310: platform_base 23
+    100312: platform_base 24
+    100314: platform_base 3
+    100316: platform_base 4
+    100318: platform_base 5
+    100320: platform_base 6
+    100322: platform_base 7
+    100324: platform_base 8
+    100326: platform_base 9
+    100328: platform_floating
+    100330: platform_spacer
+    100332: platform_spacer 1
+    100334: platform_spacer 10
+    100336: platform_spacer 11
+    100338: platform_spacer 12
+    100340: platform_spacer 13
+    100342: platform_spacer 14
+    100344: platform_spacer 15
+    100346: platform_spacer 16
+    100348: platform_spacer 17
+    100350: platform_spacer 18
+    100352: platform_spacer 19
+    100354: platform_spacer 2
+    100356: platform_spacer 20
+    100358: platform_spacer 21
+    100360: platform_spacer 22
+    100362: platform_spacer 23
+    100364: platform_spacer 24
+    100366: platform_spacer 25
+    100368: platform_spacer 26
+    100370: platform_spacer 27
+    100372: platform_spacer 28
+    100374: platform_spacer 29
+    100376: platform_spacer 3
+    100378: platform_spacer 30
+    100380: platform_spacer 31
+    100382: platform_spacer 32
+    100384: platform_spacer 33
+    100386: platform_spacer 34
+    100388: platform_spacer 35
+    100390: platform_spacer 36
+    100392: platform_spacer 37
+    100394: platform_spacer 38
+    100396: platform_spacer 39
+    100398: platform_spacer 4
+    100400: platform_spacer 40
+    100402: platform_spacer 41
+    100404: platform_spacer 42
+    100406: platform_spacer 43
+    100408: platform_spacer 44
+    100410: platform_spacer 45
+    100412: platform_spacer 46
+    100414: platform_spacer 47
+    100416: platform_spacer 48
+    100418: platform_spacer 49
+    100420: platform_spacer 5
+    100422: platform_spacer 50
+    100424: platform_spacer 51
+    100426: platform_spacer 52
+    100428: platform_spacer 53
+    100430: platform_spacer 54
+    100432: platform_spacer 55
+    100434: platform_spacer 56
+    100436: platform_spacer 57
+    100438: platform_spacer 58
+    100440: platform_spacer 59
+    100442: platform_spacer 6
+    100444: platform_spacer 60
+    100446: platform_spacer 61
+    100448: platform_spacer 62
+    100450: platform_spacer 63
+    100452: platform_spacer 64
+    100454: platform_spacer 65
+    100456: platform_spacer 66
+    100458: platform_spacer 67
+    100460: platform_spacer 68
+    100462: platform_spacer 69
+    100464: platform_spacer 7
+    100466: platform_spacer 70
+    100468: platform_spacer 71
+    100470: platform_spacer 72
+    100472: platform_spacer 73
+    100474: platform_spacer 74
+    100476: platform_spacer 75
+    100478: platform_spacer 76
+    100480: platform_spacer 77
+    100482: platform_spacer 78
+    100484: platform_spacer 79
+    100486: platform_spacer 8
+    100488: platform_spacer 9
+    100490: platform_spacer1
+    100492: platform_spacer10
+    100494: platform_spacer11
+    100496: platform_spacer12
+    100498: platform_spacer13
+    100500: platform_spacer14
+    100502: platform_spacer15
+    100504: platform_spacer16
+    100506: platform_spacer17
+    100508: platform_spacer18
+    100510: platform_spacer19
+    100512: platform_spacer2
+    100514: platform_spacer20
+    100516: platform_spacer21
+    100518: platform_spacer22
+    100520: platform_spacer23
+    100522: platform_spacer26
+    100524: platform_spacer3
+    100526: platform_spacer31
+    100528: platform_spacer32
+    100530: platform_spacer33
+    100532: platform_spacer34
+    100534: platform_spacer35
+    100536: platform_spacer36
+    100538: platform_spacer37
+    100540: platform_spacer38
+    100542: platform_spacer39
+    100544: platform_spacer4
+    100546: platform_spacer40
+    100548: platform_spacer41
+    100550: platform_spacer42
+    100552: platform_spacer43
+    100554: platform_spacer44
+    100556: platform_spacer45
+    100558: platform_spacer46
+    100560: platform_spacer47
+    100562: platform_spacer48
+    100564: platform_spacer49
+    100566: platform_spacer5
+    100568: platform_spacer50
+    100570: platform_spacer51
+    100572: platform_spacer52
+    100574: platform_spacer53
+    100576: platform_spacer54
+    100578: platform_spacer55
+    100580: platform_spacer56
+    100582: platform_spacer57
+    100584: platform_spacer58
+    100586: platform_spacer59
+    100588: platform_spacer6
+    100590: platform_spacer60
+    100592: platform_spacer61
+    100594: platform_spacer62
+    100596: platform_spacer63
+    100598: platform_spacer64
+    100600: platform_spacer65
+    100602: platform_spacer66
+    100604: platform_spacer67
+    100606: platform_spacer68
+    100608: platform_spacer69
+    100610: platform_spacer7
+    100612: platform_spacer70
+    100614: platform_spacer71
+    100616: platform_spacer72
+    100618: platform_spacer73
+    100620: platform_spacer74
+    100622: platform_spacer75
+    100624: platform_spacer76
+    100626: platform_spacer77
+    100628: platform_spacer78
+    100630: platform_spacer79
+    100632: platform_spacer8
+    100634: platform_spacer80
+    100636: platform_spacer81
+    100638: platform_spacer82
+    100640: platform_spacer83
+    100642: platform_spacer84
+    100644: platform_spacer85
+    100646: platform_spacer9
+    100648: platform_tops
+    100650: Platforms_UV_mapped_41:middle_cage
+    100652: Platforms_UV_mapped_41:middle_cage 1
+    100654: Platforms_UV_mapped_41:platform_base
+    100656: Platforms_UV_mapped_41:platform_floating1
+    100658: Platforms_UV_mapped_41:platform_floating_decoration
+    100660: Platforms_UV_mapped_41:platform_floating_decoration4
+    100662: Platforms_UV_mapped_41:platform_floating_decoration5
+    100664: Platforms_UV_mapped_41:platform_floating_decoration6
+    100666: Platforms_UV_mapped_41:platform_spacer
+    100668: secret_path_walls
+    100670: secret_path_walls 1
+    100672: side_walls
+    100674: side_walls 1
+    100676: skeleton_sign_place_holder_1
+    100678: skeleton_sign_place_holder_2
+    100680: skeleton_sign_place_holder_3
+    100682: starting_and_ending_doors
+    100684: starting_door_place_holder
+    100686: starting_door_place_holder1
+    100688: starting_platform
+    100690: starting_walls
+    100692: starting_walls 1
+    100694: under_platform_detail
+    100696: wall_1
+    100698: wall_1 1
+    100700: wall_10
+    100702: wall_10 1
+    100704: wall_11
+    100706: wall_11 1
+    100708: wall_12
+    100710: wall_12 1
+    100712: wall_13
+    100714: wall_13 1
+    100716: wall_14
+    100718: wall_14 1
+    100720: wall_15
+    100722: wall_15 1
+    100724: wall_16
+    100726: wall_16 1
+    100728: wall_2
+    100730: wall_2 1
+    100732: wall_3
+    100734: wall_3 1
+    100736: wall_4
+    100738: wall_4 1
+    100740: wall_5
+    100742: wall_5 1
+    100744: wall_6
+    100746: wall_6 1
+    100748: wall_7
+    100750: wall_7 1
+    100752: wall_8
+    100754: wall_8 1
+    100756: wall_9
+    100758: wall_9 1
+    100760: walls
+    100762: walls1
+    400000: brigde_platform
+    400002: button_1
+    400004: ending_platform
+    400006: ending_walls
+    400008: ending_walls 1
+    400010: //RootNode
+    400012: interactables
+    400014: middle_cage
+    400016: middle_cage 1
+    400018: middle_cage 10
+    400020: middle_cage 100
+    400022: middle_cage 101
+    400024: middle_cage 102
+    400026: middle_cage 103
+    400028: middle_cage 11
+    400030: middle_cage 12
+    400032: middle_cage 13
+    400034: middle_cage 14
+    400036: middle_cage 15
+    400038: middle_cage 16
+    400040: middle_cage 17
+    400042: middle_cage 18
+    400044: middle_cage 19
+    400046: middle_cage 2
+    400048: middle_cage 20
+    400050: middle_cage 21
+    400052: middle_cage 22
+    400054: middle_cage 23
+    400056: middle_cage 24
+    400058: middle_cage 25
+    400060: middle_cage 26
+    400062: middle_cage 27
+    400064: middle_cage 28
+    400066: middle_cage 29
+    400068: middle_cage 3
+    400070: middle_cage 30
+    400072: middle_cage 31
+    400074: middle_cage 32
+    400076: middle_cage 33
+    400078: middle_cage 34
+    400080: middle_cage 35
+    400082: middle_cage 36
+    400084: middle_cage 37
+    400086: middle_cage 38
+    400088: middle_cage 39
+    400090: middle_cage 4
+    400092: middle_cage 40
+    400094: middle_cage 41
+    400096: middle_cage 42
+    400098: middle_cage 43
+    400100: middle_cage 44
+    400102: middle_cage 45
+    400104: middle_cage 46
+    400106: middle_cage 47
+    400108: middle_cage 48
+    400110: middle_cage 49
+    400112: middle_cage 5
+    400114: middle_cage 50
+    400116: middle_cage 51
+    400118: middle_cage 52
+    400120: middle_cage 53
+    400122: middle_cage 54
+    400124: middle_cage 55
+    400126: middle_cage 56
+    400128: middle_cage 57
+    400130: middle_cage 58
+    400132: middle_cage 59
+    400134: middle_cage 6
+    400136: middle_cage 60
+    400138: middle_cage 61
+    400140: middle_cage 62
+    400142: middle_cage 63
+    400144: middle_cage 64
+    400146: middle_cage 65
+    400148: middle_cage 66
+    400150: middle_cage 67
+    400152: middle_cage 68
+    400154: middle_cage 69
+    400156: middle_cage 7
+    400158: middle_cage 70
+    400160: middle_cage 71
+    400162: middle_cage 72
+    400164: middle_cage 73
+    400166: middle_cage 74
+    400168: middle_cage 75
+    400170: middle_cage 76
+    400172: middle_cage 77
+    400174: middle_cage 78
+    400176: middle_cage 79
+    400178: middle_cage 8
+    400180: middle_cage 80
+    400182: middle_cage 81
+    400184: middle_cage 82
+    400186: middle_cage 83
+    400188: middle_cage 84
+    400190: middle_cage 85
+    400192: middle_cage 86
+    400194: middle_cage 87
+    400196: middle_cage 88
+    400198: middle_cage 89
+    400200: middle_cage 9
+    400202: middle_cage 90
+    400204: middle_cage 91
+    400206: middle_cage 92
+    400208: middle_cage 93
+    400210: middle_cage 94
+    400212: middle_cage 95
+    400214: middle_cage 96
+    400216: middle_cage 97
+    400218: middle_cage 98
+    400220: middle_cage 99
+    400222: middle_platform
+    400224: otherplaforms
+    400226: platform
+    400228: platform1
+    400230: platform10
+    400232: platform11
+    400234: platform12
+    400236: platform14
+    400238: platform15
+    400240: platform16
+    400242: platform17
+    400244: platform18
+    400246: platform19
+    400248: platform2
+    400250: platform20
+    400252: platform21
+    400254: platform22
+    400256: platform23
+    400258: platform24
+    400260: platform25
+    400262: platform26
+    400264: platform3
+    400266: platform4
+    400268: platform5
+    400270: platform6
+    400272: platform7
+    400274: platform8
+    400276: platform9
+    400278: platform_base
+    400280: platform_base 1
+    400282: platform_base 10
+    400284: platform_base 11
+    400286: platform_base 12
+    400288: platform_base 13
+    400290: platform_base 14
+    400292: platform_base 15
+    400294: platform_base 16
+    400296: platform_base 17
+    400298: platform_base 18
+    400300: platform_base 19
+    400302: platform_base 2
+    400304: platform_base 20
+    400306: platform_base 21
+    400308: platform_base 22
+    400310: platform_base 23
+    400312: platform_base 24
+    400314: platform_base 3
+    400316: platform_base 4
+    400318: platform_base 5
+    400320: platform_base 6
+    400322: platform_base 7
+    400324: platform_base 8
+    400326: platform_base 9
+    400328: platform_floating
+    400330: platform_spacer
+    400332: platform_spacer 1
+    400334: platform_spacer 10
+    400336: platform_spacer 11
+    400338: platform_spacer 12
+    400340: platform_spacer 13
+    400342: platform_spacer 14
+    400344: platform_spacer 15
+    400346: platform_spacer 16
+    400348: platform_spacer 17
+    400350: platform_spacer 18
+    400352: platform_spacer 19
+    400354: platform_spacer 2
+    400356: platform_spacer 20
+    400358: platform_spacer 21
+    400360: platform_spacer 22
+    400362: platform_spacer 23
+    400364: platform_spacer 24
+    400366: platform_spacer 25
+    400368: platform_spacer 26
+    400370: platform_spacer 27
+    400372: platform_spacer 28
+    400374: platform_spacer 29
+    400376: platform_spacer 3
+    400378: platform_spacer 30
+    400380: platform_spacer 31
+    400382: platform_spacer 32
+    400384: platform_spacer 33
+    400386: platform_spacer 34
+    400388: platform_spacer 35
+    400390: platform_spacer 36
+    400392: platform_spacer 37
+    400394: platform_spacer 38
+    400396: platform_spacer 39
+    400398: platform_spacer 4
+    400400: platform_spacer 40
+    400402: platform_spacer 41
+    400404: platform_spacer 42
+    400406: platform_spacer 43
+    400408: platform_spacer 44
+    400410: platform_spacer 45
+    400412: platform_spacer 46
+    400414: platform_spacer 47
+    400416: platform_spacer 48
+    400418: platform_spacer 49
+    400420: platform_spacer 5
+    400422: platform_spacer 50
+    400424: platform_spacer 51
+    400426: platform_spacer 52
+    400428: platform_spacer 53
+    400430: platform_spacer 54
+    400432: platform_spacer 55
+    400434: platform_spacer 56
+    400436: platform_spacer 57
+    400438: platform_spacer 58
+    400440: platform_spacer 59
+    400442: platform_spacer 6
+    400444: platform_spacer 60
+    400446: platform_spacer 61
+    400448: platform_spacer 62
+    400450: platform_spacer 63
+    400452: platform_spacer 64
+    400454: platform_spacer 65
+    400456: platform_spacer 66
+    400458: platform_spacer 67
+    400460: platform_spacer 68
+    400462: platform_spacer 69
+    400464: platform_spacer 7
+    400466: platform_spacer 70
+    400468: platform_spacer 71
+    400470: platform_spacer 72
+    400472: platform_spacer 73
+    400474: platform_spacer 74
+    400476: platform_spacer 75
+    400478: platform_spacer 76
+    400480: platform_spacer 77
+    400482: platform_spacer 78
+    400484: platform_spacer 79
+    400486: platform_spacer 8
+    400488: platform_spacer 9
+    400490: platform_spacer1
+    400492: platform_spacer10
+    400494: platform_spacer11
+    400496: platform_spacer12
+    400498: platform_spacer13
+    400500: platform_spacer14
+    400502: platform_spacer15
+    400504: platform_spacer16
+    400506: platform_spacer17
+    400508: platform_spacer18
+    400510: platform_spacer19
+    400512: platform_spacer2
+    400514: platform_spacer20
+    400516: platform_spacer21
+    400518: platform_spacer22
+    400520: platform_spacer23
+    400522: platform_spacer26
+    400524: platform_spacer3
+    400526: platform_spacer31
+    400528: platform_spacer32
+    400530: platform_spacer33
+    400532: platform_spacer34
+    400534: platform_spacer35
+    400536: platform_spacer36
+    400538: platform_spacer37
+    400540: platform_spacer38
+    400542: platform_spacer39
+    400544: platform_spacer4
+    400546: platform_spacer40
+    400548: platform_spacer41
+    400550: platform_spacer42
+    400552: platform_spacer43
+    400554: platform_spacer44
+    400556: platform_spacer45
+    400558: platform_spacer46
+    400560: platform_spacer47
+    400562: platform_spacer48
+    400564: platform_spacer49
+    400566: platform_spacer5
+    400568: platform_spacer50
+    400570: platform_spacer51
+    400572: platform_spacer52
+    400574: platform_spacer53
+    400576: platform_spacer54
+    400578: platform_spacer55
+    400580: platform_spacer56
+    400582: platform_spacer57
+    400584: platform_spacer58
+    400586: platform_spacer59
+    400588: platform_spacer6
+    400590: platform_spacer60
+    400592: platform_spacer61
+    400594: platform_spacer62
+    400596: platform_spacer63
+    400598: platform_spacer64
+    400600: platform_spacer65
+    400602: platform_spacer66
+    400604: platform_spacer67
+    400606: platform_spacer68
+    400608: platform_spacer69
+    400610: platform_spacer7
+    400612: platform_spacer70
+    400614: platform_spacer71
+    400616: platform_spacer72
+    400618: platform_spacer73
+    400620: platform_spacer74
+    400622: platform_spacer75
+    400624: platform_spacer76
+    400626: platform_spacer77
+    400628: platform_spacer78
+    400630: platform_spacer79
+    400632: platform_spacer8
+    400634: platform_spacer80
+    400636: platform_spacer81
+    400638: platform_spacer82
+    400640: platform_spacer83
+    400642: platform_spacer84
+    400644: platform_spacer85
+    400646: platform_spacer9
+    400648: platform_tops
+    400650: Platforms_UV_mapped_41:middle_cage
+    400652: Platforms_UV_mapped_41:middle_cage 1
+    400654: Platforms_UV_mapped_41:platform_base
+    400656: Platforms_UV_mapped_41:platform_floating1
+    400658: Platforms_UV_mapped_41:platform_floating_decoration
+    400660: Platforms_UV_mapped_41:platform_floating_decoration4
+    400662: Platforms_UV_mapped_41:platform_floating_decoration5
+    400664: Platforms_UV_mapped_41:platform_floating_decoration6
+    400666: Platforms_UV_mapped_41:platform_spacer
+    400668: secret_path_walls
+    400670: secret_path_walls 1
+    400672: side_walls
+    400674: side_walls 1
+    400676: skeleton_sign_place_holder_1
+    400678: skeleton_sign_place_holder_2
+    400680: skeleton_sign_place_holder_3
+    400682: starting_and_ending_doors
+    400684: starting_door_place_holder
+    400686: starting_door_place_holder1
+    400688: starting_platform
+    400690: starting_walls
+    400692: starting_walls 1
+    400694: under_platform_detail
+    400696: wall_1
+    400698: wall_1 1
+    400700: wall_10
+    400702: wall_10 1
+    400704: wall_11
+    400706: wall_11 1
+    400708: wall_12
+    400710: wall_12 1
+    400712: wall_13
+    400714: wall_13 1
+    400716: wall_14
+    400718: wall_14 1
+    400720: wall_15
+    400722: wall_15 1
+    400724: wall_16
+    400726: wall_16 1
+    400728: wall_2
+    400730: wall_2 1
+    400732: wall_3
+    400734: wall_3 1
+    400736: wall_4
+    400738: wall_4 1
+    400740: wall_5
+    400742: wall_5 1
+    400744: wall_6
+    400746: wall_6 1
+    400748: wall_7
+    400750: wall_7 1
+    400752: wall_8
+    400754: wall_8 1
+    400756: wall_9
+    400758: wall_9 1
+    400760: walls
+    400762: walls1
+    2300000: button_1
+    2300002: middle_cage
+    2300004: middle_cage 1
+    2300006: middle_cage 10
+    2300008: middle_cage 100
+    2300010: middle_cage 101
+    2300012: middle_cage 102
+    2300014: middle_cage 103
+    2300016: middle_cage 11
+    2300018: middle_cage 12
+    2300020: middle_cage 13
+    2300022: middle_cage 14
+    2300024: middle_cage 15
+    2300026: middle_cage 16
+    2300028: middle_cage 17
+    2300030: middle_cage 18
+    2300032: middle_cage 19
+    2300034: middle_cage 2
+    2300036: middle_cage 20
+    2300038: middle_cage 21
+    2300040: middle_cage 22
+    2300042: middle_cage 23
+    2300044: middle_cage 24
+    2300046: middle_cage 25
+    2300048: middle_cage 26
+    2300050: middle_cage 27
+    2300052: middle_cage 28
+    2300054: middle_cage 29
+    2300056: middle_cage 3
+    2300058: middle_cage 30
+    2300060: middle_cage 31
+    2300062: middle_cage 32
+    2300064: middle_cage 33
+    2300066: middle_cage 34
+    2300068: middle_cage 35
+    2300070: middle_cage 36
+    2300072: middle_cage 37
+    2300074: middle_cage 38
+    2300076: middle_cage 39
+    2300078: middle_cage 4
+    2300080: middle_cage 40
+    2300082: middle_cage 41
+    2300084: middle_cage 42
+    2300086: middle_cage 43
+    2300088: middle_cage 44
+    2300090: middle_cage 45
+    2300092: middle_cage 46
+    2300094: middle_cage 47
+    2300096: middle_cage 48
+    2300098: middle_cage 49
+    2300100: middle_cage 5
+    2300102: middle_cage 50
+    2300104: middle_cage 51
+    2300106: middle_cage 52
+    2300108: middle_cage 53
+    2300110: middle_cage 54
+    2300112: middle_cage 55
+    2300114: middle_cage 56
+    2300116: middle_cage 57
+    2300118: middle_cage 58
+    2300120: middle_cage 59
+    2300122: middle_cage 6
+    2300124: middle_cage 60
+    2300126: middle_cage 61
+    2300128: middle_cage 62
+    2300130: middle_cage 63
+    2300132: middle_cage 64
+    2300134: middle_cage 65
+    2300136: middle_cage 66
+    2300138: middle_cage 67
+    2300140: middle_cage 68
+    2300142: middle_cage 69
+    2300144: middle_cage 7
+    2300146: middle_cage 70
+    2300148: middle_cage 71
+    2300150: middle_cage 72
+    2300152: middle_cage 73
+    2300154: middle_cage 74
+    2300156: middle_cage 75
+    2300158: middle_cage 76
+    2300160: middle_cage 77
+    2300162: middle_cage 78
+    2300164: middle_cage 79
+    2300166: middle_cage 8
+    2300168: middle_cage 80
+    2300170: middle_cage 81
+    2300172: middle_cage 82
+    2300174: middle_cage 83
+    2300176: middle_cage 84
+    2300178: middle_cage 85
+    2300180: middle_cage 86
+    2300182: middle_cage 87
+    2300184: middle_cage 88
+    2300186: middle_cage 89
+    2300188: middle_cage 9
+    2300190: middle_cage 90
+    2300192: middle_cage 91
+    2300194: middle_cage 92
+    2300196: middle_cage 93
+    2300198: middle_cage 94
+    2300200: middle_cage 95
+    2300202: middle_cage 96
+    2300204: middle_cage 97
+    2300206: middle_cage 98
+    2300208: middle_cage 99
+    2300210: platform_base
+    2300212: platform_base 1
+    2300214: platform_base 10
+    2300216: platform_base 11
+    2300218: platform_base 12
+    2300220: platform_base 13
+    2300222: platform_base 14
+    2300224: platform_base 15
+    2300226: platform_base 16
+    2300228: platform_base 17
+    2300230: platform_base 18
+    2300232: platform_base 19
+    2300234: platform_base 2
+    2300236: platform_base 20
+    2300238: platform_base 21
+    2300240: platform_base 22
+    2300242: platform_base 23
+    2300244: platform_base 24
+    2300246: platform_base 3
+    2300248: platform_base 4
+    2300250: platform_base 5
+    2300252: platform_base 6
+    2300254: platform_base 7
+    2300256: platform_base 8
+    2300258: platform_base 9
+    2300260: platform_spacer 1
+    2300262: platform_spacer 10
+    2300264: platform_spacer 11
+    2300266: platform_spacer 12
+    2300268: platform_spacer 13
+    2300270: platform_spacer 14
+    2300272: platform_spacer 15
+    2300274: platform_spacer 16
+    2300276: platform_spacer 17
+    2300278: platform_spacer 18
+    2300280: platform_spacer 19
+    2300282: platform_spacer 2
+    2300284: platform_spacer 20
+    2300286: platform_spacer 21
+    2300288: platform_spacer 22
+    2300290: platform_spacer 23
+    2300292: platform_spacer 24
+    2300294: platform_spacer 25
+    2300296: platform_spacer 26
+    2300298: platform_spacer 27
+    2300300: platform_spacer 28
+    2300302: platform_spacer 29
+    2300304: platform_spacer 3
+    2300306: platform_spacer 30
+    2300308: platform_spacer 31
+    2300310: platform_spacer 32
+    2300312: platform_spacer 33
+    2300314: platform_spacer 34
+    2300316: platform_spacer 35
+    2300318: platform_spacer 36
+    2300320: platform_spacer 37
+    2300322: platform_spacer 38
+    2300324: platform_spacer 39
+    2300326: platform_spacer 4
+    2300328: platform_spacer 40
+    2300330: platform_spacer 41
+    2300332: platform_spacer 42
+    2300334: platform_spacer 43
+    2300336: platform_spacer 44
+    2300338: platform_spacer 45
+    2300340: platform_spacer 46
+    2300342: platform_spacer 47
+    2300344: platform_spacer 48
+    2300346: platform_spacer 49
+    2300348: platform_spacer 5
+    2300350: platform_spacer 50
+    2300352: platform_spacer 51
+    2300354: platform_spacer 52
+    2300356: platform_spacer 53
+    2300358: platform_spacer 54
+    2300360: platform_spacer 55
+    2300362: platform_spacer 56
+    2300364: platform_spacer 57
+    2300366: platform_spacer 58
+    2300368: platform_spacer 59
+    2300370: platform_spacer 6
+    2300372: platform_spacer 60
+    2300374: platform_spacer 61
+    2300376: platform_spacer 62
+    2300378: platform_spacer 63
+    2300380: platform_spacer 64
+    2300382: platform_spacer 65
+    2300384: platform_spacer 66
+    2300386: platform_spacer 67
+    2300388: platform_spacer 68
+    2300390: platform_spacer 69
+    2300392: platform_spacer 7
+    2300394: platform_spacer 70
+    2300396: platform_spacer 71
+    2300398: platform_spacer 72
+    2300400: platform_spacer 73
+    2300402: platform_spacer 74
+    2300404: platform_spacer 75
+    2300406: platform_spacer 76
+    2300408: platform_spacer 77
+    2300410: platform_spacer 78
+    2300412: platform_spacer 79
+    2300414: platform_spacer 8
+    2300416: platform_spacer 9
+    2300418: Platforms_UV_mapped_41:middle_cage
+    2300420: Platforms_UV_mapped_41:middle_cage 1
+    2300422: Platforms_UV_mapped_41:platform_base
+    2300424: Platforms_UV_mapped_41:platform_floating1
+    2300426: Platforms_UV_mapped_41:platform_floating_decoration
+    2300428: Platforms_UV_mapped_41:platform_floating_decoration4
+    2300430: Platforms_UV_mapped_41:platform_floating_decoration5
+    2300432: Platforms_UV_mapped_41:platform_floating_decoration6
+    2300434: Platforms_UV_mapped_41:platform_spacer
+    2300436: skeleton_sign_place_holder_1
+    2300438: skeleton_sign_place_holder_2
+    2300440: skeleton_sign_place_holder_3
+    2300442: starting_door_place_holder
+    2300444: starting_door_place_holder1
+    2300446: wall_1
+    2300448: wall_1 1
+    2300450: wall_10
+    2300452: wall_10 1
+    2300454: wall_11
+    2300456: wall_11 1
+    2300458: wall_12
+    2300460: wall_12 1
+    2300462: wall_13
+    2300464: wall_13 1
+    2300466: wall_14
+    2300468: wall_14 1
+    2300470: wall_15
+    2300472: wall_15 1
+    2300474: wall_16
+    2300476: wall_16 1
+    2300478: wall_2
+    2300480: wall_2 1
+    2300482: wall_3
+    2300484: wall_3 1
+    2300486: wall_4
+    2300488: wall_4 1
+    2300490: wall_5
+    2300492: wall_5 1
+    2300494: wall_6
+    2300496: wall_6 1
+    2300498: wall_7
+    2300500: wall_7 1
+    2300502: wall_8
+    2300504: wall_8 1
+    2300506: wall_9
+    2300508: wall_9 1
+    3300000: button_1
+    3300002: middle_cage
+    3300004: middle_cage 1
+    3300006: middle_cage 10
+    3300008: middle_cage 100
+    3300010: middle_cage 101
+    3300012: middle_cage 102
+    3300014: middle_cage 103
+    3300016: middle_cage 11
+    3300018: middle_cage 12
+    3300020: middle_cage 13
+    3300022: middle_cage 14
+    3300024: middle_cage 15
+    3300026: middle_cage 16
+    3300028: middle_cage 17
+    3300030: middle_cage 18
+    3300032: middle_cage 19
+    3300034: middle_cage 2
+    3300036: middle_cage 20
+    3300038: middle_cage 21
+    3300040: middle_cage 22
+    3300042: middle_cage 23
+    3300044: middle_cage 24
+    3300046: middle_cage 25
+    3300048: middle_cage 26
+    3300050: middle_cage 27
+    3300052: middle_cage 28
+    3300054: middle_cage 29
+    3300056: middle_cage 3
+    3300058: middle_cage 30
+    3300060: middle_cage 31
+    3300062: middle_cage 32
+    3300064: middle_cage 33
+    3300066: middle_cage 34
+    3300068: middle_cage 35
+    3300070: middle_cage 36
+    3300072: middle_cage 37
+    3300074: middle_cage 38
+    3300076: middle_cage 39
+    3300078: middle_cage 4
+    3300080: middle_cage 40
+    3300082: middle_cage 41
+    3300084: middle_cage 42
+    3300086: middle_cage 43
+    3300088: middle_cage 44
+    3300090: middle_cage 45
+    3300092: middle_cage 46
+    3300094: middle_cage 47
+    3300096: middle_cage 48
+    3300098: middle_cage 49
+    3300100: middle_cage 5
+    3300102: middle_cage 50
+    3300104: middle_cage 51
+    3300106: middle_cage 52
+    3300108: middle_cage 53
+    3300110: middle_cage 54
+    3300112: middle_cage 55
+    3300114: middle_cage 56
+    3300116: middle_cage 57
+    3300118: middle_cage 58
+    3300120: middle_cage 59
+    3300122: middle_cage 6
+    3300124: middle_cage 60
+    3300126: middle_cage 61
+    3300128: middle_cage 62
+    3300130: middle_cage 63
+    3300132: middle_cage 64
+    3300134: middle_cage 65
+    3300136: middle_cage 66
+    3300138: middle_cage 67
+    3300140: middle_cage 68
+    3300142: middle_cage 69
+    3300144: middle_cage 7
+    3300146: middle_cage 70
+    3300148: middle_cage 71
+    3300150: middle_cage 72
+    3300152: middle_cage 73
+    3300154: middle_cage 74
+    3300156: middle_cage 75
+    3300158: middle_cage 76
+    3300160: middle_cage 77
+    3300162: middle_cage 78
+    3300164: middle_cage 79
+    3300166: middle_cage 8
+    3300168: middle_cage 80
+    3300170: middle_cage 81
+    3300172: middle_cage 82
+    3300174: middle_cage 83
+    3300176: middle_cage 84
+    3300178: middle_cage 85
+    3300180: middle_cage 86
+    3300182: middle_cage 87
+    3300184: middle_cage 88
+    3300186: middle_cage 89
+    3300188: middle_cage 9
+    3300190: middle_cage 90
+    3300192: middle_cage 91
+    3300194: middle_cage 92
+    3300196: middle_cage 93
+    3300198: middle_cage 94
+    3300200: middle_cage 95
+    3300202: middle_cage 96
+    3300204: middle_cage 97
+    3300206: middle_cage 98
+    3300208: middle_cage 99
+    3300210: platform_base
+    3300212: platform_base 1
+    3300214: platform_base 10
+    3300216: platform_base 11
+    3300218: platform_base 12
+    3300220: platform_base 13
+    3300222: platform_base 14
+    3300224: platform_base 15
+    3300226: platform_base 16
+    3300228: platform_base 17
+    3300230: platform_base 18
+    3300232: platform_base 19
+    3300234: platform_base 2
+    3300236: platform_base 20
+    3300238: platform_base 21
+    3300240: platform_base 22
+    3300242: platform_base 23
+    3300244: platform_base 24
+    3300246: platform_base 3
+    3300248: platform_base 4
+    3300250: platform_base 5
+    3300252: platform_base 6
+    3300254: platform_base 7
+    3300256: platform_base 8
+    3300258: platform_base 9
+    3300260: platform_spacer 1
+    3300262: platform_spacer 10
+    3300264: platform_spacer 11
+    3300266: platform_spacer 12
+    3300268: platform_spacer 13
+    3300270: platform_spacer 14
+    3300272: platform_spacer 15
+    3300274: platform_spacer 16
+    3300276: platform_spacer 17
+    3300278: platform_spacer 18
+    3300280: platform_spacer 19
+    3300282: platform_spacer 2
+    3300284: platform_spacer 20
+    3300286: platform_spacer 21
+    3300288: platform_spacer 22
+    3300290: platform_spacer 23
+    3300292: platform_spacer 24
+    3300294: platform_spacer 25
+    3300296: platform_spacer 26
+    3300298: platform_spacer 27
+    3300300: platform_spacer 28
+    3300302: platform_spacer 29
+    3300304: platform_spacer 3
+    3300306: platform_spacer 30
+    3300308: platform_spacer 31
+    3300310: platform_spacer 32
+    3300312: platform_spacer 33
+    3300314: platform_spacer 34
+    3300316: platform_spacer 35
+    3300318: platform_spacer 36
+    3300320: platform_spacer 37
+    3300322: platform_spacer 38
+    3300324: platform_spacer 39
+    3300326: platform_spacer 4
+    3300328: platform_spacer 40
+    3300330: platform_spacer 41
+    3300332: platform_spacer 42
+    3300334: platform_spacer 43
+    3300336: platform_spacer 44
+    3300338: platform_spacer 45
+    3300340: platform_spacer 46
+    3300342: platform_spacer 47
+    3300344: platform_spacer 48
+    3300346: platform_spacer 49
+    3300348: platform_spacer 5
+    3300350: platform_spacer 50
+    3300352: platform_spacer 51
+    3300354: platform_spacer 52
+    3300356: platform_spacer 53
+    3300358: platform_spacer 54
+    3300360: platform_spacer 55
+    3300362: platform_spacer 56
+    3300364: platform_spacer 57
+    3300366: platform_spacer 58
+    3300368: platform_spacer 59
+    3300370: platform_spacer 6
+    3300372: platform_spacer 60
+    3300374: platform_spacer 61
+    3300376: platform_spacer 62
+    3300378: platform_spacer 63
+    3300380: platform_spacer 64
+    3300382: platform_spacer 65
+    3300384: platform_spacer 66
+    3300386: platform_spacer 67
+    3300388: platform_spacer 68
+    3300390: platform_spacer 69
+    3300392: platform_spacer 7
+    3300394: platform_spacer 70
+    3300396: platform_spacer 71
+    3300398: platform_spacer 72
+    3300400: platform_spacer 73
+    3300402: platform_spacer 74
+    3300404: platform_spacer 75
+    3300406: platform_spacer 76
+    3300408: platform_spacer 77
+    3300410: platform_spacer 78
+    3300412: platform_spacer 79
+    3300414: platform_spacer 8
+    3300416: platform_spacer 9
+    3300418: Platforms_UV_mapped_41:middle_cage
+    3300420: Platforms_UV_mapped_41:middle_cage 1
+    3300422: Platforms_UV_mapped_41:platform_base
+    3300424: Platforms_UV_mapped_41:platform_floating1
+    3300426: Platforms_UV_mapped_41:platform_floating_decoration
+    3300428: Platforms_UV_mapped_41:platform_floating_decoration4
+    3300430: Platforms_UV_mapped_41:platform_floating_decoration5
+    3300432: Platforms_UV_mapped_41:platform_floating_decoration6
+    3300434: Platforms_UV_mapped_41:platform_spacer
+    3300436: skeleton_sign_place_holder_1
+    3300438: skeleton_sign_place_holder_2
+    3300440: skeleton_sign_place_holder_3
+    3300442: starting_door_place_holder
+    3300444: starting_door_place_holder1
+    3300446: wall_1
+    3300448: wall_1 1
+    3300450: wall_10
+    3300452: wall_10 1
+    3300454: wall_11
+    3300456: wall_11 1
+    3300458: wall_12
+    3300460: wall_12 1
+    3300462: wall_13
+    3300464: wall_13 1
+    3300466: wall_14
+    3300468: wall_14 1
+    3300470: wall_15
+    3300472: wall_15 1
+    3300474: wall_16
+    3300476: wall_16 1
+    3300478: wall_2
+    3300480: wall_2 1
+    3300482: wall_3
+    3300484: wall_3 1
+    3300486: wall_4
+    3300488: wall_4 1
+    3300490: wall_5
+    3300492: wall_5 1
+    3300494: wall_6
+    3300496: wall_6 1
+    3300498: wall_7
+    3300500: wall_7 1
+    3300502: wall_8
+    3300504: wall_8 1
+    3300506: wall_9
+    3300508: wall_9 1
+    4300000: Platforms_UV_mapped_41:platform_floating1
+    4300002: Platforms_UV_mapped_41:platform_floating_decoration
+    4300004: Platforms_UV_mapped_41:platform_floating_decoration4
+    4300006: Platforms_UV_mapped_41:platform_floating_decoration5
+    4300008: Platforms_UV_mapped_41:platform_floating_decoration6
+    4300010: platform_base
+    4300012: middle_cage
+    4300014: platform_base
+    4300016: middle_cage
+    4300018: Platforms_UV_mapped_41:platform_base
+    4300020: Platforms_UV_mapped_41:middle_cage
+    4300022: platform_base
+    4300024: middle_cage
+    4300026: platform_base
+    4300028: middle_cage
+    4300030: platform_base
+    4300032: middle_cage
+    4300034: platform_base
+    4300036: middle_cage
+    4300038: platform_base
+    4300040: middle_cage
+    4300042: platform_base
+    4300044: middle_cage
+    4300046: platform_base
+    4300048: middle_cage
+    4300050: platform_base
+    4300052: middle_cage
+    4300054: platform_base
+    4300056: middle_cage
+    4300058: platform_base
+    4300060: middle_cage
+    4300062: platform_base
+    4300064: middle_cage
+    4300066: platform_base
+    4300068: middle_cage
+    4300070: platform_base
+    4300072: middle_cage
+    4300074: platform_base
+    4300076: middle_cage
+    4300078: platform_base
+    4300080: middle_cage
+    4300082: platform_base
+    4300084: middle_cage
+    4300086: platform_base
+    4300088: middle_cage
+    4300090: platform_base
+    4300092: middle_cage
+    4300094: platform_base
+    4300096: middle_cage
+    4300098: platform_base
+    4300100: middle_cage
+    4300102: platform_base
+    4300104: middle_cage
+    4300106: platform_base
+    4300108: middle_cage
+    4300110: platform_base
+    4300112: middle_cage
+    4300114: wall_1
+    4300116: wall_5
+    4300118: wall_3
+    4300120: wall_4
+    4300122: wall_2
+    4300124: wall_13
+    4300126: wall_14
+    4300128: wall_16
+    4300130: wall_6
+    4300132: wall_7
+    4300134: wall_8
+    4300136: wall_9
+    4300138: wall_10
+    4300140: wall_11
+    4300142: wall_12
+    4300144: wall_15
+    4300146: wall_1
+    4300148: wall_5
+    4300150: wall_3
+    4300152: wall_4
+    4300154: wall_2
+    4300156: wall_13
+    4300158: wall_14
+    4300160: wall_16
+    4300162: wall_6
+    4300164: wall_7
+    4300166: wall_8
+    4300168: wall_9
+    4300170: wall_10
+    4300172: wall_11
+    4300174: wall_12
+    4300176: wall_15
+    4300178: Platforms_UV_mapped_41:platform_spacer
+    4300180: Platforms_UV_mapped_41:middle_cage
+    4300182: platform_spacer
+    4300184: middle_cage
+    4300186: platform_spacer
+    4300188: middle_cage
+    4300190: platform_spacer
+    4300192: middle_cage
+    4300194: platform_spacer
+    4300196: middle_cage
+    4300198: platform_spacer
+    4300200: middle_cage
+    4300202: platform_spacer
+    4300204: middle_cage
+    4300206: platform_spacer
+    4300208: middle_cage
+    4300210: platform_spacer
+    4300212: middle_cage
+    4300214: platform_spacer
+    4300216: middle_cage
+    4300218: platform_spacer
+    4300220: middle_cage
+    4300222: platform_spacer
+    4300224: middle_cage
+    4300226: platform_spacer
+    4300228: middle_cage
+    4300230: platform_spacer
+    4300232: middle_cage
+    4300234: platform_spacer
+    4300236: middle_cage
+    4300238: platform_spacer
+    4300240: middle_cage
+    4300242: platform_spacer
+    4300244: middle_cage
+    4300246: platform_spacer
+    4300248: middle_cage
+    4300250: platform_spacer
+    4300252: middle_cage
+    4300254: platform_spacer
+    4300256: middle_cage
+    4300258: platform_spacer
+    4300260: middle_cage
+    4300262: platform_spacer
+    4300264: middle_cage
+    4300266: platform_spacer
+    4300268: middle_cage
+    4300270: platform_spacer
+    4300272: middle_cage
+    4300274: platform_spacer
+    4300276: middle_cage
+    4300278: platform_spacer
+    4300280: middle_cage
+    4300282: platform_spacer
+    4300284: middle_cage
+    4300286: platform_spacer
+    4300288: middle_cage
+    4300290: platform_spacer
+    4300292: middle_cage
+    4300294: platform_spacer
+    4300296: middle_cage
+    4300298: platform_spacer
+    4300300: middle_cage
+    4300302: platform_spacer
+    4300304: middle_cage
+    4300306: platform_spacer
+    4300308: middle_cage
+    4300310: platform_spacer
+    4300312: middle_cage
+    4300314: platform_spacer
+    4300316: middle_cage
+    4300318: platform_spacer
+    4300320: middle_cage
+    4300322: platform_spacer
+    4300324: middle_cage
+    4300326: platform_spacer
+    4300328: middle_cage
+    4300330: platform_spacer
+    4300332: middle_cage
+    4300334: platform_spacer
+    4300336: middle_cage
+    4300338: platform_spacer
+    4300340: middle_cage
+    4300342: platform_spacer
+    4300344: middle_cage
+    4300346: platform_spacer
+    4300348: middle_cage
+    4300350: platform_spacer
+    4300352: middle_cage
+    4300354: platform_spacer
+    4300356: middle_cage
+    4300358: platform_spacer
+    4300360: middle_cage
+    4300362: platform_spacer
+    4300364: middle_cage
+    4300366: platform_spacer
+    4300368: middle_cage
+    4300370: platform_spacer
+    4300372: middle_cage
+    4300374: platform_spacer
+    4300376: middle_cage
+    4300378: platform_spacer
+    4300380: middle_cage
+    4300382: platform_spacer
+    4300384: middle_cage
+    4300386: platform_spacer
+    4300388: middle_cage
+    4300390: platform_spacer
+    4300392: middle_cage
+    4300394: platform_spacer
+    4300396: middle_cage
+    4300398: platform_spacer
+    4300400: middle_cage
+    4300402: platform_spacer
+    4300404: middle_cage
+    4300406: platform_spacer
+    4300408: middle_cage
+    4300410: platform_spacer
+    4300412: middle_cage
+    4300414: platform_spacer
+    4300416: middle_cage
+    4300418: platform_spacer
+    4300420: middle_cage
+    4300422: platform_spacer
+    4300424: middle_cage
+    4300426: platform_spacer
+    4300428: middle_cage
+    4300430: platform_spacer
+    4300432: middle_cage
+    4300434: platform_spacer
+    4300436: middle_cage
+    4300438: platform_spacer
+    4300440: middle_cage
+    4300442: platform_spacer
+    4300444: middle_cage
+    4300446: platform_spacer
+    4300448: middle_cage
+    4300450: platform_spacer
+    4300452: middle_cage
+    4300454: platform_spacer
+    4300456: middle_cage
+    4300458: platform_spacer
+    4300460: middle_cage
+    4300462: platform_spacer
+    4300464: middle_cage
+    4300466: platform_spacer
+    4300468: middle_cage
+    4300470: platform_spacer
+    4300472: middle_cage
+    4300474: platform_spacer
+    4300476: middle_cage
+    4300478: platform_spacer
+    4300480: middle_cage
+    4300482: platform_spacer
+    4300484: middle_cage
+    4300486: platform_spacer
+    4300488: middle_cage
+    4300490: platform_spacer
+    4300492: middle_cage
+    4300494: platform_spacer
+    4300496: middle_cage
+    4300498: skeleton_sign_place_holder_1
+    4300500: skeleton_sign_place_holder_2
+    4300502: skeleton_sign_place_holder_3
+    4300504: button_1
+    4300506: starting_door_place_holder
+    4300508: starting_door_place_holder1
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,233 @@
+fileFormatVersion: 2
+guid: 930fc80ffd5d522459a8f1e6702290e8
+timeCreated: 1479862237
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Bind_ankle_left_jnt
+    100002: Bind_ankle_right_jnt
+    100004: Bind_belly_jnt
+    100006: Bind_chest_jnt
+    100008: Bind_clavicle_left_end
+    100010: BInd_clavicle_left_jnt
+    100012: Bind_clavicle_right_end
+    100014: BInd_clavicle_right_jnt
+    100016: bind_elbow_left_jnt
+    100018: bind_elbow_right_jnt
+    100020: Bind_hand_left_end
+    100022: Bind_hand_right_end
+    100024: Bind_head_end
+    100026: Bind_head_jnt
+    100028: Bind_Hips_jnt1
+    100030: Bind_Knee_left_jnt
+    100032: Bind_Knee_right_jnt
+    100034: Bind_neck_jnt
+    100036: Bind_neck_mid_jnt
+    100038: Bind_pelvis_end
+    100040: Bind_pelvis_jnt
+    100042: Bind_shoulder_left_jnt
+    100044: Bind_shoulder_right_jnt
+    100046: Bind_Thigh_left_jnt
+    100048: Bind_Thigh_right_jnt
+    100050: Bind_toe_left_end
+    100052: Bind_toe_left_jnt
+    100054: Bind_toe_right_end
+    100056: Bind_toe_right_jnt
+    100058: bind_wrist_left_jnt
+    100060: bind_wrist_right_jnt
+    100062: //RootNode
+    100064: Root_Jnt
+    400000: Bind_ankle_left_jnt
+    400002: Bind_ankle_right_jnt
+    400004: Bind_belly_jnt
+    400006: Bind_chest_jnt
+    400008: Bind_clavicle_left_end
+    400010: BInd_clavicle_left_jnt
+    400012: Bind_clavicle_right_end
+    400014: BInd_clavicle_right_jnt
+    400016: bind_elbow_left_jnt
+    400018: bind_elbow_right_jnt
+    400020: Bind_hand_left_end
+    400022: Bind_hand_right_end
+    400024: Bind_head_end
+    400026: Bind_head_jnt
+    400028: Bind_Hips_jnt1
+    400030: Bind_Knee_left_jnt
+    400032: Bind_Knee_right_jnt
+    400034: Bind_neck_jnt
+    400036: Bind_neck_mid_jnt
+    400038: Bind_pelvis_end
+    400040: Bind_pelvis_jnt
+    400042: Bind_shoulder_left_jnt
+    400044: Bind_shoulder_right_jnt
+    400046: Bind_Thigh_left_jnt
+    400048: Bind_Thigh_right_jnt
+    400050: Bind_toe_left_end
+    400052: Bind_toe_left_jnt
+    400054: Bind_toe_right_end
+    400056: Bind_toe_right_jnt
+    400058: bind_wrist_left_jnt
+    400060: bind_wrist_right_jnt
+    400062: //RootNode
+    400064: Root_Jnt
+    7400000: walk
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: walk
+      takeName: Take 001
+      firstFrame: 100
+      lastFrame: 175
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Root_Jnt
+        weight: 1
+      - path: Root_Jnt/Bind_Hips_jnt1
+        weight: 1
+      - path: Root_Jnt/Bind_Hips_jnt1/Bind_belly_jnt
+        weight: 1
+      - path: Root_Jnt/Bind_Hips_jnt1/Bind_belly_jnt/Bind_chest_jnt
+        weight: 1
+      - path: Root_Jnt/Bind_Hips_jnt1/Bind_belly_jnt/Bind_chest_jnt/BInd_clavicle_left_jnt
+        weight: 1
+      - path: Root_Jnt/Bind_Hips_jnt1/Bind_belly_jnt/Bind_chest_jnt/BInd_clavicle_left_jnt/Bind_clavicle_left_end
+        weight: 1
+      - path: Root_Jnt/Bind_Hips_jnt1/Bind_belly_jnt/Bind_chest_jnt/BInd_clavicle_left_jnt/Bind_clavicle_left_end/Bind_shoulder_left_jnt
+        weight: 1
+      - path: Root_Jnt/Bind_Hips_jnt1/Bind_belly_jnt/Bind_chest_jnt/BInd_clavicle_left_jnt/Bind_clavicle_left_end/Bind_shoulder_left_jnt/bind_elbow_left_jnt
+        weight: 1
+      - path: Root_Jnt/Bind_Hips_jnt1/Bind_belly_jnt/Bind_chest_jnt/BInd_clavicle_left_jnt/Bind_clavicle_left_end/Bind_shoulder_left_jnt/bind_elbow_left_jnt/bind_wrist_left_jnt
+        weight: 1
+      - path: Root_Jnt/Bind_Hips_jnt1/Bind_belly_jnt/Bind_chest_jnt/BInd_clavicle_left_jnt/Bind_clavicle_left_end/Bind_shoulder_left_jnt/bind_elbow_left_jnt/bind_wrist_left_jnt/Bind_hand_left_end
+        weight: 1
+      - path: Root_Jnt/Bind_Hips_jnt1/Bind_belly_jnt/Bind_chest_jnt/BInd_clavicle_right_jnt
+        weight: 1
+      - path: Root_Jnt/Bind_Hips_jnt1/Bind_belly_jnt/Bind_chest_jnt/BInd_clavicle_right_jnt/Bind_clavicle_right_end
+        weight: 1
+      - path: Root_Jnt/Bind_Hips_jnt1/Bind_belly_jnt/Bind_chest_jnt/BInd_clavicle_right_jnt/Bind_clavicle_right_end/Bind_shoulder_right_jnt
+        weight: 1
+      - path: Root_Jnt/Bind_Hips_jnt1/Bind_belly_jnt/Bind_chest_jnt/BInd_clavicle_right_jnt/Bind_clavicle_right_end/Bind_shoulder_right_jnt/bind_elbow_right_jnt
+        weight: 1
+      - path: Root_Jnt/Bind_Hips_jnt1/Bind_belly_jnt/Bind_chest_jnt/BInd_clavicle_right_jnt/Bind_clavicle_right_end/Bind_shoulder_right_jnt/bind_elbow_right_jnt/bind_wrist_right_jnt
+        weight: 1
+      - path: Root_Jnt/Bind_Hips_jnt1/Bind_belly_jnt/Bind_chest_jnt/BInd_clavicle_right_jnt/Bind_clavicle_right_end/Bind_shoulder_right_jnt/bind_elbow_right_jnt/bind_wrist_right_jnt/Bind_hand_right_end
+        weight: 1
+      - path: Root_Jnt/Bind_Hips_jnt1/Bind_belly_jnt/Bind_chest_jnt/Bind_neck_jnt
+        weight: 1
+      - path: Root_Jnt/Bind_Hips_jnt1/Bind_belly_jnt/Bind_chest_jnt/Bind_neck_jnt/Bind_neck_mid_jnt
+        weight: 1
+      - path: Root_Jnt/Bind_Hips_jnt1/Bind_belly_jnt/Bind_chest_jnt/Bind_neck_jnt/Bind_neck_mid_jnt/Bind_head_jnt
+        weight: 1
+      - path: Root_Jnt/Bind_Hips_jnt1/Bind_belly_jnt/Bind_chest_jnt/Bind_neck_jnt/Bind_neck_mid_jnt/Bind_head_jnt/Bind_head_end
+        weight: 1
+      - path: Root_Jnt/Bind_pelvis_jnt
+        weight: 1
+      - path: Root_Jnt/Bind_pelvis_jnt/Bind_pelvis_end
+        weight: 1
+      - path: Root_Jnt/Bind_pelvis_jnt/Bind_pelvis_end/Bind_Thigh_left_jnt
+        weight: 1
+      - path: Root_Jnt/Bind_pelvis_jnt/Bind_pelvis_end/Bind_Thigh_left_jnt/Bind_Knee_left_jnt
+        weight: 1
+      - path: Root_Jnt/Bind_pelvis_jnt/Bind_pelvis_end/Bind_Thigh_left_jnt/Bind_Knee_left_jnt/Bind_ankle_left_jnt
+        weight: 1
+      - path: Root_Jnt/Bind_pelvis_jnt/Bind_pelvis_end/Bind_Thigh_left_jnt/Bind_Knee_left_jnt/Bind_ankle_left_jnt/Bind_toe_left_jnt
+        weight: 1
+      - path: Root_Jnt/Bind_pelvis_jnt/Bind_pelvis_end/Bind_Thigh_left_jnt/Bind_Knee_left_jnt/Bind_ankle_left_jnt/Bind_toe_left_jnt/Bind_toe_left_end
+        weight: 1
+      - path: Root_Jnt/Bind_pelvis_jnt/Bind_pelvis_end/Bind_Thigh_right_jnt
+        weight: 1
+      - path: Root_Jnt/Bind_pelvis_jnt/Bind_pelvis_end/Bind_Thigh_right_jnt/Bind_Knee_right_jnt
+        weight: 1
+      - path: Root_Jnt/Bind_pelvis_jnt/Bind_pelvis_end/Bind_Thigh_right_jnt/Bind_Knee_right_jnt/Bind_ankle_right_jnt
+        weight: 1
+      - path: Root_Jnt/Bind_pelvis_jnt/Bind_pelvis_end/Bind_Thigh_right_jnt/Bind_Knee_right_jnt/Bind_ankle_right_jnt/Bind_toe_right_jnt
+        weight: 1
+      - path: Root_Jnt/Bind_pelvis_jnt/Bind_pelvis_end/Bind_Thigh_right_jnt/Bind_Knee_right_jnt/Bind_ankle_right_jnt/Bind_toe_right_jnt/Bind_toe_right_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 100
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
